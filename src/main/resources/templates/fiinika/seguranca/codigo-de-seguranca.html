@@ -1,0 +1,72 @@
+<!DOCTYPE html><!--  Last Published: Thu Jul 04 2024 10:39:13 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6685d2b136a220cb057268e6" data-wf-site="6685d2b136a220cb057268d9">
+<head th:insert="/fragments/header :: header"></head>
+<div th:insert="/fragments/script :: script" id="id_script"></div>
+<body>
+  <div class="auth-bg">
+    <div class="auth-form-wrapper w-form">
+     <form   method="POST" action="/verifica-codigo" id="form" name="wf-form-Login" data-name="Login" class="auth-form">
+        <div class="form-content">
+          <div class="form-header flex">
+            <div class="form-logo-wrapper">
+            <img sizes="128px" src="/images/Fiinika-Comercial_logo_main-p-500.png" loading="eager" alt="Jornal O Pais - Logotipo">
+            </div>
+          </div>
+          <div class="form-header">
+            <h1 class="pages-h2">Enviamos um código de 4 digitos para si</h1>
+          </div>
+          <div class="form-field-wrapper-2">
+		  <label for="Telemovel" class="field-lable">Código de segurança</label>
+          <input type="text" class="text-field w-input" maxlength="256" name="codigo" data-name="Telemovel" placeholder="" id="Telemovel" required="">
+          </div>
+             <input type="text" name="telemovel" th:value="${telemovel}" style="display:none"/>  
+             <label for="submit">  <a class="submit-button">Submeter</a></label>
+             <input type="submit" name="submit" id="submit" style="display:none">
+        </div>
+      </form>
+      <div class="w-form-done">
+        <div>Thank you! Your submission has been received!</div>
+      </div>
+      <div class="w-form-fail">
+        <div>Oops! Something went wrong while submitting the form.</div>
+      </div>
+    </div>
+    <div class="auth-image-overlay"></div>
+  </div>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+  <script src="/js/malsup_form.js"></script>
+  <script th:inline="javascript">	  
+				  /*<![CDATA[*/  				  
+				
+				/*]]>*/
+		
+	  $(function() {
+       
+        $('#form').ajaxForm({
+            beforeSend: function() {               
+            	 showLoading();
+            },
+            uploadProgress: function(event, position, total, percentComplete) {
+    
+            },
+            complete: function(xhr) {
+				
+				if(xhr.status == 200 || xhr.status == 201){
+					swal.close()
+	                url = "/fiinika/seguranca/criar-nova-senha/"+xhr.responseText
+	                msg = "Código verificado com sucesso"
+	                SucessoRegisto()
+                }
+                if(xhr.status == 404){
+					swal.close()	              
+	                msg = "Não foi possível validar o código de recuperção!"
+	                Alerta()
+                }
+               	
+            }
+        });
+    });
+	
+	</script>
+</body>
+</html>

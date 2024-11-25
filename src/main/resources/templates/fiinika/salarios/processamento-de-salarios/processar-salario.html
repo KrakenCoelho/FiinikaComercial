@@ -1,0 +1,322 @@
+<!DOCTYPE html><!--  Last Published: Mon Jul 08 2024 14:53:42 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="668926c206a1f7937b03ce80" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head>
+  <meta charset="utf-8">
+  <title>Processar salário</title>
+  <meta content="Processar salário" property="og:title">
+  <meta content="Processar salário" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="/css/components.css" rel="stylesheet" type="text/css">
+  <link href="/css/fiinika-comercial-app.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Inter:300,regular,500,600,700","Barlow:100,200,300,regular,500,600,700,800,900"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="/images/webclip.png" rel="apple-touch-icon">
+  
+  <!--SWEET ALERT-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.1/dist/sweetalert2.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.1/dist/sweetalert2.min.js"></script>
+  
+</head>
+<body>
+  <div class="mother-div">
+    <div class="html-embed w-embed"></div>
+    <div class="close-flyout"></div>
+    <div class="page-content-wrapper">
+		<div th:insert="/fragments/menuAdmin :: menuAdmin"></div>
+      <div class="content">
+        <section class="criar-page-section container">
+          <div class="container">
+            <div class="form-wrapper w-form">
+              <div class="top-section-navigation">
+                <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+                  <div class="text-block-129">q</div>
+                </a>
+                <div class="titulo">
+                  <div class="text-block-130">Processar salário<br></div>
+                </div>
+              </div>
+			  <form id="wf-form-Criar-Fatura" name="wf-form-Criar-Fatura" method="get" class="form">
+			      <div class="form-section tighter">
+			          <div class="criar-content-wrapper">
+			              <div class="form-field-wrapper">
+			                  <label for="start_date" class="form-field-lable">Data início</label>
+			                  <input class="form-text-field w-input" maxlength="256" name="start_date" type="date" id="start_date">
+			              </div>
+			              <div class="form-field-wrapper">
+			                  <label for="end_date" class="form-field-lable">Data fim</label>
+			                  <input class="form-text-field w-input" maxlength="256" name="end_date" type="date" id="end_date">
+			              </div>
+			              <div class="form-field-wrapper">
+			                  <label for="field-2" class="form-field-lable">Funcionários</label>
+			                  <label class="w-checkbox checkbox-field-2 _500">
+			                      <input type="checkbox" id="checkbox_all" name="checkbox_all" class="w-checkbox-input checkbox-2">
+			                      <span class="checkbox-label w-form-label" for="checkbox_all">Todos os funcionários elegíveis</span>
+			                  </label>
+			                  <label class="w-checkbox checkbox-field-2">
+			                      <input type="checkbox" id="checkbox_specific" name="checkbox_specific" class="w-checkbox-input checkbox-2">
+			                      <span class="checkbox-label w-form-label" for="checkbox_specific">Funcionários específicos</span>
+			                  </label>
+			              </div>
+			              <div class="form-field-wrapper" id="select_field_wrapper">
+			                  <label for="employee_id" class="form-field-lable">Escolher funcionários</label>
+			                  <select id="employee_id" name="employee_id" class="select-field w-select">
+			                      <option value="0">Selecione...</option>
+			                  </select>
+			              </div>
+			              <div class="div-block-127">
+			                  <div class="w-layout-grid grid-15" id="selected_funcionarios">
+			                      <!-- Selected funcionarios will be added here -->
+			                  </div>
+			              </div>
+			              <input type="hidden" id="funcionarios_ids" name="funcionarios_ids" value="">
+						  
+						  
+		  				<!--EXTRAS -->
+	  						  <input type="hidden" id="status" name="status" value="P">						  
+	  						  <input type="hidden" id="admin_id" name="admin_id" th:value="${user_id}">						  
+	  						  <input type="hidden" id="admin_id" name="admin_name" th:value="${user_name}">
+	  						  <input id="creation_date" type="hidden" name="creation_date" th:value="${#dates.format(#dates.createNow(), 'yyyy-MM-dd')}"/>
+						  
+						  
+			              <div class="create-div">
+			                  <a href="#" onclick="submitForm();" class="button main w-button">Processar</a>
+			                  <input id="submit" type="submit" style="display:none;" value="Processar"/>
+			              </div>
+			          </div>
+			      </div>
+			  </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=667ada12e2b008b7d4b9eee9" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+  
+  <script th:inline="javascript">
+            /*<![CDATA[*/
+            // Retrieving data from the server-side
+            var funcionarios = /*[[${funcionarios}]]*/'default';
+			
+      document.addEventListener('DOMContentLoaded', function() {
+          //const funcionarios = JSON.parse(/*[[${funcionarios}]]*/'[]');
+		  const allCheckbox = document.getElementById('checkbox_all');
+	      const specificCheckbox = document.getElementById('checkbox_specific');
+	      const selectFieldWrapper = document.getElementById('select_field_wrapper');
+	      const employeeSelect = document.getElementById('employee_id');
+	      const selectedFuncionariosDiv = document.getElementById('selected_funcionarios');
+	      const funcionariosIdsInput = document.getElementById('funcionarios_ids');
+	      const startDateInput = document.getElementById('start_date');
+	      const endDateInput = document.getElementById('end_date');
+	      const form = document.getElementById('wf-form-Criar-Fatura');
+	  
+	      // Populate the select options with funcionarios data
+	      funcionarios.forEach(funcionario => {
+	          const option = document.createElement('option');
+	          option.value = funcionario.id;
+	          option.textContent = funcionario.name;
+	          employeeSelect.appendChild(option);
+	      });
+	  
+	      // Show/hide select field based on checkbox selection
+	      allCheckbox.addEventListener('change', function() {
+	          if (this.checked) {
+	              specificCheckbox.checked = false;
+	              selectFieldWrapper.style.display = 'none';
+	              addAllFuncionarios();
+	          } else {
+	              selectedFuncionariosDiv.innerHTML = '';
+	              funcionariosIdsInput.value = '';
+	          }
+	      });
+	  
+	      specificCheckbox.addEventListener('change', function() {
+	          if (this.checked) {
+	              allCheckbox.checked = false;
+	              selectFieldWrapper.style.display = 'block';
+	          } else {
+	              selectFieldWrapper.style.display = 'none';
+	              selectedFuncionariosDiv.innerHTML = '';
+	              funcionariosIdsInput.value = '';
+	          }
+	      });
+	  
+	      // Add funcionario to the selected list
+	      employeeSelect.addEventListener('change', function() {
+	          specificCheckbox.checked = true;
+	          allCheckbox.checked = false;
+	          selectFieldWrapper.style.display = 'block';
+	  
+	          const selectedId = this.value;
+	          const selectedText = this.options[this.selectedIndex].text;
+	          if (selectedId !== '0' && !isFuncionarioSelected(selectedId)) {
+	              addFuncionario(selectedId, selectedText);
+	          } else if (isFuncionarioSelected(selectedId)) {
+	              //alert('Funcionário já selecionado.');
+	          }
+	      });
+	  
+	      function addFuncionario(id, name) {
+	          const funcionarioDiv = document.createElement('div');
+	          funcionarioDiv.className = 'div-block-128';
+	          funcionarioDiv.dataset.id = id;
+	          funcionarioDiv.innerHTML = `
+	              <div class="text-block-9">${name}</div>
+	              <a href="#" class="link-4 remove-funcionario">p</a>
+	          `;
+	          selectedFuncionariosDiv.appendChild(funcionarioDiv);
+	          updateFuncionariosIds();
+	      }
+	  
+	      function addAllFuncionarios() {
+	          selectedFuncionariosDiv.innerHTML = '';
+	          funcionarios.forEach(funcionario => {
+	              if (!isFuncionarioSelected(funcionario.id)) {
+	                  addFuncionario(funcionario.id, funcionario.name);
+	              }
+	          });
+	      }
+	  
+	      function updateFuncionariosIds() {
+	          const ids = [];
+	          selectedFuncionariosDiv.querySelectorAll('.div-block-128').forEach(function(div) {
+	              ids.push(div.dataset.id);
+	          });
+	          funcionariosIdsInput.value = ids.join(',');
+	      }
+	  
+	      function isFuncionarioSelected(id) {
+	          return Array.from(selectedFuncionariosDiv.querySelectorAll('.div-block-128')).some(div => div.dataset.id === id);
+	      }
+	  
+	      // Remove funcionario from the selected list
+	      selectedFuncionariosDiv.addEventListener('click', function(event) {
+	          if (event.target.classList.contains('remove-funcionario')) {
+	              event.preventDefault();
+	              event.target.closest('.div-block-128').remove();
+	              updateFuncionariosIds();
+	          }
+	      });
+	  
+	      // Add custom validity messages
+	      function setCustomValidity(input, message) {
+	          input.setCustomValidity(message);
+	          input.reportValidity();
+	      }
+	  
+	      function clearCustomValidity(input) {
+	          input.setCustomValidity('');
+	      }
+	  
+	      startDateInput.addEventListener('input', function() {
+	          if (this.value !== '') {
+	              this.style.border = '';
+	              clearCustomValidity(this);
+	          }
+	      });
+	  
+	      endDateInput.addEventListener('input', function() {
+	          if (this.value !== '') {
+	              this.style.border = '';
+	              clearCustomValidity(this);
+	          }
+	      });
+	  
+	      employeeSelect.addEventListener('input', function() {
+	          if (funcionariosIdsInput.value !== '') {
+	              funcionariosIdsInput.style.border = '';
+	              clearCustomValidity(funcionariosIdsInput);
+	          }
+	      });
+	  
+	      // Prevent form submission if no funcionarios are selected or dates are not filled
+	      form.addEventListener('submit', function(event) {
+	          let valid = true;
+	  
+	          if (funcionariosIdsInput.value === '') {
+	              valid = false;
+	              setCustomValidity(funcionariosIdsInput, 'Selecione pelo menos um funcionário.');
+	              funcionariosIdsInput.style.border = '2px solid red';
+	          }
+	  
+	          if (startDateInput.value === '') {
+	              valid = false;
+	              setCustomValidity(startDateInput, 'Preencha a data de início.');
+	              startDateInput.style.border = '2px solid red';
+	          }
+	  
+	          if (endDateInput.value === '') {
+	              valid = false;
+	              setCustomValidity(endDateInput, 'Preencha a data fim.');
+	              endDateInput.style.border = '2px solid red';
+	          }
+	  
+	          if (!valid) {
+	              event.preventDefault();
+	              return;
+	          }
+	  
+	          event.preventDefault();
+	  
+	          const loadingSwal = Swal.fire({
+	              title: "Aguarde...",
+	              didOpen: () => {
+	                  Swal.showLoading()
+	              },
+	              allowOutsideClick: false,
+	          });
+	  
+	          // Create a FormData object for the form
+	          const formData = new FormData(form);
+	  
+	          // Send the data via AJAX using FormData
+	          const url = "/create-processamento";
+	          $.ajax({
+	              type: "POST",
+	              url: url,
+	              data: formData,
+	              processData: false, // Do not process the FormData (already in a suitable format for submission)
+	              contentType: false, // Do not set the content type (the browser will set it to 'multipart/form-data')
+	              success: function(data) {
+	                  console.log(data);
+	                  loadingSwal.close();
+	                  Swal.fire({
+	                      icon: 'success',
+	                      title: 'Processamento salarial iniciado!',
+	                      text: 'Processamento salarial iniciado com sucesso.',
+	                      timer: 1500,
+	                      showConfirmButton: false
+	                  }).then(() => {
+	                      window.location.href = "/fiinika/salarios/processamento-de-salarios/pre-processamento/" + data.id;
+	                  });
+	              },
+	              error: function(xhr, textStatus, errorThrown) {
+	                  // Hide the loading animation
+	                  loadingSwal.close();
+	  
+	                  // Show the error message
+	                  Swal.fire({
+	                      title: "Erro!",
+	                      text: xhr.responseText,
+	                      icon: "error"
+	                  });
+	              }
+	          });
+	      });
+	  });
+	  
+	  function submitForm() {
+	      document.getElementById('submit').click();
+	  }
+  </script>
+
+  
+</body>
+</html>

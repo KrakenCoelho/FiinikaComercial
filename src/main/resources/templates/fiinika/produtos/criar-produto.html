@@ -1,0 +1,317 @@
+<!DOCTYPE html><!--  Last Published: Wed Sep 21 2022 15:23:55 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="63262895b8a0d82b6f5930af" data-wf-site="63262895b8a0d849ca593091">
+<head th:insert="/fragments/header :: header"></head>
+<div th:insert="/fragments/script :: script" id="id_script"></div>
+<body>
+  <div class="mother-div">
+
+    <div class="close-flyout"></div>
+    <div class="page-content-wrapper">
+      <div class="top-nav">
+        <div class="top-nav-content">
+          <div class="nav-info-wrappper">
+            <div class="back-btn-wrapper">
+              <a href="javascript:history.back()" class="icon icon-link w-inline-block">
+                <div class="main-font-icon">q</div>
+              </a>
+            </div>
+            <div class="bradcrump-wrapper">
+              <h1 class="page-title">Criar artigo</h1>
+            </div>
+          </div>
+          <div class="profile-dropdown-wrapper">
+            <div class="topbar-button-wrapper">
+              <div class="_3-buttons-wrapper z-indx">
+                <a href="javascript:history.back()" class="action-button cncel w-inline-block">
+                  <div class="icon quick-action">
+                    <div class="main-font-icon">p</div>
+                    <div class="button-text quick-action-text">Cancelar</div>
+                  </div>
+                </a>
+                <link rel="prefetch" href="javascript:history.back()">
+                <div class="button main">
+                  <a href="#" onclick="Salvar()" class="button-link w-inline-block"></a>
+                  <div class="button-text">Salvar</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <div th:insert="/fragments/menuAdmin :: menuAdmin"></div> 
+      
+      <div class="content">
+        <section class="criar-page-section">
+          <div class="container">
+            <div class="form-wrapper w-form">
+            
+              <form action="/produto/criar" method="POST" id="form" name="wf-form-Criar-Fatura" data-name="Criar Fatura" class="form" enctype="multipart/form-data">
+                <div class="form-section tighter">
+                  <div class="criar-content-wrapper">
+                    <div class="photo-upload-input-wrapper">
+                    <label for="Filtro-ano-3" class="form-field-lable">Imagem</label>
+                    
+                    <label for="foto_perfil_">
+                      <div id="sem_foto" class="photo-upload-input-field">
+                        <div class="icon upload-icon">
+                          <div class="main-font-icon">4</div>
+                        </div>
+                        <div class="photo-upload-text">Clique para fazer upload</div>
+                        <div class="photo-upload-text small-gray">Ficheiro deve ter menos de 1MB</div>
+                      </div>
+                      </label>
+                      
+                      <div id="com_foto" class="uploaded-photo-wrapper">
+                        <div class="uploaded-photo-content">
+                          <div class="uploaded-photo-div">
+                            <div class="photo-contain">
+                            <img id="foto_perfil" src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg" alt=""></div>
+                          </div>
+                          <div class="uploaded-photo-info">
+                            <div class="div-block-3">
+                              <div id="nome_foto" class="uploaded-image-name"></div>
+                              <div class="uploaded-image-resolution"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="_3-buttons-wrapper">
+                          <a href="#"  onclick="file_explorer()" class="action-button w-inline-block">
+                            <div class="icon quick-action">
+                              <div class="main-font-icon">w</div>
+                              <div class="button-text quick-action-text">Substituir</div>
+                            </div>
+                          </a><!-- 
+                          <a href="#" class="action-button w-inline-block">
+                            <div class="icon quick-action">
+                              <div class="main-font-icon">v</div>
+                              <div class="button-text quick-action-text">Eliminar</div>
+                            </div>
+                          </a>-->
+                        </div>
+                      </div>                      
+                    </div>
+                    
+                    <div class="form-field-wrapper">
+                    <label for="name" class="form-field-lable">Nome</label>
+                    <input type="text" class="form-text-field w-input" maxlength="256" name="nomeProduto"  data-name="Field" placeholder="" id="field" required></div>
+                    <div class="form-field-wrapper">
+                    <label for="field-2" class="form-field-lable">Preço</label>
+                    <input type="text" class="form-text-field w-input" maxlength="256" name="preco_produto"   id="produto_preco"  placeholder="KZ"  required>
+                    </div>
+                    <div class="form-field-wrapper">
+                    <label for="field-2" class="form-field-lable">Referência</label>
+                    <input type="text" class="form-text-field w-input" maxlength="256" name="referencia"   id=""  placeholder=""  >
+                    </div>
+                    
+                    <div class="form-field-wrapper">
+                    <label for="Filtro-ano-2" class="form-field-lable">Categoria</label>
+                      <div><select id="field-3" name="id_categoriafk" data-name="Field 3" class="select-field w-select" required>
+                          <option value="">Selecione...</option>
+                          <option th:each="categoria : ${categorias}" th:value="${categoria.idCategoria}" th:text="${categoria.nomeCategoria}"></option>
+                        </select>
+                        
+                      </div>
+                    </div>
+                    
+                    <div class="form-field-wrapper">
+                    <label for="Filtro-ano-2" class="form-field-lable">Tipo</label>
+                      <div>
+                        <select  name="tipo_produto" data-name="Field 3" class="select-field w-select" required>
+                          <option value="">Selecione...</option>
+                          <option value="Produto">Produto</option>
+                          <option value="Serviço">Serviço</option> 
+                          <option value="Serviço 6.5">Serviço (Com retenção 6.5%)</option>                         
+                        </select>                        
+                      </div>
+                    </div>
+                    
+                    <div class="form-field-wrapper">
+                    <label for="Filtro-ano-3" class="form-field-lable">Imposto aplicável</label>
+                    <select id="field-3" name="id_isencaofk" data-name="Field 3" class="select-field w-select" required>
+                        <option value="">Selecione...</option>
+                        <option th:each="isencao : ${isencao}" th:if="${#lists.contains(isencao.codigo, '---')}" th:value="${isencao.id_isencao}">[[${isencao.mencao}]]</option>
+                        <option th:each="isencao : ${isencao}" th:unless="${#lists.contains(isencao.codigo, '---')}" th:value="${isencao.id_isencao}">[[${isencao.codigo}]] - [[${isencao.mencao}]]</option>
+                      </select>
+                     
+                    </div>
+                    
+                    <div class="form-field-wrapper">
+                    <label for="name" class="form-field-lable">Código de barras</label>
+                    <input type="text" class="form-text-field w-input" maxlength="256" name="codBarra" data-name="Field 3" placeholder="" id="field-3"></div>
+                    
+                
+                    <div class="form-field-wrapper">
+					<label for="name" class="form-field-lable">Stock Inicial</label>
+					<input class="form-text-field w-input" maxlength="256" name="qtdStock"  pattern="^[1-9]\d*$" data-name="Field 3" placeholder="" type="number" id="field-3" required>
+					</div>
+                                        
+                    <div class="form-field-wrapper">
+                    <label for="field-4" class="form-field-lable">Descrição</label>
+                    <textarea placeholder="Descrição..." maxlength="5000" id="field-4" name="descricao_p" data-name="field" class="form-text-field _2 w-input"></textarea>
+                    </div>
+                    
+                    <input type="file" id="foto_perfil_" onclick="file_explorer()" name="img_produto" accept="image/*" style="display: none"> 
+                    <input type="submit" id="salvar_produto" style="display: none"> 
+                     <div class="create-div">
+                      <a href="#" onclick="Salvar()" class="button main w-button">Criar</a>
+                    </div>
+                    
+              
+                  </div>
+                </div>
+              </form>
+              <div class="w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="w-form-fail">
+                <div>Oops! Something went wrong while submitting the form.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+   <div class="criar-page-mobile-menu">
+      <a href="javascript:history.back()" class="back-button-wrapper w-inline-block">
+        <div class="icon back">
+          <div class="main-font-icon">q</div>
+        </div>
+      </a>
+      <link rel="prefetch" href="javascript:history.back()">
+      <div>
+        <h1 class="criar-page-title">Criar Produto</h1>
+      </div>
+    </div>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+  <script src="/js/malsup_form.js"></script>
+  <script th:inline="javascript">
+  
+  /*<![CDATA[*/     
+	catg = [[${catg}]];	 
+	/*]]>*/
+	if(catg == 0){
+	msg = "Antes de criar qualquer artigo tem de primeiro criar uma categoria,"+ 
+	       " crie clicando em Criar categoria"
+		AvisoCategoria()
+	}
+	
+	  // Formata preco		
+	  document.querySelector('#produto_preco').addEventListener('input', moeda);
+  
+	
+  function Salvar(){
+	/*
+	if($("#produto_preco").val() == "0,00"){
+		msg = "Preço inválido, digite um preço maior que 0"
+			Alerta(msg)
+	}else{
+	*/
+	$("#salvar_produto").click()
+	
+	
+  }
+  
+  
+  function file_explorer() {
+      document.getElementById('foto_perfil_').click();
+      document.getElementById('foto_perfil_').onchange = function() {
+          fileobj = document.getElementById('foto_perfil_').files[0];
+          var nome =$("#foto_perfil_").val().split("\\").pop();
+          $("#nome_foto").html(nome)
+      //  ajax_file_upload(fileobj);
+        const file = $(this)[0].files[0]; // seleciona o arquivo do input
+        const fileReader = new FileReader(); // cria o objeto FileReader
+        fileReader.onloadend = function(){ // ao carregar a imagem
+           var url = 'url('+fileReader.result+')';
+           $("#foto_perfil").attr("src",fileReader.result); // altera o src da imagem
+         // $("#foto_cliente").css("background-image",url);// altera o src da imagem
+           $("#sem_foto").css("display","none")
+           $("#com_foto").css("display","block")
+      }
+       fileReader.readAsDataURL(file);
+        $("#nome_foto_perfil").val("Something");
+		}
+	}
+  
+  function RemoveImg(){
+	        $("#com_foto").css("display","none")
+			console.log($("#nome_foto_perfil").val())
+		}
+  
+  
+  $(function() {
+       
+        $('#form').ajaxForm({
+            beforeSend: function() {               
+            	 showLoading();
+            },
+            uploadProgress: function(event, position, total, percentComplete) {
+           
+            },
+            complete: function(xhr) {
+               
+                if(xhr.status == 409){
+					swal.close()
+                	if(xhr.responseText == "Conflict: Referencia already registered!"){
+                		msg = "Já existe um artigo com a referência inserida."
+                		Alerta(msg)
+              		  }	
+                	              	
+                }
+                 if(xhr.status == 200){  
+                	
+                	if(xhr.responseText == "nif_existis"){
+                		msg = "Não é possível registar este nif"
+                		Alerta(msg)
+              		  }	
+                	
+	            	if(xhr.responseText == "email_existis"){
+                		msg = "Não é possível registar este email"
+                		Alerta(msg)
+              		  }
+	            	
+	                if(xhr.responseText == "Sucesso"){
+	                	msg = "Produto criado com sucesso!"
+	                	url = "/fiinika/produtos/todos-produtos"
+	                	SucessoRegisto()
+	                }
+	                
+	                if(xhr.responseText == "logout"){
+	                	msg = "Demorou demasiado tempo tem de se autenticar novamente, clique em Login."
+	                	AvisoAutenticar()
+	                	
+	                }
+	                
+                }else if(xhr.status == 500){
+					swal.close()
+             	   msg = "Aconteceu um erro inesperado! Tente mais tarde."
+                       Error()
+                }
+	            	
+                	
+                	
+            }
+        });
+    });
+  
+  $("#div_nif").css("display","none")
+	$('#tipo_cliente').change(
+      function() {
+      	if($(this).val()=="Particular"){
+	        	 $("#div_nif").css("display","none")
+	        	 $("#nif").removeAttr('required')   
+      	}else{
+      		$("#div_nif").css("display","block")
+      		$("#nif").attr('required', 'required')
+      	}
+        
+      });
+  
+  </script>
+  </body>
+</html>

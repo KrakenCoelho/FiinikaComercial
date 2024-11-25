@@ -1,0 +1,204 @@
+<!DOCTYPE html><!--  Last Published: Wed Jun 26 2024 14:31:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="667ada12e2b008b7d4b9ef0a" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<div th:insert="/fragments/script :: script" id="id_script"></div>
+<body>
+  <div class="mother-div">
+    <div class="html-embed w-embed"></div>
+    <div class="close-flyout"></div>
+    <div class="page-content-wrapper">
+    <div th:insert="/fragments/menuAdmin :: menuAdmin"></div>  
+      <div class="content">
+        <section class="criar-page-section">
+          <div class="container">
+            <div class="top-section-navigation">
+              <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+                <div class="text-block-129">q</div>
+              </a>
+              <div class="titulo">
+                <div class="text-block-130">Editar Conta Bancária<br></div>
+              </div>
+            </div>
+            <div class="form-wrapper w-form">
+
+              <form action="/admin/salva-conta-editada" method="POST" id="form" data-name="Criar Fatura" class="form" data-wf-page-id="667ada12e2b008b7d4b9ef0a" data-wf-element-id="2875adec-929c-81d2-e965-eba50069d4be">
+                <div class="form-section tighter" th:each="b,iterator: ${banco}">
+                  <div class="criar-content-wrapper">
+                    <div class="form-field-wrapper"><label for="Filtro-ano-2" class="form-field-lable">Selecione o teu Banco</label>
+                      <div>
+                      <select id="banco" name="banco" data-name="Field 3" class="select-field w-select" required>
+                           <option value="">Selecione...</option>
+                            <option value="BAI">Banco Angolano de Investimento</option>
+                            <option value="BIC">Banco BIC</option>
+                            <option value="YETU">Banco Yetu</option>
+                            <option value="SOL">Banco Sol</option>
+                            <option value="BNI">Banco de Negócios Internacional</option>                          
+                            <option value="BDA">Banco de Desenvolvimento de Angola</option>
+                            <option value="BCA">Banco Comercial Angolano, S.A</option>
+                            <option value="BCH">Banco Comercial do Huambo</option>
+                            <option value="BFA"> Banco de Fomento Angola</option>
+                            <option value="BPC">Banco de Poupança e Crédito</option>                           
+                            <option value="BE">Banco Económico</option>
+                            <option value="BRK">Banco Regional do Keve</option>
+                            <option value="BIR">Banco de Investimento Rural</option>
+                            <option value="BMA">Banco Millennium Atlântico</option>
+                            <option value="BCS">Banco de Crédito do Sul, S.A.</option>
+                            <option value="VTB">Banco VTB África S.A.</option>
+                            <option value="FNB">Finibanco Angola, S.A</option>
+                            <option value="SBA">Standard Bank Angola</option>                         
+                            <option value="BCGA">Banco Caixa Geral Angola</option>
+                            <option value="BOCLB">Banco da China Lda - Sucursal de Luanda</option>
+                            <option value="BVB">Banco Valor S.A</option>
+                            <option value="BPG">Banco Prestígio</option>
+                            <option value="BMF">Banco BAI Micro Finanças S.A.</option>  
+                            <option value="BCI">Banco de Comércio e Indústria</option>  
+                           <option th:value="${b.sigla+'='+b.banco}" selected>[[${b.banco}]]</option>                                     
+                        </select>
+                        <div class="div-block-100"></div>
+                      </div>
+                    </div>
+                    <div class="form-field-wrapper">
+                    <label for="name" class="form-field-lable">IBAN</label>
+                    <input type="text" class="form-text-field w-input" maxlength="256" name="iban" th:value="${b.iban}" data-name="Field 2" placeholder="" id="iban" required></div>
+                    <div class="form-field-wrapper">
+                    <label for="name" class="form-field-lable">Nº de Conta</label>
+                    <input type="text" class="form-text-field w-input" maxlength="256" name="numero_conta" th:value="${b.numero_conta}" data-name="Field 2" placeholder="" id="field-2"  required></div>
+					<label class="radio-button-field-2 w-radio">
+					<input type="checkbox" data-name="Radio 45" id="padrao" name="padrao" th:value="${b.padrao}" class="w-form-formradioinput radio-button-2 w-radio-input">
+					<span class="radio-button-label w-form-label" for="radio-45">Banco Padrão</span>
+					</label>
+                <input type="submit" id="salvar_conta" style="display: none">  
+                 <input type="text" name="aux" th:value="${aux}" style="display: none">  
+                  <div class="create-div">
+                    <a href="#" onclick="Salvar()" class="button main w-button">Guardar</a>
+                  </div>
+                    <div class="div-block-106">
+                      <a href="javascript:history.back()"  onclick="AvisoDelete()" class="action-button cncel w-inline-block">
+                        <div class="icon quick-action">
+                          <div class="main-font-icon">v</div>
+                          <div class="button-text quick-action-text">Apagar</div>
+                        </div>
+                      </a>
+                      <link rel="prefetch" href="javascript:history.back()">
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+              <div class="w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="w-form-fail">
+                <div>Oops! Something went wrong while submitting the form.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  <div class="close-flyout"></div>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+  <script src="/js/malsup_form.js"></script>
+  <script th:inline="javascript">
+  
+  /*<![CDATA[*/     
+	banco = [[${banco}]];	
+	aux = [[${aux}]];
+	/*]]>*/
+
+    console.log(banco.padrao); 
+	if(banco.padrao == 1){
+		 $("#padrao").click()
+	}
+   
+  
+  function Salvar(){
+	 
+	  $("#salvar_conta").click()
+  }
+  
+  
+  $(function() {
+       
+        $('#form').ajaxForm({
+            beforeSend: function() {               
+            	 showLoading();
+            },
+            uploadProgress: function(event, position, total, percentComplete) {
+              //  var percentVal = percentComplete + '%';
+              //  bar.width(percentVal);
+              //  percent.html(percentVal);
+              //  console.log(percentVal+"jj")
+            },
+            complete: function(xhr) {
+            	 swal.close()    
+                if(xhr.status == 404){
+                	console.log()
+                         	
+                }else if(xhr.status == 200){  
+                	if(xhr.responseText == "nif_existis"){
+                		msg = "Não é possível registar este nif"
+                		Alerta(msg)
+              		  }	
+	            	if(xhr.responseText == "iban_existis"){
+                		msg = "Não é possível registar este Iban, já existe"
+                		Alerta(msg)
+              		  }
+	                if(xhr.responseText == "Sucesso"){
+	                	msg = "Conta alterada com sucesso!"
+	                	url = "/fiinika/bancos/banco-page/"+aux
+	                	SucessoRegisto()
+	                }
+	                if(xhr.responseText == "logout"){
+	                	msg = "Demorou demasiado tempo tem de se autenticar novamente, clique em Login."
+	                	AvisoAutenticar()	                	
+	                }
+                }else if(xhr.status == 500){
+					swal.close()
+             	   msg = "Aconteceu um erro inesperado! Tente mais tarde. Caso o problema persistir contacte o suporte"
+                       Error()
+                }
+	            	
+                	
+                	
+            }
+        });
+    });
+  
+   
+    
+	$('#iban').click(
+      function() {
+	    $('#iban').val("A")
+        
+      });
+	
+	  $('#banco').change(function(e) {
+		  valor = $(this).val()
+		  texto = $("#banco option:selected").text()
+		  $("#banco option:selected").val(valor+"="+texto)
+		  console.log($(this).val() ); 
+		  
+		});
+	
+	 
+	  $('input[name="padrao"]').change(function(e) { // Select the radio input group
+		    // This returns the value of the checked radio button
+		    // which triggered the event.		   
+		    checkbox = $('#padrao:checked').length;
+		    $(this).val(checkbox)		
+		  //console.log( checkbox+" valor:"+f.val() ); 
+		  
+		    // but this will return the first radio button's value,
+		    // regardless of checked state of the radio group.
+		   //console.log( $('input[name="padrao"]').val(checkbox) ); 		
+		});
+	  
+  
+  </script>
+</body>
+</html>

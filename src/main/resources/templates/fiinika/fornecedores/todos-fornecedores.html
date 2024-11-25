@@ -1,0 +1,262 @@
+<!DOCTYPE html><!--  Last Published: Wed Jun 26 2024 14:31:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="667ada12e2b008b7d4b9ef6f" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<body>
+  <div class="mother-div">
+    <div class="page-content-wrapper">
+      <div class="content">
+        <div class="container">
+        <div th:insert="/fragments/menuAdmin :: menuAdmin"></div>  
+          <section class="criar-page-section">
+            <div class="top-section-navigation">
+              <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+                <div class="text-block-129">q</div>
+              </a>
+              <div class="titulo">
+                <div class="text-block-130">Meus fornecedores<br></div>
+              </div>
+              <div class="bot-o-ou-menu">
+                <a href="/fiinika/fornecedores/criar-fornecedor" class="botao w-button">Criar fornecedor</a>
+              </div>
+            </div>
+            <div class="container">
+              <div class="form-wrapper w-form">
+                <form id="wf-form-Criar-Fatura" name="wf-form-Criar-Fatura" data-name="Criar Fatura" method="get" class="form" data-wf-page-id="667ada12e2b008b7d4b9ef6f" data-wf-element-id="074ac903-9eb4-07c8-ea1c-1ebb296c9677">
+                  <div class="form-section">
+                    <div class="table">
+                      <div class="table-utility-row">
+                        <div class="form-field-wrapper wrap-search _10">
+                          <div class="search-field-wrapper"><input class="form-search-field w-input pesquisa" maxlength="256" name="search" data-name="search" placeholder="" type="text" id="search">
+                            <div class="search-icon">
+                              <div class="icon">
+                                <div class="main-font-icon smaller-icon">x</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="table-main-button-wrapper">
+                          <div class="button main">
+                            <div class="left-icon-wrapper">
+                              <div class="icon left-icon">
+                                <div class="main-font-icon">add</div>
+                              </div>
+                            </div>
+                            <div class="button-text">Criar Fatura</div>
+                            <a href="#" class="button-link w-inline-block"></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-row cell-label-wrapper">
+                        <div class="table-row-content">
+                          <div class="cell-label _10">
+                            <div class="table-cell-text">Imagem</div>
+                          </div>
+                          <div class="cell-label _20">
+                            <div class="table-cell-text">Nome</div>
+                          </div>
+                          <div class="cell-label _15">
+                            <div class="table-cell-text">Data</div>
+                          </div>
+                          <div class="cell-label _15">
+                            <div class="table-cell-text">Telefone</div>
+                          </div>
+                          <div class="cell-label _20">
+                            <div class="table-cell-text">E-mail</div>
+                          </div>
+                          <div class="cell-label _20">
+                            <div class="table-cell-text">Endereço</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    <div id="div_main">
+                    
+					<div th:each="f,iterator: ${fornecedores}" class="table-row">
+           
+                      <a  th:with="id=${T(com.ao.fiinikacomercial.funcoes.Funcoes).Codifica(f.idFornecedor)}" th:href="@{'/fiinika/fornecedores/perfil-do-fornecedor/' + ${id}}" class="table-row-content item-link w-inline-block">
+                        <div class="table-cell _10">
+                          <div class="table-image-wrapper"><img sizes="(max-width: 479px) 60px, (max-width: 767px) 13vw, (max-width: 991px) 6vw, 4vw" th:src="@{'/imgs/fornecedores/'+ ${f.foto_logotipo}}" alt="" class="img is--contain"></div>
+                        </div>
+                        <div class="table-cell _20">
+                          <div class="table-cell-text">[[${f.nome_fornecedor}]]</div>
+                        </div>
+                        <div class="table-cell _15 i">
+                          <div class="table-cell-text">[[${T(com.ao.fiinikacomercial.funcoes.Funcoes).FormatDate(f.data_cadastro)}]]</div>
+                        </div>
+                        <div class="table-cell _15">
+                          <div class="table-cell-text">[[${f.telemovel}]]</div>
+                        </div>
+                        <div class="table-cell _20 i">
+                          <div class="table-cell-text">[[${f.email}]]</div>
+                        </div>
+                        <div class="table-cell _20 i">
+                          <div class="table-cell-text">[[${f.endereco}]]</div>
+                        </div>
+                      </a>
+                      <div class="table-row-action-button-wrapper">
+                      
+                        <div class="flyout-menu-wrapper table-actions-flyout">
+                          <div class="flyout-menu-content in-table">
+                            <a href="#" class="menu-item w-inline-block">
+                              <div class="menu-icon-wrapper">
+                                <div class="icon menu-left-icon">
+                                  <div class="material-symbols-rounded">visibility</div>
+                                </div>
+                              </div>
+                              <div class="button-text">Visualizar</div>
+                            </a>
+                            <a href="#" class="menu-item w-inline-block">
+                              <div class="menu-icon-wrapper">
+                                <div class="icon menu-left-icon">
+                                  <div class="main-font-icon u">u</div>
+                                </div>
+                              </div>
+                              <div class="button-text">Editar</div>
+                            </a>
+                            <a href="#" class="menu-item w-inline-block">
+                              <div class="menu-icon-wrapper">
+                                <div class="icon menu-left-icon">
+                                  <div class="material-symbols-rounded">Delete</div>
+                                </div>
+                              </div>
+                              <div class="button-text">Eliminar</div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                   </div>
+                    
+                    <div id="div_documentos"></div>
+                      
+
+                    </div>
+                  </div>
+                </form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="close-flyout"></div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+   <script type="text/javascript">
+  
+ //================================================= PESQUISA POR NOME DO FORNECEDOR
+  
+  $('.pesquisa').keyup(function(){    
+        	  
+        	  if($(this).val()== ""){
+        		  $("#div_main").css("display","block")
+    	    	  $("#div_documentos").css("display","none")
+        		  return
+        	  }
+  	  
+              $.getJSON("/ajax/docs_fornecedor_pesquisa", {
+            	  nome: $(this).val(),
+                  ajax : 'true'
+              }, function(data) {     
+                 
+    	          var html = '',i, div_tipo = '';
+    	          var len = data.length;
+    	        console.log(data)
+    	    if(len>0){	
+    	    	  $("#div_main").css("display","none")
+    	    	  $("#div_documentos").css("display","block")
+    	    	  
+    	    
+    	        $.each(data[0], function(index, c) {	
+    	        	
+    	    		
+    	       html +='<div class="table-row">'+
+                        '<label class="w-checkbox table-checkbox-wrapper">'+
+                          '<div class="w-checkbox-input w-checkbox-input--inputType-custom table-checkbox"></div><input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"><span class="checkbox-lable hidden w-form-label" for="checkbox-2">Checkbox</span>'+
+                        '</label>'+
+                        '<a  href="/fiinika/clientes/perfil-do-cliente/' +data[1][index]+'"  class="table-row-content item-link w-inline-block">'+
+                        '<div class="table-cell _10">'+
+                          '<div class="table-image-wrapper">'+
+                          '<img src="/imgs/clientes/'+c.foto_logotipo+'" sizes="(max-width: 479px) 100vw, (max-width: 767px) 13vw, (max-width: 991px) 6vw, 4vw" alt="" class="img is--contain"></div>'+
+                        '</div>'+
+                        '<div class="table-cell _20">'+
+                          '<div class="table-cell-text">'+c.nome_fornecedor+'</div>'+
+                        '</div>'+
+                        '<div class="table-cell _15 i">'+
+                          '<div class="table-cell-text">'+c.data_cadastro+'</div>'+
+                        '</div>'+
+                        '<div class="table-cell _15">'+
+                          '<div class="table-cell-text">'+c.telemovel+'</div>'+
+                        '</div>'+
+                        '<div class="table-cell _20 i">'+
+                          '<div class="table-cell-text">'+c.email+'</div>'+
+                        '</div>'+
+                        '<div class="table-cell _20 i">'+
+                          '<div class="table-cell-text">'+c.endereco+'</div>'+
+                        '</div>'+
+                      '</a>'+
+                        '<div class="table-row-action-button-wrapper">'+
+                        
+                          '<div class="flyout-menu-wrapper table-actions-flyout">'+
+                            '<div class="flyout-menu-content in-table">'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">visibility</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Visualizar</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Print</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Imprimir</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Download</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Descarregar</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Delete</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Eliminar</div>'+
+                              '</a>'+
+                            '</div>'+
+                          '</div>'+
+                        '</div>'+                        
+                      '</div>'
+    	    		  
+    	        });	
+    	    
+    	    	 
+    	          $('#div_documentos').html(html);                                   
+    	     }else{    	    	
+    			  $('#div_documentos').html('Não foram encontrados documentos');     
+    			}
+  				
+  			
+              });
+          });
+  
+  </script>
+</body>
+</html>

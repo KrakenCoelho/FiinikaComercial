@@ -1,0 +1,635 @@
+<!DOCTYPE html><!--  Last Published: Wed Jun 26 2024 14:31:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="667ada12e2b008b7d4b9ef01" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<div th:insert="/fragments/script :: script" id="id_script"></div>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ <link href="/css/jquery-ui.css" rel="stylesheet" type="text/css">
+  <style>
+  
+    .ui-autocomplete .ui-menu-item.ui-state-focus {
+      background-color: #f0f0f0; /* Cor de fundo quando o cursor está sobre o item */
+    }
+    
+    .ui-datepicker {
+    display: none;
+    width: 100%;
+    height: 100%!important;
+    padding: 0px;
+    cursor: default;
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+ 
+     background:green;
+     background-color:#0f2f65!important;
+      
+ 
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: 0px solid #0f2f65!important;
+   
+    
+}
+.ui-datepicker th {
+    margin: 1px;
+    height: 100%;
+    padding-bottom: 20px;
+    border: none;
+    text-align: center;
+    color: #7b7b7b;
+    border-spacing: 0;
+}
+
+.ui-datepicker-calendar td {
+  padding:7 0px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.ui-datepicker-header {
+     font-weight: 500;
+     text-transform: uppercase;
+     font-size: 16px;
+     background-color:#242527!important;
+     color: #f2f2f2;
+     border: 0px solid #0f2f65!important;
+}
+
+.ui-datepicker-year {
+  padding-left: 8px;
+ 
+} 
+.calendar_wrapper {
+    height: 280px;
+     margin-bottom: 60px;
+}
+
+.ui-datepicker-calendar .ui-state-default {
+    display: block;
+    font-weight: 500;
+    width: 26px;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+    color: #ffffff;
+    background-color:#0f2f65!important;
+    border: 1px solid transparent;
+    
+
+}
+/* 
+.ui-datepicker-prev span,
+.ui-datepicker-next span{
+ background-color:#f2f2f2!important;
+   
+}
+    */
+   .ui-datepicker-calendar{
+   
+    height: 100%;
+   
+    }
+    
+   
+.ui-datepicker-calendar .ui-state-active {
+    color: #3c59fe;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #3c59fe;
+}
+
+.ui-datepicker-calendar .ui-datepicker-today {
+ 
+    outline: none;
+    font-weight: 700;
+   
+  
+}
+    </style>
+<body>
+  <div class="mother-div">
+    <div class="html-embed w-embed"></div>
+    <div class="close-flyout"></div>
+    <div class="page-content-wrapper">
+      <div th:insert="/fragments/menuAdmin :: menuAdmin"></div> 
+      <div class="content">
+        <div class="top-section-navigation">
+          <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+            <div class="text-block-129">q</div>
+          </a>
+          <div class="titulo">
+            <div class="text-block-130">Nova Proforma<br></div>
+          </div>
+          <div class="bot-o-ou-menu"></div>
+        </div>
+        <div class="container">
+          <div class="form-wrapper w-form">
+		   <form action="/factura/criar-proforma" id="form" name="wf-form-Criar-Fatura" data-name="Criar Fatura" method="POST" class="form">
+              <div class="invoice-details-wrapper">
+                <div class="invoice-client-details">
+                  <div class="invoice--client-details">
+                    <div id="w-node-aefd2228-5780-17dd-8dbd-7a18c2d18284-e75930b0" class="form-field-wrapper inside-grid"><label for="name-2" class="form-field-lable">Cliente</label>
+                      <div>
+                      
+                        <input type="text" class="form-text-field n-fatura w-input opcoes"> 
+                        <input type="hidden" id="id_cliente" name="id_cliente" >    
+                        
+                        <div class="div-block-100"></div>
+                        <div class="div-block-100 _5"></div>
+                      </div>
+                    </div>
+                    <div id="w-node-aefd2228-5780-17dd-8dbd-7a18c2d1828b-e75930b0" class="add-tufff-button-wrapper mobile-hidden">
+                      <a href="/fiinika/clientes/criar-novo-cliente" class="action-button add-stuff-in-invoice w-inline-block">
+                        <div class="icon add-stuff-icon">
+                          <div class="main-font-icon">s</div>
+                          <div class="button-text quick-action-text">Criar cliente</div>
+                        </div>
+                      </a>
+                    </div>
+                    
+                    <div id="w-node-aefd2228-5780-17dd-8dbd-7a18c2d18292-e75930b0" class="client-details-wrapper detalhes" style="display:none">
+                    <label for="name-2" class="form-field-lable">Detalhes do cliente</label>
+                      <div class="client-details">
+                        <div class="client-details-summery">
+                          <div class="nome_cliente"></div>
+                        </div>
+                        <div class="client-details-summery">
+                          <div class="telemovel_cliente"></div>
+                        </div>
+                        <div class="client-details-summery">
+                          <div class="endereco_cliente"></div>
+                        </div>
+                        <div class="client-details-summery">
+                          <div class="nif_cliente"></div>
+                        </div>
+                        <a href="#" class="text-button w-inline-block">
+                          <div class="button-text">Editar detalhes</div>
+                        </a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+               <div class="invoice-details">
+                  <div class="form-field-wrapper inside-grid">
+                  <label for="numero-fatura" class="form-field-lable">Nº da fatura</label>
+                  <input type="text" class="form-text-field n-fatura w-input" maxlength="256" th:value="${n_factura}" name="numero-fatura" data-name="numero fatura" placeholder="PK2208015" id="numero-fatura" readonly></div>
+                  <div class="form-field-wrapper inside-grid">
+                  <label for="name-2" class="form-field-lable">Data de validade</label>
+                    <div class="dropdown-field-wrapper">
+                    <input type="text" class="form-text-field calendar-field w-input selected_date" maxlength="256" name="" data-name="Filtro Data" placeholder="31 de Jan, 2018" data-w-id="439a5378-08e7-d38f-6604-71f25235da82" required>
+                    
+                    <input type="hidden" name="data_exp" id="alternate" required>                     
+                     
+                      <div class="flyout-menu-wrapper date-flyout">
+                        <div class="flyout-menu-content">   
+                        <label for="name-2" class="form-field-lable">Selecione data expecífica</label>                 
+                          <div class="calendar-picker">
+                            <div class="img-wrapper cal">
+                             <div id="data_exp"></div>     
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="invoice-items">
+                <div class="form-section-wrapper hidden">
+                  <h2 class="table-header">Itens</h2>
+                </div>
+                <div class="items-table">
+                  <div class="table-row cell-label-wrapper invoice-items-lable _2">
+                    <div class="table-row-content">
+                      <div class="cell-label _30">
+                        <div class="table-cell-text">Categoria</div>
+                      </div>
+                      <div class="cell-label _30">
+                        <div class="table-cell-text">Produto/Serviço</div>
+                      </div>
+                      <div class="cell-label _15">
+                        <div class="table-cell-text">Preço un.</div>
+                      </div>
+                      <div class="cell-label _15 qtd">
+                        <div class="table-cell-text">Qtd.</div>
+                      </div>
+                      <div class="cell-label _15">
+                        <div class="table-cell-text">Total líquido</div>
+                      </div>
+                    </div>
+                    <div class="item-action filler"></div>
+                  </div>
+                  
+   					<!-- LInhas  -->          
+                  <div id="items_table" class="linhas">                  
+                   </div>
+                   
+                  <div id="linha_desconto" style="display:none">
+                  <div class="table-row invoice-item">
+                    <div class="item-number">
+                      <div class="pagination-description">1</div>
+                    </div>
+                    <div class="table-row-content in-items">
+                      <div class="item-table-cell _30"><label for="name" class="form-field-lable show-on-mobile">Categoria</label>
+                        <div class="ki"><select id="field-3" name="field-3" data-name="Field 3" class="select-field-copy w-select">
+                            <option value="First">Desconto</option>
+                          </select>
+                          <div class="div-block-100 _50"></div>
+                        </div>
+                      </div>
+                      <div class="item-table-cell _30"><label for="name" class="form-field-lable show-on-mobile">Produto</label>
+                        <div class="ki">
+                        <select name="desconto" id="desconto" data-name="Field 3" class="select-field-copy w-select">
+                            <option value="0">%</option>
+                            <option value="5">5%</option>
+                            <option value="10">10%</option>
+                            <option value="15">15%</option>
+                            <option value="20">20%</option>
+                            <option value="25">25%</option>
+                            <option value="30">30%</option>
+                            <option value="35">35%</option>
+                            <option value="40">40%</option>
+                            <option value="50">50%</option>
+                            <option value="55">55%</option>
+                            <option value="60">60%</option>
+                            <option value="65">65%</option>
+                            <option value="70">70%</option>
+                            <option value="75">75%</option>
+                            <option value="80">80%</option>
+                            <option value="85">85%</option>
+                            <option value="90">90%</option>
+                            <option value="95">95%</option>
+                          </select>
+                          <div class="div-block-100 _50"></div>
+                        </div>
+                      </div>
+                      <div class="item-cells-wrapper">
+                        <div class="item-table-cell _15 prc-unit"><label for="name" class="form-field-lable show-on-mobile">Preço un.</label>
+                          <div class="text-field-inner-wrapper"><input type="text" class="item-text-field with-currency w-input" maxlength="256" name="subtotal" data-name="subtotal" placeholder="" id="field"></div>
+                        </div>
+                        <div class="item-table-cell _15 qtd"><label for="name" class="form-field-lable show-on-mobile">Qtd.</label>
+                          <div class="plus-minus-wrap"></div>
+                        </div>
+                      </div>
+                      <div class="item-table-cell _15 total-item"><label for="name" class="form-field-lable show-on-mobile">Total.</label>
+                        <div class="text-field-inner-wrapper">
+                        <input type="text" class="item-text-field with-currency liquido w-input" maxlength="256" name="valor_desconto" data-name="subtotal" placeholder="0,00" id="valor_desconto">
+                        <label for="name" class="inside-form-field-lable form-field-currency">Kz</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item-action">
+                      <a href="#"  onclick="RemDesconto()"  class="action-button delete-item w-inline-block">
+                        <div class="icon">
+                          <div class="main-font-icon">v</div>
+                        </div>
+                      </a>
+                      <a href="#" onclick="RemDesconto()"  class="link-2">Apagar</a>
+                    </div>
+                  </div>                
+                 </div>                 
+                  
+                  
+                </div>
+                <div class="item-button-wrapper item">
+                  <a href="#" id="addRow" class="add-item-mobile main-text-button w-inline-block">
+                    <div class="icon quick-action _7">
+                      <div class="main-font-icon _86">s</div>
+                      <div class="button-text quick-action-text">Adicionar um item</div>
+                    </div>
+                  </a>
+                   <a href="#" onclick="AddDesconto()" class="add-item-mobile main-text-button desconto w-inline-block">
+                    <div class="icon quick-action _7">
+                      <div class="main-font-icon _86">s</div>
+                      <div class="button-text quick-action-text">Desconto</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              
+              <div class="summery-section">
+                <div class="div-block-93">
+                  <div class="form-field-wrapper inside-grid">
+                  <label for="name" class="form-field-lable">Observações</label></div>
+                  <textarea placeholder="" id="field-2" name="obs"  maxlength="255" data-name="field" class="form-text-field _3 w-input"></textarea>
+                </div>
+                <div class="summery">
+                  <div class="summery-item">
+                    <div>Total Ilíquido</div>
+                    <div><span class="summery-currency">Kz</span><span id="sp_total">0,00</span></div>
+                    <input type="hidden" name="total" value="0.0" id="total" required >
+                  </div>
+                   <div class="summery-item">
+                    <div>Desconto Financeiro</div>
+                    <div><span class="summery-currency">Kz</span><span id="sp_desconto">0,00</span></div>
+                    <input type="hidden" name="desconto_" id="desconto_" value="0.0" required readonly>
+                  </div> 
+                  <div class="summery-item">
+                    <div>Total de Impostos</div>
+                    <div><span class="summery-currency">Kz</span><span id="sp_imposto_">0,00</span></div>
+                    <input type="hidden" name="imposto_" id="imposto_" value="0.0" required readonly>
+                  </div>  
+                  <div id="imposto_retencao" class="summery-item">
+                    <div>Impostos Retidos</div>
+                    <div><span class="summery-currency">Kz</span><span id="sp_imposto_retido_">0,00</span></div>
+                    <input type="hidden" name="imposto_retido_" id="imposto_retido_" value="0.0" required readonly>
+                  </div>                           
+                  <div class="summery-item total">
+                    <div class="total-text">Total</div>
+                    <div><span class="summery-currency">Kz</span><span id="sp_total_final">0,00</span></div>
+                     <input type="hidden"  name="total_final" value="0.0" id="total_final" required readonly>
+                  </div>
+                   <input style="display:none" type="text" name="desconto"  id="desconto" value="0" required>                  
+                </div>
+              </div>
+              
+              <div class="submit-button-section">
+                <div class="_3-buttons-wrapper _0">
+                  <div class="form-field-wrapper inside-grid"><label for="name" class="form-field-lable">Banco</label>
+                    <div class="div-block-101">
+                     <select id="id_contafk" name="id_contafk" data-name="Field 3" class="select-field w-select" required>
+                        <option value="">Selecione...</option>
+                        	<option th:each="c : ${contas}" th:value="${c.idConta}" th:text="${c.banco}" th:if="${c.padrao == 1}" selected></option>
+                        	<option th:each="c : ${contas}" th:value="${c.idConta}" th:text="${c.banco}" th:if="${c.padrao != 1}" ></option>
+                      </select>
+                      </div>
+                  </div>
+                </div>
+                <div class="_3-buttons-wrapper _16 save">
+                  <div class="button main">
+                    <a href="#" onclick="Salvar(1)" class="button-link _100 w-inline-block"></a>
+                    <div class="button-text">Salvar</div>
+                  </div>
+                </div>
+              </div>
+              <input type="hidden"  name="qtdLinhaMain"  id="qtdLinhaMain" value="1">
+              <input type="hidden" th:value="${imposto}" name="imposto">
+              <input type="hidden" id="total_finalF"  name="total_finalF">
+              <input type="hidden" value=""  name="referente">
+                <input type="submit" id="salvar_factura" style="display: none"> 
+            </form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+          <div class="footer hidden">
+            <div class="copyright">Copytight © 2022 Select Services</div>
+            <div class="footer-link-wrapper">
+              <a href="#" class="text-button footer-link w-inline-block">
+                <div>Assistência</div>
+              </a>
+              <a href="#" class="text-button footer-link w-inline-block">
+                <div>Privacidade</div>
+              </a>
+              <a href="#" class="text-button footer-link w-inline-block">
+                <div>Termos e condições</div>
+              </a>
+              <a href="#" class="text-button footer-link w-inline-block">
+                <div>Ficha técnica</div>
+              </a>
+              <a href="#" class="text-button footer-link w-inline-block">
+                <div>Covid-19</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="close-flyout w-inline-block"></a>
+  </div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+   <script src="/js/jquery-1.12.4.js"></script>
+  <script src="/js/jquery-ui.js"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script src="/js/malsup_form.js"></script>
+  <script th:inline="javascript"> 
+  
+  let today = new Date().toISOString().slice(0, 10)
+   dataMais30dias = addDaysToDate(today,30).split("-")       
+  $(".selected_date").val(dataMais30dias[2]+" de "+month[dataMais30dias[1]-1]+", "+dataMais30dias[0]); 
+  
+  /*<![CDATA[*/   
+  var clientes = [[${clientes}]];
+  var produtos = [[${produtos}]];
+  var aux = [[${aux}]]; 
+  var cat = [[${categorias}]];
+  var regime = [[${regime}]];
+   
+/*]]>*/ 
+  
+ var n = 0
+  function Salvar(v){
+     n = v
+   
+     if(regime != null){
+    	 if(parseInt($("#total").val()) <= 0 ){
+			   msg = "Total da factura não pode ser 0 ou inferior!"
+             Alerta(msg)
+             return
+		   }
+    	  if($("#id_cliente").val() == ""){
+			   msg = "Falha ao selecionar cliente"
+              Alerta(msg)
+              return
+		   }
+    	  
+		   $("#salvar_factura").click()
+	   }else{
+		   msg = "Preencha os dados da empresa antes de gerar um documento,"+ 
+	       "clicando em Configurar."
+		
+		AvisoDadosFalta()
+	   }
+  }
+  
+  //  $('#id_cliente').change(function(e) {       
+ //     result  = clientes.find(({ id_cliente }) => id_cliente ===  parseInt($(this).val()));
+  //    Detalhes(result)
+//  });
+  
+
+  
+  
+  function Detalhes(cl) {
+    
+    $(".detalhes").css("display","block")
+    $(".nome_cliente").html(cl.nomeCliente)
+    $(".telemovel_cliente").html(cl.telemovel)
+    $(".endereco_cliente").html(cl.endereco)
+    $(".nif_cliente").html("NIF: "+cl.nif)
+   
+  }
+  
+  var opt='';
+  
+    $.each(cat,function(index, element) {
+    // console.log(index + ' : ' + element.id_categoria);
+    opt+='<option value="'+element.idCategoria+'" >'+element.nomeCategoria+'</option>';
+    });
+  
+      $(function() {
+           
+            $('#form').ajaxForm({
+                beforeSend: function() {               
+                   showLoading();
+                },
+                uploadProgress: function(event, position, total, percentComplete) {
+                  //  var percentVal = percentComplete + '%';
+                  //  bar.width(percentVal);
+                  //  percent.html(percentVal);
+                  //  console.log(percentVal+"jj")
+                },
+                complete: function(xhr) {
+                    console.log(xhr.status);
+                    if(xhr.status == 404){
+                      
+                                      
+                    }else if(xhr.status == 200){  
+                      
+                       if(xhr.responseText.split("||")[0] == "Sucesso"){
+                        msg = "Proforma criada com sucesso!"
+                          if(n == 1){
+                              url = "/fiinika/documentos/proforma/visualizar-proforma/"+xhr.responseText.split("||")[1]+"/"+xhr.responseText.split("||")[1]
+                          }
+                            
+                          if(n == 2 || n == 3){
+                            url = "http://"+window.location.hostname+"/app/pdf/factura_pdf.php?fact="+xhr.responseText.split("||")[1]
+                          }
+                            
+                          if(n == 4){
+                            url = "/fiinika/documentos/proforma/criar-proforma"
+                          }
+                                                      
+                          SucessoRegisto()                      
+                      }
+                       
+                       if(xhr.responseText == "falha"){
+                    	   swal.close()
+                           msg = "Ocorreu uma falha ao salvar a proforma, verifique se preencheu corretamente dos dados documento!"                                             
+                           Error()                   
+                       }
+                       
+                       if(xhr.responseText == "logout"){
+   	                	msg = "Demorou demasiado tempo tem de se autenticar novamente, clique em Login."
+   	                	AvisoAutenticar()	                	
+   	                  }
+                       
+                  }else if(xhr.status == 500){
+                     msg = "Aconteceu um erro inesperado! Tente mais tarde. Caso o problema persistir contacte o suporte"
+                           Error()
+                    }
+                }
+                    
+            });
+        });
+  
+        $('#addRow').on("click", function () {
+          addItem();
+      });
+
+       linha = 0;
+      function addItem() {
+         linha++;
+          var itemRow =       
+                    '<div id="div'+linha+'" class="table-row invoice-item">'+
+                          '<div class="item-number">'+
+                            '<div class="pagination-description">1</div>'+
+                          '</div>'+
+                          
+                          '<input type="hidden"  name="ref_cat" placeholder="#92482" id="ref'+linha+'">'+
+                          
+                          '<div class="table-row-content in-items">'+
+                            '<div class="item-table-cell _30">'+
+                            '<label for="name" class="form-field-lable show-on-mobile">Categoria</label>'+
+                              '<div class="ki">'+
+                              '<select onclick="Categ('+linha+')" required id="id_categoria'+linha+'"    name="id_categoria" data-name="Field 3" class="select-field-copy w-select">'+
+                                   '<option value="">Selecione...</option>'+
+                                    opt+
+                                '</select>'+                               
+                              '</div>'+
+                            '</div>'+
+                            //--Produto
+                            '<div class="item-table-cell _30">'+
+                            '<label for="name" class="form-field-lable show-on-mobile">Produto</label>'+
+                              '<div class="ki">'+
+                              '<select onclick="Prod('+linha+')" id="id_produto'+linha+'" name="id_produto" data-name="Field 3" class="select-field-copy w-select">'+
+                                '</select>'+                               
+                              '</div>'+
+                            '</div>'+
+                            //----- Preco
+                            '<div class="item-cells-wrapper">'+
+                              '<div class="item-table-cell _15 prc-unit">'+
+                              '<label for="name" class="form-field-lable show-on-mobile">Preço un.</label>'+
+                                '<div class="text-field-inner-wrapper">'+
+                                '<input  type="text"  onclick="Preco('+linha+')"    name="preco" id="preco'+linha+'" class="item-text-field with-currency w-input precosss" maxlength="256"  data-name="subtotal" placeholder="0,00" >'+
+                                '<label for="name" class="inside-form-field-lable form-field-currency">Kz</label>'+
+                                '</div>'+
+                              '</div>'+
+                              //--- quantidade
+                              '<div class="item-table-cell _15 qtd">'+
+                              '<label for="name" class="form-field-lable show-on-mobile">Qtd.</label>'+
+                                '<div class="plus-minus-wrap">'+
+                                  '<a   onclick="Menos('+linha+')" class="action-button plus-minus w-inline-block">'+
+                                    '<div class="icon plus-minus">'+
+                                      '<div class="main-font-icon _5">-</div>'+
+                                    '</div>'+
+                                  '</a>'+
+                                  
+                                  '<input  type="text"  onclick="Qtd('+linha+')"  id="qtd'+linha+'" class="item-text-field qtd w-input qtds" maxlength="256" name="qtd" data-name="Quantidade"  placeholder="0">'+
+                                  
+                                  '<a onclick="Mais('+linha+')" class="action-button plus-minus w-inline-block">'+
+                                    '<div class="icon plus-minus">'+
+                                      '<div class="main-font-icon _5">+</div>'+
+                                    '</div>'+
+                                  '</a>'+
+                                '</div>'+
+                              '</div>'+
+                            '</div>'+
+                            
+                            '<input  type="hidden"  maxlength="256" id="taxa'+linha+'" name="taxa_prod" class="taxas">'+
+                            '<input  type="hidden"  maxlength="256" id="tipo_servico'+linha+'" name="tipo_prod" class="servicos">'+
+                          
+                             //---- Subtotal
+                            '<div class="item-table-cell _15 total-item">'+
+                            '<label for="name" class="form-field-lable show-on-mobile">Total.</label>'+
+                              '<div class="text-field-inner-wrapper">'+
+                              '<input readonly type="text" id="subtotal'+linha+'" name="subtotal"   class="item-text-field with-currency liquido w-input sbt" maxlength="256"  data-name="subtotal" placeholder="0,00" >'+
+                              '<label for="name-2" class="inside-form-field-lable form-field-currency">Kz</label>'+
+                              '</div>'+
+                            '</div>'+
+                          '</div>'+
+                          '<div class="item-action">'+
+ 	                        '<a onclick="Rem('+linha+')"  id="'+linha+'" href="#" class="action-button delete-item w-inline-block">'+
+ 	                        '<div class="icon">'+
+ 	                          '<div class="main-font-icon">v</div>'+
+ 	                       '</div>'+
+	 	                    '</a>'+
+	 	                    ' <a href="#" onclick="Rem('+linha+')" class="link-2">Apagar</a>'+
+	 	                    '</div>'+
+	 	                  '</div>';	
+                        
+          $("#items_table").append(itemRow);
+          $("#qtdLinhaMain").val(linha);
+          
+          document.querySelectorAll('.precosss').forEach(function(element) {
+  	        element.addEventListener('input', moeda);
+  	    });
+         
+      }
+
+      addItem();
+
+   
+ </script>
+</body>
+</html>

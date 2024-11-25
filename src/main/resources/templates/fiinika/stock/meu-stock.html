@@ -1,0 +1,424 @@
+<!DOCTYPE html><!--  Last Published: Mon Jul 01 2024 12:21:27 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="667ffbef6a9974c75fe219e4" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<div th:insert="/fragments/script :: script" id="id_script"></div>
+<body>
+  <div class="mother-div _1">
+    <div class="page-content-wrapper">
+    <div th:insert="/fragments/menuAdmin :: menuAdmin"></div>
+      <div class="content _2">
+        <section class="container">
+          <div class="top-section-navigation">
+            <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+              <div class="text-block-129">q</div>
+            </a>
+            <div class="titulo">
+              <div class="text-block-130">Meu stock<br></div>
+            </div>
+          </div>
+          <div class="div-block-8"></div>
+          <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="w-tabs">
+            <div class="tabs-menu w-tab-menu">
+              <a data-w-tab="Tab 1" class="table-tab-link w-inline-block w-tab-link w--current">
+                <div>Stock próprio</div>
+              </a>
+              <a data-w-tab="Tab 2" class="table-tab-link w-inline-block w-tab-link">
+                <div>Stock de fornecedores</div>
+              </a>
+            </div>
+            <div class="tabs-content w-tab-content">
+              <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+                <div class="div-block-119">
+                  <div class="w-layout-grid grid-10">
+                    <div id="w-node-_3fef51c2-83ac-edaa-00e3-fb5711a87f66-5fe219e4" class="div-block-120">
+                      <div class="text-block-133">Total de artigos em Stock</div>
+                      <div class="text-block-134">[[${emStock}]]</div>
+                    </div>
+                    <div id="w-node-_3fef51c2-83ac-edaa-00e3-fb5711a87f6b-5fe219e4" class="div-block-120">
+                      <div class="text-block-133">Artigos com pouco Stock</div>
+                      <div class="text-block-134">[[${poucoStock}]]</div>
+                    </div>
+                    <div id="w-node-_3fef51c2-83ac-edaa-00e3-fb5711a87f70-5fe219e4" class="div-block-120">
+                      <div class="text-block-133">Artigos sem stock</div>
+                      <div class="text-block-134">[[${semStock}]]</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="667ffbef6a9974c75fe219e4" data-wf-element-id="6c9b4652-84c7-fab8-b208-dd0c6304f9f8">
+                      <div class="table">
+                        <div class="table-utility-row">
+                          <div class="form-field-wrapper wrap-search _10">
+                            <div class="search-field-wrapper">
+								<input class="form-search-field w-input" maxlength="256" name="search-9" data-name="Search 9" placeholder="" type="text" id="search-9">
+                              <div class="search-icon">
+                                <div class="icon">
+                                  <div class="main-font-icon smaller-icon">x</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+       
+                          <div class="filter-date-status-wrapper centered _89"><select id="field-7" name="field-7" data-name="Field 7" class="form-text-field whitex w-node-_6c9b4652-84c7-fab8-b208-dd0c6304fa0c-5fe219e4 w-select">
+                              <option value="">Categoria</option>
+                              <option value="First">First choice</option>
+                              <option value="Second">Second choice</option>
+                              <option value="Third">Third choice</option>
+                            </select><select id="field-2" name="field-2" data-name="Field 2" class="form-text-field whitex w-node-_6c9b4652-84c7-fab8-b208-dd0c6304fa0d-5fe219e4 w-select">
+                              <option value="">Estado</option>
+                              <option value="First">First choice</option>
+                              <option value="Second">Second choice</option>
+                              <option value="Third">Third choice</option>
+                            </select></div>
+                        </div>
+                        <div class="table-row cell-label-wrapper _5">
+                          <div class="table-row-content">
+                            <div class="cell-label num">
+                              <div class="table-cell-text">Nº</div>
+                            </div>
+                            <div class="cell-label name-1">
+                              <div class="table-cell-text">Nome</div>
+                            </div>
+                            <div class="cell-label qtd-stock">
+                              <div class="table-cell-text">Qtd em stock</div>
+                            </div>
+                            <div class="cell-label qtd-stock">
+                              <div class="table-cell-text">Estado</div>
+                            </div>
+                          </div>
+                          <div class="separador"></div>
+                        </div>
+                        
+                        <div class="table-row" th:each="p,iterator: ${produtos}" th:with="id=${T(com.ao.fiinikacomercial.funcoes.Funcoes).Codifica(p.idProduto)}" >
+						
+                          <a href="#" class="table-row-content item-link w-inline-block">
+                            <div class="table-cell num-1">
+                              <div class="table-cell-text bold">[[${p.referencia}]]</div>
+                            </div>
+                            <div class="table-cell _25 client-cell namex">
+                              <div class="table-cell-text">[[${p.nomeProduto}]]</div>
+                            </div>
+                            <div class="table-cell qtd-stock">
+                              <div class="status-wrapper pago hidden">
+                                <div class="status-text">Pago</div>
+                              </div>
+                              <div class="status-wrapper nao-pago hidden">
+                                <div class="status-text">Não pago</div>
+                              </div>
+                              <div class="status-wrapper reembolso hidden">
+                                <div class="status-text">Rembolso</div>
+                              </div>
+                              <div class="table-cell-text">[[${p.qtdStock}]]</div>
+                            </div>
+                            <div class="table-cell qtd-stock">
+                              <div class="status-wrapper pago hidden">
+                                <div class="status-text">Pago</div>
+                              </div>
+                              <div class="status-wrapper nao-pago hidden">
+                                <div class="status-text">Não pago</div>
+                              </div>
+                              <div class="status-wrapper reembolso hidden">
+                                <div class="status-text">Rembolso</div>
+                              </div>
+                              <div th:if="${p.qtdStock==0}" class="status-wrapper cancelado">
+                                <div class="status-text">sem stock</div>
+                              </div>
+                              <div  th:if="${p.qtdStock >= 3}" class="status-wrapper pago">
+                                <div class="status-text">em stock</div>
+                              </div>
+                              <div th:if="${p.qtdStock < 3 && p.qtdStock!=0}" class="status-wrapper nao-pago">
+                                <div class="status-text">pouco stock</div>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="separador">
+                            <div class="flyout-menu-wrapper table-actions-flyout">
+                            </div>
+                            <div class="w-layout-grid grid-11">
+                               <a th:onclick="javascript:StockIn(this.getAttribute('produto'),this.getAttribute('nome'),this.getAttribute('qtd'))" th:attr="produto=${p.idProduto},nome=${p.nomeProduto},qtd=${p.qtdStock}" id="w-node-_6c9b4652-84c7-fab8-b208-dd0c6304fa68-5fe219e4" href="#" class="button-3 w-button" data-ix="stock-in-appear">Stock In</a>
+                               <a th:onclick="javascript:StockOut(this.getAttribute('produto'),this.getAttribute('nome'),this.getAttribute('qtd'))" th:attr="produto=${p.idProduto},nome=${p.nomeProduto},qtd=${p.qtdStock}" id="w-node-_6c9b4652-84c7-fab8-b208-dd0c6304fa6a-5fe219e4" href="#" class="button-3 _2 w-button" data-ix="stock-in-appear-2">Stock Out</a>
+                            </div>
+                          </div>
+                          
+
+                        </div>
+
+                      </div>
+                    </form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div data-w-tab="Tab 2" class="w-tab-pane">
+                <div class="div-block-119">
+                  <div class="w-layout-grid grid-10">
+                    <div id="w-node-_199ed8f6-aa91-8385-2e1a-195e24cbabf3-5fe219e4" class="div-block-120">
+                      <div class="text-block-133">Total de artigos em Stock</div>
+                      <div class="text-block-134">000</div>
+                    </div>
+                    <div id="w-node-_199ed8f6-aa91-8385-2e1a-195e24cbabf8-5fe219e4" class="div-block-120">
+                      <div class="text-block-133">Artigos com pouco Stock</div>
+                      <div class="text-block-134">000</div>
+                    </div>
+                    <div id="w-node-_199ed8f6-aa91-8385-2e1a-195e24cbabfd-5fe219e4" class="div-block-120">
+                      <div class="text-block-133">Artigos sem stock</div>
+                      <div class="text-block-134">000</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="667ffbef6a9974c75fe219e4" data-wf-element-id="d65ae46c-6e4e-4741-64d6-fbcb2087f60c">
+                      <div class="table">
+                        <div class="table-utility-row">
+                          <div class="form-field-wrapper wrap-search _10">
+                            <div class="search-field-wrapper"><input class="form-search-field w-input" maxlength="256" name="search-9" data-name="Search 9" placeholder="" type="text" id="search-9">
+                              <div class="search-icon">
+                                <div class="icon">
+                                  <div class="main-font-icon smaller-icon">x</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="table-main-button-wrapper">
+                            <div class="button main">
+                              <div class="left-icon-wrapper">
+                                <div class="icon left-icon">
+                                  <div class="main-font-icon">add</div>
+                                </div>
+                              </div>
+                              <div class="button-text">Criar Fatura</div>
+                              <a href="#" class="button-link w-inline-block"></a>
+                            </div>
+                          </div>
+                          <div class="filter-date-status-wrapper centered _89"><select id="field-7" name="field-7" data-name="Field 7" class="form-text-field whitex w-node-d65ae46c-6e4e-4741-64d6-fbcb2087f620-5fe219e4 w-select">
+                              <option value="">Categoria</option>
+                              <option value="First">First choice</option>
+                              <option value="Second">Second choice</option>
+                              <option value="Third">Third choice</option>
+                            </select><select id="field-2" name="field-2" data-name="Field 2" class="form-text-field whitex w-node-d65ae46c-6e4e-4741-64d6-fbcb2087f621-5fe219e4 w-select">
+                              <option value="">Estado</option>
+                              <option value="First">First choice</option>
+                              <option value="Second">Second choice</option>
+                              <option value="Third">Third choice</option>
+                            </select></div>
+                        </div>
+                        <div class="table-row cell-label-wrapper _5">
+                          <div class="table-row-content">
+                            <div class="cell-label num">
+                              <div class="table-cell-text">Nº</div>
+                            </div>
+                            <div class="cell-label name-1">
+                              <div class="table-cell-text">Nome</div>
+                            </div>
+                            <div class="cell-label qtd-stock">
+                              <div class="table-cell-text">Qtd em stock</div>
+                            </div>
+                            <div class="cell-label qtd-stock">
+                              <div class="table-cell-text">Estado</div>
+                            </div>
+                          </div>
+                          <div class="separador"></div>
+                        </div>
+             
+              
+                
+                      </div>
+                    </form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  <div class="close-flyout"></div>
+  <section class="m1">
+    <div class="stock-in-div">
+      <div class="div-block-121">
+        <div class="div-block-123">
+          <div class="text-block-130">Stock In <span id="nomeIn"></span><br></div>
+        </div>
+        <div class="w-form">
+          <form id="formIn" action="/admin/stock-in" name="email-form-2" data-name="Email Form 2" method="POST" data-wf-page-id="667ffbef6a9974c75fe219e4" data-wf-element-id="9857a7aa-9dbc-05aa-b9e7-bc16e033a613">
+            <div class="criar-content-wrapper-copy">
+              <div class="form-field-wrapper"><label for="name" class="form-field-lable">Quantidade em stock</label>
+                <div class="text-block-135" id="qtdIn"></div>
+              </div>
+              <div class="form-field-wrapper">
+				  <label for="name" class="form-field-lable">Quantidade a adicionar</label>
+				  <input class="form-text-field w-input" maxlength="256" pattern="^[1-9]\d*$" name="qtdStock" data-name="Field 2" placeholder="" type="text" id="qtdStock" required>
+			  </div>
+              <div class="create-div"  style="display: none;">
+                <a href="#" id="stock-in-dissapear" class="button main w-button" data-ix="stock-in-dissapear">Guardar</a>
+              </div>
+                <div class="create-div">
+                <a  class="button main w-button"  onclick="SubmitIn()" >Guardar</a>
+              </div>
+            </div>
+              <input type="hidden" name="produto" id="produto" >
+              <input type="submit" id="stockIn" style="display: none;">
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="button-4 w-button" data-ix="stock-in-dissapear">FECHAR</a>
+    </div>
+    
+    <div class="stock-out-div">
+      <div class="div-block-121">
+        <div class="div-block-123">
+          <div class="text-block-130">Stock Out <span id="nomeOut"></span><br></div>
+        </div>
+        <div class="w-form">
+          <form id="formOut" action="/admin/stock-out" name="email-form-2" data-name="Email Form 2" method="POST" data-wf-page-id="667ffbef6a9974c75fe219e4" data-wf-element-id="a4ac137d-3f2f-94ff-58e3-b25e681639bf">
+            <div class="criar-content-wrapper-copy">
+              <div class="form-field-wrapper"><label for="name" class="form-field-lable">Quantidade em stock</label>
+                <div class="text-block-135" id="qtdOut"></div>                
+              </div>
+              <div class="form-field-wrapper"><label for="name" class="form-field-lable">Quantidade a remover</label>
+              <input class="form-text-field w-input" maxlength="256" pattern="^[1-9]\d*$" name="qtdStock" id="qtdStock" data-name="Field 2" placeholder="" type="text"></div>
+              
+              <div class="create-div"  style="display: none;">
+                <a href="#" id="stock-out-dissapear" class="button main w-button" data-ix="stock-out-dissapear">Guardar</a>
+              </div>
+               <div class="create-div">
+                <a class="button main w-button" onclick="SubmitOut()">Guardar</a>
+              </div>
+            </div>
+          <input type="hidden" name="produto" id="produtoOut" >
+          <input type="submit" id="stockOut" style="display: none;">
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="button-4 w-button" data-ix="stock-out-dissapear">FECHAR</a>
+    </div>
+    
+    
+  </section>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+  <script src="/js/malsup_form.js"></script>
+  <script th:inline="javascript">
+  
+   let today = new Date().toISOString().slice(0, 10)
+  
+   /*<![CDATA[*/           
+  /*]]>*/
+
+		//msg ="Erro no servidor de momento é possivel satisfazer o seu pedido!"          
+     //   Error() 
+
+		var prodQuestao = ""
+		function SubmitIn(){
+			$("#stockIn").click()
+		}
+		
+		function SubmitOut(){
+			$("#stockOut").click()
+		}
+		
+		function StockIn(id,nome,qtd){
+			$("#nomeIn").html("("+nome+")")
+			$("#qtdIn").html(qtd+" Unid")
+			$("#produto").val(id)
+			prodQuestao = $("#id"+id)
+		}
+		
+		function StockOut(id,nome,qtd){
+			$("#nomeOut").html("("+nome+")")
+			$("#qtdOut").html(qtd+" Unid")
+			$("#produtoOut").val(id)
+			prodQuestao = $("#id"+id)
+		}
+		
+		   
+  $(function() {
+     
+      $('#formIn').ajaxForm({
+          beforeSend: function() {               
+          	 //showLoading();
+          },
+          uploadProgress: function(event, position, total, percentComplete) {
+              var percentVal = percentComplete + '%';
+              bar.width(percentVal);
+              percent.html(percentVal);
+          },
+          complete: function(xhr) {
+           
+               if(xhr.status == 401){
+              	Falha()  	
+               }
+	           if(xhr.status == 200 || xhr.status == 201){
+			    prodQuestao.html(xhr.responseText)
+	      		msg = "Stock In efectuado com sucesso"
+	            Sucesso()
+	            $("#qtdStock").val("")
+	            $("#stock-in-dissapear").click()
+	          }
+          }
+      });
+  });
+  
+   $(function() {
+     
+      $('#formOut').ajaxForm({
+          beforeSend: function() {               
+          	 //showLoading();
+          },
+          uploadProgress: function(event, position, total, percentComplete) {
+              var percentVal = percentComplete + '%';
+              bar.width(percentVal);
+              percent.html(percentVal);
+          },
+          complete: function(xhr) {
+			  
+			   if(xhr.status == 404){
+                msg = "O stock para este produto já está em 0"
+	            Alerta()
+               }           
+               if(xhr.status == 401){
+              	Falha()  	
+               }
+	           if(xhr.status == 200 || xhr.status == 201){
+			    prodQuestao.html(xhr.responseText)
+	      		msg = "Stock Out efectuado com sucesso"
+	            Sucesso()
+	            $("#qtdStock").val("")
+	            $("#stock-out-dissapear").click()
+	          }
+          }
+      });
+  });
+		
+	</script>
+</body>
+</html>

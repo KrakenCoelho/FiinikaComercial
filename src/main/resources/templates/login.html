@@ -1,0 +1,92 @@
+<!DOCTYPE html><!--  Last Published: Wed Jun 26 2024 14:31:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="667ada12e2b008b7d4b9eeea" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<div th:insert="/fragments/script :: script" id="id_script"></div>
+<body>
+  <div class="auth-bg">
+    <div class="auth-form-wrapper w-form">
+      <form id="form" name="wf-form-Login" action="/process-login" data-name="Login" method="POST" class="auth-form" data-wf-page-id="667ada12e2b008b7d4b9eeea" data-wf-element-id="8baebe63-9127-f0b4-2a38-35a779b5cb60">
+        <div class="form-content">
+          <div class="form-header flex">
+            <div class="form-logo-wrapper"><img sizes="160px" srcset="images/Fiinika-Comercial_logo_main-p-500.png 500w, images/Fiinika-Comercial_logo_main-p-800.png 800w, images/Fiinika-Comercial_logo_main-p-1080.png 1080w, images/Fiinika-Comercial_logo_main.png 1194w" src="images/Fiinika-Comercial_logo_main.png" loading="eager" alt="Jornal O Pais - Logotipo"></div>
+          </div>
+          <div class="form-header">
+            <h1 class="pages-h2">Faça login para continuar</h1>
+          </div>
+          <div class="form-field-wrapper-2">
+            <label for="Telemovel" class="field-lable">Número de telemóvel</label>
+            <input class="text-field w-input"  pattern="[0-9]+$" maxlength="256" name="telemovel" data-name="Telemovel" placeholder="" type="text" id="phone" required=""></div>
+          <div class="form-field-wrapper-2">
+            <label for="Senha" class="field-lable">Senha</label>
+            <input type="password" class="text-field w-input" maxlength="256" name="password" data-name="Senha" placeholder="" id="password" required="">
+            <div class="restore-password-cta-wrapper">
+              <div class="restore-password-cta-text">Esqueceu a senha? <a href="fiinika/seguranca/esqueceu-a-senha-tel" class="form-cta">Repor senha</a>
+              </div>
+            </div>
+            <div class="restore-password-cta-wrapper">
+              <div class="restore-password-cta-text"><a href="/inscricao" class="form-cta">Criar conta</a>
+              </div>
+            </div> 
+          </div>
+            <a href="#" onclick="Submit()" class="submit-button">Iniciar sessão</a>
+            <input type="submit" value="" id="entrar" style="display: none;">
+        </div>
+      </form>
+      <div class="w-form-done">
+        <div>Thank you! Your submission has been received!</div>
+      </div>
+      <div  id="falha" class="w-form-fail">
+        <div>Credenciais incorretas</div>
+      </div>
+    </div>
+    <div class="auth-image-overlay"></div>
+  </div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+   <script src="/js/malsup_form.js"></script>
+  <script>
+    
+  
+  function Submit(){
+  $("#entrar").click()
+  }
+  
+   
+  $(function() {
+     
+      $('#form').ajaxForm({
+          beforeSend: function() {               
+             //showLoading();
+          },
+          uploadProgress: function(event, position, total, percentComplete) {
+              var percentVal = percentComplete + '%';
+              bar.width(percentVal);
+              percent.html(percentVal);
+          },
+          complete: function(xhr) {
+          
+              if(xhr.status == 401){        
+                Falha()
+                $("#password").val("")                  
+              }
+
+              if(xhr.status == 200){  
+                  if(xhr.responseText == "1" || xhr.responseText == "2" ){
+                    url = "/fiinika/dashboard"
+                    } 
+                    
+                 if(xhr.responseText == "3" ){
+                   url = "/fiinika/dashboard"
+                 }
+                  
+                  msg = "Login efectuado com sucesso"
+                    SucessoLogin()
+                }
+          }
+      });
+  });
+</script>
+</body>
+</html>

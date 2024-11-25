@@ -1,0 +1,101 @@
+<!DOCTYPE html><!--  Last Published: Wed Jun 26 2024 14:31:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="667ada12e2b008b7d4b9ef75" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<body>
+  <div class="mother-div">
+    <div class="html-embed w-embed"></div>
+    <div class="close-flyout"></div>
+    <div class="page-content-wrapper">
+     <div th:insert="/fragments/menuAdmin :: menuAdmin"></div> 
+      <div class="content">
+        <div class="top-section-navigation">
+          <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+            <div class="text-block-129">q</div>
+          </a>
+          <div class="titulo">
+            <div class="text-block-130">Proforma<br></div>
+          </div>
+          <div class="bot-o-ou-menu">
+<!--            <a href="/fiinika/documentos/proforma/editar-proforma" class="action-button w-inline-block">-->
+<!--              <div class="icon quick-action">-->
+<!--                <div class="main-font-icon u">u</div>-->
+<!--                <div class="button-text quick-action-text">Editar</div>-->
+<!--              </div>-->
+<!--            </a>-->
+          </div>
+        </div>
+        <section class="container">
+          <div class="div-block-10" th:each="f : ${factura}">
+            <div class="w-layout-grid grid-4">
+              <div id="w-node-_8826a882-ea95-64f1-cb1b-12ef593a42fb-a759311c">
+                <div class="list-item">
+                  <div class="list-item-lable">Nº</div>
+                  <div class="list-item">[[${f[1]}]]</div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-lable">Data de criação</div>
+                  <div class="list-item">[[${f[2]}]]</div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-lable">Valor</div>
+                  <div class="list-item">KZ [[${#numbers.formatDecimal(f[11], 1, 'POINT', 2, 'COMMA')}]]</div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-lable">Impostos</div>
+                  <div class="list-item">KZ [[${#numbers.formatDecimal(f[12], 1, 'POINT', 2, 'COMMA')}]]</div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-lable">Operador</div>
+                  <div class="list-item">[[${f[19]}]]</div>
+                </div>
+              </div>
+              <div id="w-node-_8826a882-ea95-64f1-cb1b-12ef593a4310-d4b9ef75">
+                <div class="list-item">
+                  <div class="list-item-lable">Cliente</div>
+                  <div class="list-item">[[${f[8]}]]</div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-lable">Prazo de validade</div>
+                  <div class="list-item">[[${f[2]}]]</div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-lable">Acção</div>
+                  <div class="_3-buttons-wrapper _800">
+                    <a h:href="@{'/fiinika/documentos/pdf/emp/'+${aux}}" target="_new" class="action-button full w-inline-block imprimir">
+                      <div class="icon quick-action">
+                        <div class="main-font-icon">w</div>
+                        <div class="button-text quick-action-text">Descarregar</div>
+                      </div>
+                    </a>
+                    <a  th:href="@{'/fiinika/documentos/pdf/emp/'+${aux}}" target="_new" class="action-button full w-inline-block imprimir">
+                      <div class="icon quick-action">
+                        <div class="main-font-icon">o</div>
+                        <div class="button-text quick-action-text">Imprimir</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <a href="#" class="close-flyout w-inline-block"></a>
+  </div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+     <script th:inline="javascript">
+
+     /*<![CDATA[*/		
+	 
+	  url = "https://"+window.location.hostname+"/app/pdf/factura_pdf.php?fact="+[[${aux}]]
+	 
+	  $(".imprimir").attr("href", url)
+	  	/*]]>*/
+	  </script>
+  
+</body>
+</html>

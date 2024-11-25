@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searchable Select</title>
+    <style>
+        .select-container {
+            position: relative;
+            width: 300px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 5px;
+        }
+        .custom-select {
+            position: absolute;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: white;
+            max-height: 200px;
+            overflow-y: auto;
+            display: none;
+        }
+        .custom-select option {
+            padding: 10px;
+            cursor: pointer;
+        }
+        .custom-select option:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="select-container">
+        <input type="text" class="search-input" placeholder="Search for a category..." id="searchInput">
+        <select id="categorySelect" class="custom-select" size="5">
+            <option value="electronics">Electronics</option>
+            <option value="books">Books</option>
+            <option value="clothing">Clothing</option>
+            <option value="home_appliances">Home Appliances</option>
+            <option value="furniture">Furniture</option>
+            <option value="toys">Toys</option>
+            <option value="sports">Sports</option>
+            <option value="beauty">Beauty</option>
+            <option value="automotive">Automotive</option>
+        </select>
+    </div>
+
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const categorySelect = document.getElementById('categorySelect');
+
+        // Show the dropdown on input focus
+        searchInput.addEventListener('focus', () => {
+            categorySelect.style.display = 'block';
+        });
+
+        // Filter options based on the search input
+        searchInput.addEventListener('input', function() {
+            const filter = this.value.toLowerCase();
+            const options = categorySelect.options;
+
+            for (let i = 0; i < options.length; i++) {
+                const option = options[i];
+                const text = option.text.toLowerCase();
+                option.style.display = text.includes(filter) ? '' : 'none';
+            }
+        });
+
+        // Hide the dropdown when an option is selected
+        categorySelect.addEventListener('change', function() {
+            searchInput.value = categorySelect.options[categorySelect.selectedIndex].text;
+            categorySelect.style.display = 'none';
+        });
+
+        // Hide dropdown if clicked outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.select-container')) {
+                categorySelect.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

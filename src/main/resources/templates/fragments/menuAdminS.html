@@ -1,0 +1,55 @@
+   <div th:fragment="menuAdminS" class="sidenav">
+        <div class="logo-wrapper">
+          <a href="#" class="logo-link w-inline-block"><img src="/images/dexa-contas-white.png" loading="lazy" width="124" srcset="/images/dexa-contas-white-p-500.png 500w, /images/dexa-contas-white.png 750w" sizes="(max-width: 767px) 100vw, 123.984375px" alt="" class="logo-2"></a>
+        </div>
+        <div class="sidebar-menu-wrapper">
+          <div class="menu-item-2">
+            <a href="/hbzd/dx/dashboard" aria-current="page" class="menu-link w-inline-block w--current">
+              <div class="menu-link-icon">
+                <div class="icon">
+                  <div class="main-font-icon">a</div>
+                </div>
+              </div>
+              <div class="menu-link-text">Início</div>
+            </a>
+            
+            <a href="/hbzd/dx/empresas" class="menu-link w-inline-block">
+              <div class="menu-link-icon">
+                <div class="icon">
+                  <div class="main-font-icon">j</div>
+                </div>
+              </div>
+              <div class="menu-link-text">Empresas</div>
+            </a>
+           
+          
+
+          </div>
+          <div class="menu-item-2 bottom">
+            <a th:if="${tipo_sub == 1}" th:style="${display_none}" href="/dexa/configuracoes/saft" class="menu-link w-inline-block">
+              <div class="menu-link-icon">
+                <div class="icon">
+                  <div class="main-font-icon">6</div>
+                </div>
+              </div>
+              <div class="menu-link-text">SAF-T</div>
+            </a>
+            <a th:style="${display_none}" href="/dexa/configuracoes/todas-configuracoes" class="menu-link w-inline-block">
+              <div class="menu-link-icon">
+                <div class="icon">
+                  <div class="main-font-icon">e</div>
+                </div>
+              </div>
+              <div class="menu-link-text">Configurações</div>
+            </a>
+            <a href="#" onclick="Logout()" class="menu-link w-inline-block">
+              <div class="menu-link-icon">
+                <div class="icon">
+                  <div class="main-font-icon">q</div>
+                </div>
+              </div>
+              <div class="menu-link-text">Logout</div>
+            </a>
+          </div>
+        </div>
+      </div>

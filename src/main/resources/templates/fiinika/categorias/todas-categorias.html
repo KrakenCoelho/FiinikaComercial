@@ -1,0 +1,42 @@
+<!DOCTYPE html><!--  Last Published: Wed Jun 26 2024 14:31:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="667ada12e2b008b7d4b9ef69" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<body>
+  <div class="mother-div _1">
+    <div class="page-content-wrapper">
+      <div th:insert="/fragments/menuAdmin :: menuAdmin"></div>   
+      <div class="content _2">
+        <div class="container">
+          <div class="top-section-navigation">
+            <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+              <div class="text-block-129">q</div>
+            </a>
+            <div class="titulo">
+              <div class="text-block-130">Categorias<br></div>
+            </div>
+            <div class="bot-o-ou-menu">
+              <a href="/fiinika/categorias/criar-categoria" class="botao w-button">Criar Categoria</a>
+            </div>
+          </div>
+          <section class="criar-page-section">
+            <div class="container">
+              <div class="form-section">
+                <div class="categoria-content-wrapper">
+                <a th:each="c,iterator: ${categorias}" th:with="id=${T(com.ao.fiinikacomercial.funcoes.Funcoes).Codifica(c.idCategoria)}" th:href="@{'/fiinika/categorias/categoria-page/' + ${id}}" class="categoria-link w-inline-block">
+                  <div class="table-header-copy">[[${c.nomeCategoria}]]</div>
+                  <div class="categoria-chevron-holder"></div>
+                </a>                  
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html><!--  Last Published: Wed Jun 26 2024 14:31:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="667ada12e2b008b7d4b9ef0b" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<div th:insert="/fragments/script :: script" id="id_script"></div>
+<body>
+  <div class="mother-div">
+    <div class="html-embed w-embed"></div>
+    <div class="close-flyout"></div>
+    <div class="page-content-wrapper">
+    <div th:insert="/fragments/menuAdmin :: menuAdmin"></div>
+      <div class="content">
+        <section class="criar-page-section">
+          <div class="container">
+            <div class="top-section-navigation">
+              <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+                <div class="text-block-129">q</div>
+              </a>
+              <div class="titulo">
+                <div class="text-block-130">Editar Categoria<br></div>
+              </div>
+            </div>
+            <div class="form-wrapper w-form">
+            <div class="form-wrapper w-form" th:each="c,iterator: ${categoria}">
+            
+              <form action="/categoria/editada" method="POST" id="form" name="wf-form-Criar-Fatura" data-name="Criar Fatura"  class="form">
+                <div class="form-section tighter">
+                  <div class="criar-content-wrapper">
+                    <div class="form-field-wrapper">
+                    <label for="name" class="form-field-lable">Nome da categoria</label>
+                    <input type="text" class="form-text-field w-input" maxlength="256" name="nomeCategoria" th:value="${c.nomeCategoria}" data-name="Field" placeholder="" id="field" required>
+                    </div>
+                    <div class="form-field-wrapper">
+                    <label for="name" class="form-field-lable">Referência (Exemplo: RDT)</label>
+                    <input type="text" class="form-text-field w-input" maxlength="256" name="referencia_categoria" th:value="${c.referencia_categoria}" data-name="Field 2" placeholder="" id="field-2" required>
+                    </div>
+                  </div>
+                </div>
+                  <input type="text" name="aux" th:value="${aux}" style="display: none"> 
+                  <input type="submit" id="salvar_categoria" style="display: none"> 
+                   <div class="create-div">
+                    <a href="#" onclick="Salvar()" class="button main mobile w-button">Guardar</a>
+                  </div>
+              </form>
+              
+              <div class="w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="w-form-fail">
+                <div>Oops! Something went wrong while submitting the form.</div>
+              </div>
+            </div>
+              <div class="w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="w-form-fail">
+                <div>Oops! Something went wrong while submitting the form.</div>
+              </div>
+            </div>
+            <div class="div-block-106">
+              <a th:if="${cont == 0}" onclick="AvisoDelete()"  href="#"  class="action-button cncel w-inline-block">
+                <div class="icon quick-action">
+                  <div class="main-font-icon">v</div>
+                  <div class="button-text quick-action-text">Apagar</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+   <script src="/js/malsup_form.js"></script>
+  <script th:inline="javascript">
+  
+  function Salvar(){
+	
+	  $("#salvar_categoria").click()
+  }
+  
+    $(function() {
+       
+        $('#form').ajaxForm({
+            beforeSend: function() {               
+            	 showLoading();
+            },
+            uploadProgress: function(event, position, total, percentComplete) {
+             
+            },
+            complete: function(xhr) {
+                console.log(xhr);
+                if(xhr.status == 404){
+                	console.log()
+                	              	
+                }else if(xhr.status == 200){  
+                	if(xhr.responseText == "nif_existis"){
+                		msg = "Não é possível registar este nif"
+                		Alerta(msg)
+              		  }	
+	            	if(xhr.responseText == "email_existis"){
+                		msg = "Não é possível registar este email"
+                		Alerta(msg)
+              		  }
+	                if(xhr.responseText == "Sucesso"){
+	                	msg = "Categoria alterada com sucesso!"
+	                	url = "/fiinika/categorias/todas-categorias"
+	                	SucessoRegisto()
+	                }
+	                if(xhr.responseText == "logout"){
+	                	msg = "Demorou demasiado tempo tem de se autenticar novamente, clique em Login."
+	                	AvisoAutenticar()
+	                	
+	                }
+                }else if(xhr.status == 500){
+             	   msg = "Aconteceu um erro inesperado! Tente mais tarde. Caso o problema persistir contacte o suporte"
+                       Error()
+                }
+	            	
+                	
+                	
+            }
+        });
+    });
+    
+
+    /*<![CDATA[*/     
+  	user = [[${aux}]];	      
+  	/*]]>*/
+  	msg = "Categoria"
+  	msg_elim = "Categoria eliminada com sucesso"
+  	url_elim = "/ajax_delete/categoria"
+  	url = "/fiinika/categorias/todas-categorias"
+    
+    </script>
+</body>
+</html>

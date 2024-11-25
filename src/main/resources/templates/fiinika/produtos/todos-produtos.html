@@ -1,0 +1,396 @@
+<!DOCTYPE html><!--  Last Published: Thu Oct 20 2022 15:51:18 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="63262895b8a0d85c81593114" data-wf-site="63262895b8a0d849ca593091">
+<head th:insert="/fragments/header :: header"></head>
+<body>
+  <div class="mother-div">
+    <div class="page-content-wrapper">
+
+      
+      
+      <div th:insert="/fragments/menuAdmin :: menuAdmin"></div>
+      
+      
+      
+      <div class="content">
+        <section class="criar-page-section">
+          <div class="container">
+            <div class="form-section">
+            <div class="top-section-navigation">
+              <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+                <div class="text-block-129">q</div>
+              </a>
+              <div class="titulo">
+                <div class="text-block-130">Artigos<br></div>
+              </div>
+              <div class="bot-o-ou-menu">
+                <a href="/fiinika/produtos/criar-produto" class="botao w-button">Criar artigo</a>
+              </div>
+            </div>
+              <div class="form-section _5">
+              <div class="form-wrapper w-form">
+                <form id="wf-form-Criar-Fatura" name="wf-form-Criar-Fatura" data-name="Criar Fatura" method="get" class="form">
+                  <div class="form-section">
+                    <div class="table">
+                      <div class="table-utility-row">
+                        <div class="form-field-wrapper wrap-search _10">
+                          <div class="search-field-wrapper"><input type="text" class="form-search-field w-input pesquisa" maxlength="256" name="search" data-name="search" placeholder="" id="search">
+                            <div class="search-icon">
+                              <div class="icon">
+                                <div class="main-font-icon smaller-icon">x</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="table-main-button-wrapper">
+                          <div class="button main">
+                            <div class="left-icon-wrapper">
+                              <div class="icon left-icon">
+                                <div class="main-font-icon">add</div>
+                              </div>
+                            </div>
+                            <div class="button-text">Criar Fatura</div>
+                            <a href="#" class="button-link w-inline-block"></a>
+                          </div>
+                        </div>
+                        <div class="div-block-108">
+                        <select id="categoria" name="field-2" data-name="Field 2" class="form-text-field whitex w-select">
+                            <option value="">Filtrar categoria...</option>
+                            <option th:each="c,cont: ${categorias}" th:value="${c.idCategoria}">[[${c.nomeCategoria}]]</option>        
+                          </select>
+                        </div>
+                      </div>
+                      
+                      <div class="table-row cell-label-wrapper">
+                        <div class="table-row-content">
+                          <div class="cell-label _10">
+                            <div class="table-cell-text">REF</div>
+                          </div>
+                          <div class="cell-label _10">
+                            <div class="table-cell-text">IMG</div>
+                          </div>
+                          <div class="cell-label _25">
+                            <div class="table-cell-text">Nome</div>
+                          </div>
+                          <div class="cell-label _20">
+                            <div class="table-cell-text">Categoria</div>
+                          </div>
+                          <div class="cell-label _25">
+                            <div class="table-cell-text">Imposto</div>
+                          </div>
+                          <div class="cell-label _15">
+                            <div class="table-cell-text">Preço Un.</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div id="div_main">
+                      <div class="table-row produtos"  th:each="p,iterator: ${produtos}" th:with="id=${T(com.ao.fiinikacomercial.funcoes.Funcoes).Codifica(p[0])}">
+                   
+                        <a th:href="@{'/fiinika/produtos/produto-page/' + ${id}}"  class="table-row-content item-link w-inline-block">
+                          <div class="table-cell _10 i">
+                            <div class="table-cell-text">[[${p[1]}]]</div>
+                          </div>
+                          <div class="table-cell _10 _800">
+                            <div class="table-image-wrapper">
+                            <img sizes="(max-width: 479px) 60px, (max-width: 767px) 13vw, (max-width: 991px) 6vw, 4vw" th:src="@{'/imgs/produtos/'+ ${p[2]}}" alt="" class="img is--contain"></div>
+                          </div>
+                          <div class="table-cell _25">
+                            <div class="table-cell-text">[[${p[3]}]]</div>
+                          </div>
+                          <div class="table-cell _20 i">
+                            <div class="table-cell-text">[[${p[4]}]]</div>
+                          </div>
+                          <div class="table-cell _25 i">
+                            <div th:if="${#lists.contains(p[5], '---')}" class="table-cell-text">[[${p[6]}]]</div>
+                            <div th:unless="${#lists.contains(p[5], '---')}" class="table-cell-text">[[${p[5]}]] - [[${p[6]}]]</div>
+                          </div>
+                          <div class="table-cell _15">
+                            <div class="table-cell-text currency">Kz</div>
+                            <div class="table-cell-text">[[${#numbers.formatDecimal(p[7], 1, 'POINT', 2, 'COMMA')}]]</div>
+                          </div>
+                        </a>
+                        <div class="table-row-action-button-wrapper">
+                         
+                          <div class="flyout-menu-wrapper table-actions-flyout">
+                            <div class="flyout-menu-content in-table">
+                              <a th:href="@{'/fiinika/produtos/produto-page/' + ${id}}"  class="menu-item w-inline-block">
+                                <div class="menu-icon-wrapper">
+                                  <div class="icon menu-left-icon">
+                                    <div class="material-symbols-rounded">visibility</div>
+                                  </div>
+                                </div>
+                                <div class="button-text">Visualizar</div>
+                              </a>
+                              <a th:href="@{'/fiinika/produtos/editar-produto/' + ${id}}"  class="menu-item w-inline-block">
+                                <div class="menu-icon-wrapper">
+                                  <div class="icon menu-left-icon">
+                                    <div class="main-font-icon u">u</div>
+                                  </div>
+                                </div>
+                                <div class="button-text">Editar</div>
+                              </a>
+                              <a href="#" class="menu-item w-inline-block">
+                                <div class="menu-icon-wrapper">
+                                  <div class="icon menu-left-icon">
+                                    <div class="material-symbols-rounded">Delete</div>
+                                  </div>
+                                </div>
+                                <div class="button-text">Eliminar</div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      
+                      <div id="div_documentos"></div>
+                      
+                    </div>
+                  </div>
+                </form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
+              </div>
+            </div>
+           </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="close-flyout"></div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+   <script type="text/javascript">
+	
+  $('.form-text-field').change(
+          function() {
+        	  
+        	  if($(this).val()== ""){
+        		  $("#div_main").css("display","block")
+    	    	  $("#div_documentos").css("display","none")
+        		  return
+        	  }
+  	  
+              $.getJSON("/ajax/docs_produtos", {
+            	  categoria: $(this).val(),
+                  ajax : 'true'
+              }, function(data) {     
+                 
+    	          var html = '',i, div_tipo = '';
+    	          var len = data.length;
+    	        console.log(data)
+    	    if(len>0){	
+    	    	  $("#div_main").css("display","none")
+    	    	  $("#div_documentos").css("display","block")
+    	    	  
+    	    	for(i=0; i < data[0].length; i++){
+    	    		
+    	    	   if(data[0][i][5].includes("---")){
+    	    		   div_tipo = '<div class="table-cell-text">'+data[0][i][6]+'</div>'
+    	    	   }else{
+    	    		   div_tipo = '<div class="table-cell-text">'+data[0][i][5]+' - '+data[0][i][6]+'</div>'
+    	    	 }
+    	    	
+    	    		
+    	       html +='<div class="table-row">'+
+                        '<label class="w-checkbox table-checkbox-wrapper">'+
+                          '<div class="w-checkbox-input w-checkbox-input--inputType-custom table-checkbox"></div><input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"><span class="checkbox-lable hidden w-form-label" for="checkbox-2">Checkbox</span>'+
+                        '</label>'+
+                        '<a href="/fiinika/produtos/produto-page/'+data[1][i]+'"  class="table-row-content item-link w-inline-block">'+
+	                        '<div class="table-cell _10 i">'+
+	                          '<div class="table-cell-text">'+data[0][i][1]+'</div>'+
+	                        '</div>'+
+	                        '<div class="table-cell _10 _800">'+
+	                          '<div class="table-image-wrapper">'+
+	                          '<img sizes="(max-width: 479px) 60px, (max-width: 767px) 13vw, (max-width: 991px) 6vw, 4vw" src="/imgs/produtos/'+data[0][i][2]+'" alt="" class="img is--contain"></div>'+
+	                        '</div>'+
+	                        '<div class="table-cell _25">'+
+	                          '<div class="table-cell-text">'+data[0][i][3]+'</div>'+
+	                        '</div>'+
+	                        '<div class="table-cell _20 i">'+
+	                          '<div class="table-cell-text">'+data[0][i][4]+'</div>'+
+	                        '</div>'+
+	                        '<div class="table-cell _25 i">'+
+	                          div_tipo+
+	                        '</div>'+
+	                        '<div class="table-cell _15">'+
+	                          '<div class="table-cell-text currency">Kz</div>'+
+	                          '<div class="table-cell-text">'+data[0][i][7]+'</div>'+
+	                        '</div>'+
+	                      '</a>'+
+                        '<div class="table-row-action-button-wrapper">'+
+                         
+                          '<div class="flyout-menu-wrapper table-actions-flyout">'+
+                            '<div class="flyout-menu-content in-table">'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">visibility</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Visualizar</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Print</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Imprimir</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Download</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Descarregar</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Delete</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Eliminar</div>'+
+                              '</a>'+
+                            '</div>'+
+                          '</div>'+
+                        '</div>'+                        
+                      '</div>'
+    	    		  
+    	    		
+    	    	}
+    	    	 
+    	          $('#div_documentos').html(html);                                   
+    	     }else{    	    	
+    			  $('#div_documentos').html('Não foram encontrados documentos');     
+    			}
+  				
+  			
+              });
+          });
+  //================================================= PESQUISA POR NOME DO PRODUTO
+  
+  $('.pesquisa').keyup(function(){    
+        	  
+        	  if($(this).val()== ""){
+        		  $("#div_main").css("display","block")
+    	    	  $("#div_documentos").css("display","none")
+        		  return
+        	  }
+  	  
+              $.getJSON("/ajax/docs_produtos_pesquisa", {
+            	  nome: $(this).val(),
+                  ajax : 'true'
+              }, function(data) {     
+                 
+    	          var html = '',i, div_tipo = '';
+    	          var len = data.length;
+    	        console.log(data)
+    	    if(len>0){	
+    	    	  $("#div_main").css("display","none")
+    	    	  $("#div_documentos").css("display","block")
+    	    	  
+    	    	for(i=0; i < data[0].length; i++){
+    	    		
+    	    	   if(data[0][i][5].includes("---")){
+    	    		   div_tipo = '<div class="table-cell-text">'+data[0][i][6]+'</div>'
+    	    	   }else{
+    	    		   div_tipo = '<div class="table-cell-text">'+data[0][i][5]+' - '+data[0][i][6]+'</div>'
+    	    	 }
+    	    	
+    	    		
+    	       html +='<div class="table-row">'+
+                        '<label class="w-checkbox table-checkbox-wrapper">'+
+                          '<div class="w-checkbox-input w-checkbox-input--inputType-custom table-checkbox"></div><input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"><span class="checkbox-lable hidden w-form-label" for="checkbox-2">Checkbox</span>'+
+                        '</label>'+
+                        '<a href="/fiinika/produtos/produto-page/'+data[1][i]+'"  class="table-row-content item-link w-inline-block">'+
+	                        '<div class="table-cell _10 i">'+
+	                          '<div class="table-cell-text">'+data[0][i][1]+'</div>'+
+	                        '</div>'+
+	                        '<div class="table-cell _10 _800">'+
+	                          '<div class="table-image-wrapper">'+
+	                          '<img sizes="(max-width: 479px) 60px, (max-width: 767px) 13vw, (max-width: 991px) 6vw, 4vw" src="/imgs/produtos/'+data[0][i][2]+'" alt="" class="img is--contain"></div>'+
+	                        '</div>'+
+	                        '<div class="table-cell _25">'+
+	                          '<div class="table-cell-text">'+data[0][i][3]+'</div>'+
+	                        '</div>'+
+	                        '<div class="table-cell _20 i">'+
+	                          '<div class="table-cell-text">'+data[0][i][4]+'</div>'+
+	                        '</div>'+
+	                        '<div class="table-cell _25 i">'+
+	                          div_tipo+
+	                        '</div>'+
+	                        '<div class="table-cell _15">'+
+	                          '<div class="table-cell-text currency">Kz</div>'+
+	                          '<div class="table-cell-text">'+data[0][i][7]+'</div>'+
+	                        '</div>'+
+	                      '</a>'+
+                        '<div class="table-row-action-button-wrapper">'+
+                          '<a href="#" class="table-action-button w-inline-block">'+
+                            '<div class="icon _3-dots"><img loading="lazy" width="12" src="/images/3dots-gray.svg" alt="" class="_3dots"></div>'+
+                          '</a>'+
+                          '<div class="flyout-menu-wrapper table-actions-flyout">'+
+                            '<div class="flyout-menu-content in-table">'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">visibility</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Visualizar</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Print</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Imprimir</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Download</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Descarregar</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Delete</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Eliminar</div>'+
+                              '</a>'+
+                            '</div>'+
+                          '</div>'+
+                        '</div>'+                        
+                      '</div>'
+    	    		  
+    	    		
+    	    	}
+    	    	 
+    	          $('#div_documentos').html(html);                                   
+    	     }else{    	    	
+    			  $('#div_documentos').html('Não foram encontrados documentos');     
+    			}
+  				
+  			
+              });
+          });
+  
+  </script>
+</body>
+</html>

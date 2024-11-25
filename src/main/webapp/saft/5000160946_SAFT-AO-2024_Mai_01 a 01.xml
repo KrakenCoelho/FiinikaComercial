@@ -1,0 +1,3802 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AuditFile xmlns="urn:OECD:StandardAuditFile-Tax:AO_1.01_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Header>
+    <AuditFileVersion>1.01_01</AuditFileVersion>
+    <CompanyID>JEWEL.TEC COMERCIO E PRESTAÇAO DE SERVIÇOS,LDA.</CompanyID>
+    <TaxRegistrationNumber>5000160946</TaxRegistrationNumber>
+    <TaxAccountingBasis>F</TaxAccountingBasis>
+    <CompanyName>JEWEL.TEC COMERCIO E PRESTAÇAO DE SERVIÇOS,LDA.</CompanyName>
+    <CompanyAddress>
+      <AddressDetail>Rua Jacinto Tchipa, Viana</AddressDetail>
+      <City>LUANDA</City>
+      <Province>LUANDA</Province>
+      <Country>AO</Country>
+    </CompanyAddress>
+    <FiscalYear>2024</FiscalYear>
+    <StartDate>2024-05-01</StartDate>
+    <EndDate>2024-05-01</EndDate>
+    <CurrencyCode>AOA</CurrencyCode>
+    <DateCreated>2024-06-26</DateCreated>
+    <TaxEntity>GLOBAL</TaxEntity>
+    <ProductCompanyTaxID>5000160946</ProductCompanyTaxID>
+    <SoftwareValidationNumber>371/AGT/2022</SoftwareValidationNumber>
+    <ProductID>DexaContas/SELECTE MIDIA -SERVICESLDA</ProductID>
+    <ProductVersion>1.0.0</ProductVersion>
+    <Telephone>+990421969</Telephone>
+    <Email>comercial@jeweltec.cc</Email>
+  </Header>
+  <MasterFiles>
+    <Customer>
+      <CustomerID>56874</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5402144923</CustomerTaxID>
+      <CompanyName>FABRIMETAL, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Direita de Calumbo, Polo Industrial de Viana, antes do Viana Park, de fronte a Pumangol.</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>939320026</Telephone>
+      <Email>geral@fabrimetal.net</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>56875</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417489743</CustomerTaxID>
+      <CompanyName>CRECHE E JARDIM DE INFANCIA PORTAL SEGURO, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Camama - Talatona</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>939469091</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>56886</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Jeruza Bartolomeu</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Bairro Morro dos Veados, Benfica</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>938071638</Telephone>
+      <Email>manuel.jeruza@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>57216</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417082694</CustomerTaxID>
+      <CompanyName>Svitzer Angola, LDA (Luanda Office)</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Condomínio Dolce Vita, Lote 1C, 5 Andar</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>947737741</Telephone>
+      <Email>invoice.svitzerangola@svitzer.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>57768</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5000001899</CustomerTaxID>
+      <CompanyName>INFRASAT-TELECOMUNICAÇOES,S.A</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Talatona - Luanda</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>277240240</Telephone>
+      <Email>apoio.cliente@infrasat.co.ao</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>58094</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5000705926</CustomerTaxID>
+      <CompanyName>BUREAU CENTRAL PRIVADO DE INFORMAÇAO DE CREDITO, S.A</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Engrácia Fragoso 55, 1° andar, sl 106. Ed. Kalunga Atrium. lngombota, Luanda, Angola</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>225300534</Telephone>
+      <Email>contacto@bureau.co.ao</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>116275</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417627232</CustomerTaxID>
+      <CompanyName>LP Electronica</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Zango 0, rua Santa Rita de Cássia SN, Viana, Luanda</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>924308378</Telephone>
+      <Email>info@LPE.ao</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>125965</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Marilia Pedro</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Condomínio Golden, Casa 16 - Talatona</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>935540814</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>147195</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Luis</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Luanda</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>947111443</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>170907</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5401137796</CustomerTaxID>
+      <CompanyName>Zara General trading, Limitada</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Armindo de Andrade, nº 32-34, Bairro Miramar</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>925909302</Telephone>
+      <Email>dario@zaraangola.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>173208</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5001042882</CustomerTaxID>
+      <CompanyName>WUAMI DIGITAL BUSINESS</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Av. 21 de Janeiro, Shopping Nosso Centro, 1º Andar, Loja 35-36</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>946504618</Telephone>
+      <Email>wuame.digital.business@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>192613</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5403117830</CustomerTaxID>
+      <CompanyName>Crizgunza S.A</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Nicolau Gomes Spencer, Maculusso</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>947004230</Telephone>
+      <Email>crizgunza.processos@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>200380</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Edna da Costa</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Futungo</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>936764222</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>231860</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5000416223</CustomerTaxID>
+      <CompanyName>Sindicato Nacional dos Trabalhadores de Energia</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Luanda</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923800406</Telephone>
+      <Email>secretariageralsintee01@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>258675</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417183229</CustomerTaxID>
+      <CompanyName>VALE LUANHI, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Condominio Mix Centre, Loja M16</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>926238500</Telephone>
+      <Email>geral@vale-luanhi.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>290491</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5000316440</CustomerTaxID>
+      <CompanyName>Repartição do Rangel</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rangel</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>924190631</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>320256</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5410000986</CustomerTaxID>
+      <CompanyName>TotalEnergies Marketing Angola</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Rainha Ginga Nº128 Luanda - Angola</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>932017708</Telephone>
+      <Email>irene.ramos@totalenergies.co.ao</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>325266</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>001096630LA030</CustomerTaxID>
+      <CompanyName>Pedro Canga Moises - OSS</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Bairro Neves Bendinha, Madame Berma</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>925830333</Telephone>
+      <Email>onestopshop.ao@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>335720</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5000450022</CustomerTaxID>
+      <CompanyName>GP Marcos</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua 21 de Janeiro, Morro Bento</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>934414736</Telephone>
+      <Email>gabrielmarcos.gm6@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>335974</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>002813832BA031</CustomerTaxID>
+      <CompanyName>JGGI</CompanyName>
+      <BillingAddress>
+        <AddressDetail>LOBITO - ANGOLA</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>929895378</Telephone>
+      <Email>jorgegime616@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>339087</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5001600745</CustomerTaxID>
+      <CompanyName>MILAK - Comércio Geral e Prestaçāo de Serviços</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Bairro Patriota, N 5, Talatona</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>932758009</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>340722</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417522449</CustomerTaxID>
+      <CompanyName>EuReparo</CompanyName>
+      <BillingAddress>
+        <AddressDetail>LUANDA - ANGOLA</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>933654053</Telephone>
+      <Email>eureparoangola@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>345151</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Sr. Carlos Pitra</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Coqueiros</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>937998529</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>361425</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Marieth Katiana Francisco</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida, rua 105, edifício 176</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>926166605</Telephone>
+      <Email>katianaalberto@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>378227</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5000043400</CustomerTaxID>
+      <CompanyName>FRANCISCO FRANQUE PREST de SERVIÇOS</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Luther Rescova - Calemba </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923823628</Telephone>
+      <Email>cliente@cliente.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>384170</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Catia Neto</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Predio do Livro</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>947381838</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>384179</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Cyanna Dias</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Condominio Atlantic City - Morro dos Veados</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923756023</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>384185</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Nuria Pombo</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Talatona</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923365550</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>386246</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5420005409</CustomerTaxID>
+      <CompanyName>Neksis Lda</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Av. 21 Janeiro, Morro Bento, Luanda - Angola</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>937287728</Telephone>
+      <Email>paulo@neksis.pt</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>401519</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Joana Setende</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Kilamba </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>927261171</Telephone>
+      <Email>jannyndombele@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>408345</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417012190</CustomerTaxID>
+      <CompanyName>STI Consultoria </CompanyName>
+      <BillingAddress>
+        <AddressDetail>Urbanização Nova Vida, Rua 115 Casa 1378</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923611602</Telephone>
+      <Email>comercial@sti-consultoria.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>412501</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417033375</CustomerTaxID>
+      <CompanyName>Casa das Artes</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Talatona Via 5</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>922241760</Telephone>
+      <Email>casadasartes.angola@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>417453</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Sra. Evanilde Veiga</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Atlantic City</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>926986979</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>423315</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Sr. Anercio</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Luanda - Angola</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>924160060</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>438315</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Paulo-Candando</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Patriota </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>943398943</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>445246</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Nazare Adriano</CompanyName>
+      <BillingAddress>
+        <AddressDetail>COND. HORIZONTE MORRO BENTO BLOCO 3</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>940792840</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>474149</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417050822</CustomerTaxID>
+      <CompanyName>STRANG - Sociedade de Transporte Regional de Angola</CompanyName>
+      <BillingAddress>
+        <AddressDetail>KM38 - Districto Urbano Boa Vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>939233614</Telephone>
+      <Email>strang@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>57634</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>NVR 8-ch</ProductDescription>
+      <ProductNumberCode>00000000057634</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>57635</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera HIKV 6MP</ProductDescription>
+      <ProductNumberCode>00000000057635</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>57636</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera Frames</ProductDescription>
+      <ProductNumberCode>00000000057636</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>57637</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Screen Frame</ProductDescription>
+      <ProductNumberCode>00000000057637</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>57638</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Monitor 19'</ProductDescription>
+      <ProductNumberCode>00000000057638</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>57639</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabo UTP Cobre</ProductDescription>
+      <ProductNumberCode>00000000057639</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>57640</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Conectores</ProductDescription>
+      <ProductNumberCode>00000000057640</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>57642</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Kit Material de Rede</ProductDescription>
+      <ProductNumberCode>00000000057642</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>57770</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Arnês Anti-Queda EN 358+813 c/ 4 pontos de ancoragem</ProductDescription>
+      <ProductNumberCode>00000000057770</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>57771</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Anti-Queda MAXIPRO c/ Absorvador de Energia</ProductDescription>
+      <ProductNumberCode>00000000057771</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>57772</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mochila PVC p/ Transporte Arnês</ProductDescription>
+      <ProductNumberCode>00000000057772</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>58629</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Disco Duro 6TB</ProductDescription>
+      <ProductNumberCode>00000000058629</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>59507</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 305 Preto</ProductDescription>
+      <ProductNumberCode>00000000059507</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>59514</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 305 Tri-Color</ProductDescription>
+      <ProductNumberCode>00000000059514</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>59714</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Router TP-LINK WIFI 6 AX3000 DUAL BAND ARCHER</ProductDescription>
+      <ProductNumberCode>00000000059714</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>59715</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>ROUTER GAMING WI-FI DUAL-BAND ASUS AX6000</ProductDescription>
+      <ProductNumberCode>00000000059715</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>60398</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Biometrico de Reconhecimento Facial MB10-VL</ProductDescription>
+      <ProductNumberCode>00000000060398</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>60405</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mão de Obra</ProductDescription>
+      <ProductNumberCode>00000000060405</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>66262</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>AUSCULTADORES - CREATIVE</ProductDescription>
+      <ProductNumberCode>00000000066262</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>66279</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Monitor Phillips 21"</ProductDescription>
+      <ProductNumberCode>00000000066279</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>66284</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>DOCKSTATION MANHATTAN HDMI/VGA/MINI DISPLAYPORT/RJ-45/USB 3.0 TIPO A/USB TIPO C/ SD</ProductDescription>
+      <ProductNumberCode>00000000066284</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>68510</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Auscultador HP</ProductDescription>
+      <ProductNumberCode>00000000068510</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>68515</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HUB TYPE C 8 IN 1</ProductDescription>
+      <ProductNumberCode>00000000068515</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>74401</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Rack 9U</ProductDescription>
+      <ProductNumberCode>00000000074401</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>78494</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Impressora Laserjet MFP Color M479fnw</ProductDescription>
+      <ProductNumberCode>00000000078494</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>84529</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Disco duro 1TB</ProductDescription>
+      <ProductNumberCode>00000000084529</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>84535</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Gravador 4 Canais</ProductDescription>
+      <ProductNumberCode>00000000084535</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>84536</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Transformador</ProductDescription>
+      <ProductNumberCode>00000000084536</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>84538</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fichas Balun</ProductDescription>
+      <ProductNumberCode>00000000084538</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>84539</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabo UTP CAT6 Simples</ProductDescription>
+      <ProductNumberCode>00000000084539</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>84565</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tubos e Calha</ProductDescription>
+      <ProductNumberCode>00000000084565</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>84566</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Instalação e Configuração</ProductDescription>
+      <ProductNumberCode>00000000084566</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>87597</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Papel Fotocopia Navigator A4*80GRS</ProductDescription>
+      <ProductNumberCode>00000000087597</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>87608</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinteiro HP 123 Preto</ProductDescription>
+      <ProductNumberCode>00000000087608</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>87611</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinteiro HP 123 Tricolor</ProductDescription>
+      <ProductNumberCode>00000000087611</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>87625</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>iPhone- SE</ProductDescription>
+      <ProductNumberCode>00000000087625</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>89158</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Disco Duro 1TB</ProductDescription>
+      <ProductNumberCode>00000000089158</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>89160</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera HikV Tub 2MP</ProductDescription>
+      <ProductNumberCode>00000000089160</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>90384</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>NVR HikV 8CH</ProductDescription>
+      <ProductNumberCode>00000000090384</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>92728</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mola de Porta ZKTeco</ProductDescription>
+      <ProductNumberCode>00000000092728</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>93974</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>LOGITECH AUSCULTADORES - HEADSETS H111</ProductDescription>
+      <ProductNumberCode>00000000093974</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>93984</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP RATO S/FIO S1500</ProductDescription>
+      <ProductNumberCode>00000000093984</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106295</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Permanent Black Marker</ProductDescription>
+      <ProductNumberCode>000000000106295</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106296</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Black Ball Point Pens</ProductDescription>
+      <ProductNumberCode>000000000106296</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106297</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fita Cola/ Selo Tape 2cm</ProductDescription>
+      <ProductNumberCode>000000000106297</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106298</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>A4 Printing Paper</ProductDescription>
+      <ProductNumberCode>000000000106298</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106299</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Printer Cartridge 305 Color</ProductDescription>
+      <ProductNumberCode>000000000106299</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106300</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Cartridge 305 Black</ProductDescription>
+      <ProductNumberCode>000000000106300</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106301</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Prestik Adhesive </ProductDescription>
+      <ProductNumberCode>000000000106301</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106302</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>A4 Clear Plastic Punched Pockets</ProductDescription>
+      <ProductNumberCode>000000000106302</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106303</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>A4 Binder</ProductDescription>
+      <ProductNumberCode>000000000106303</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106304</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Masking Tape L/Fita Mascadora</ProductDescription>
+      <ProductNumberCode>000000000106304</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106305</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Duct Tape/Grey Tape/Fita Adesiva</ProductDescription>
+      <ProductNumberCode>000000000106305</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106306</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>White Board Marker (Blue)</ProductDescription>
+      <ProductNumberCode>000000000106306</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106307</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>White Board Marker (Black)</ProductDescription>
+      <ProductNumberCode>000000000106307</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106313</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Permanent Red Marker</ProductDescription>
+      <ProductNumberCode>000000000106313</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106314</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Permanent Blue Marker</ProductDescription>
+      <ProductNumberCode>000000000106314</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106315</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Black pen</ProductDescription>
+      <ProductNumberCode>000000000106315</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106316</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Printer Cartridge HP LaserJet 1536 DNF</ProductDescription>
+      <ProductNumberCode>000000000106316</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106317</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cutter Knife</ProductDescription>
+      <ProductNumberCode>000000000106317</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106318</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Paper Punch Hole</ProductDescription>
+      <ProductNumberCode>000000000106318</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106319</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Double Tape</ProductDescription>
+      <ProductNumberCode>000000000106319</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106320</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fluid Eraser</ProductDescription>
+      <ProductNumberCode>000000000106320</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106321</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Cartridge 652 Black</ProductDescription>
+      <ProductNumberCode>000000000106321</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106322</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Cartridge 652 Color </ProductDescription>
+      <ProductNumberCode>000000000106322</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106323</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Eraser rubber</ProductDescription>
+      <ProductNumberCode>000000000106323</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106324</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Red Pens</ProductDescription>
+      <ProductNumberCode>000000000106324</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106325</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Correction Pen</ProductDescription>
+      <ProductNumberCode>000000000106325</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>106622</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Door Closer D1200T - Silver</ProductDescription>
+      <ProductNumberCode>000000000106622</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>107610</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>A4 Copy Paper 500</ProductDescription>
+      <ProductNumberCode>000000000107610</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>107615</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>White Board Eraser</ProductDescription>
+      <ProductNumberCode>000000000107615</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>107617</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Liquid White Board Cleaner</ProductDescription>
+      <ProductNumberCode>000000000107617</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>109178</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HDMI Splitter</ProductDescription>
+      <ProductNumberCode>000000000109178</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>109180</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Wintech TV 43' LED FULLHD</ProductDescription>
+      <ProductNumberCode>000000000109180</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>109190</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HDMI Cable 30m</ProductDescription>
+      <ProductNumberCode>000000000109190</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>109191</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>TV Support</ProductDescription>
+      <ProductNumberCode>000000000109191</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>111712</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Samsung A52</ProductDescription>
+      <ProductNumberCode>000000000111712</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>116427</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Limpeza especializada de equipamentos</ProductDescription>
+      <ProductNumberCode>000000000116427</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>116428</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Testes, configuração e colocação em funcionamento </ProductDescription>
+      <ProductNumberCode>000000000116428</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>125960</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Manutenção Sistema de Cerca Elétrica </ProductDescription>
+      <ProductNumberCode>000000000125960</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>126504</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Printer DeskJet Plus 4120</ProductDescription>
+      <ProductNumberCode>000000000126504</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>126505</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Monitor 21.5 HP</ProductDescription>
+      <ProductNumberCode>000000000126505</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>126506</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Monitor HP</ProductDescription>
+      <ProductNumberCode>000000000126506</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>126517</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Combo Keyboard + Mouse </ProductDescription>
+      <ProductNumberCode>000000000126517</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>136178</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cadeira de Escritrio Exec 1</ProductDescription>
+      <ProductNumberCode>000000000136178</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>136179</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cadeira de Escritrio Exec 2</ProductDescription>
+      <ProductNumberCode>000000000136179</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>136180</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cadeira de Escritrio Ortopédica</ProductDescription>
+      <ProductNumberCode>000000000136180</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>142089</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Extintor Pó Químico ABC 2Kg Eficácia 27A-1838</ProductDescription>
+      <ProductNumberCode>000000000142089</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>143577</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Extensão 8-Tomadas</ProductDescription>
+      <ProductNumberCode>000000000143577</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>143579</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabo HDMI 3M</ProductDescription>
+      <ProductNumberCode>000000000143579</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>143581</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Monitor HP 24"</ProductDescription>
+      <ProductNumberCode>000000000143581</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>143582</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP IMPRESSORA LJ M479fnw</ProductDescription>
+      <ProductNumberCode>000000000143582</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>143687</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>ZEBRA IMPRESSORA ELTRON PRINTER ZXP SERIES 7 </ProductDescription>
+      <ProductNumberCode>000000000143687</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145208</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera HikV 4MP</ProductDescription>
+      <ProductNumberCode>000000000145208</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145213</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Switch HikV 8-P POE</ProductDescription>
+      <ProductNumberCode>000000000145213</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145231</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Conectores RJ45</ProductDescription>
+      <ProductNumberCode>000000000145231</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145237</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Instalação e Configuração</ProductDescription>
+      <ProductNumberCode>000000000145237</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145267</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Luzes de Emergência</ProductDescription>
+      <ProductNumberCode>000000000145267</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145268</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabo Eletrico 2,5 PT</ProductDescription>
+      <ProductNumberCode>000000000145268</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145269</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Calha Técnica 110x50 branca</ProductDescription>
+      <ProductNumberCode>000000000145269</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145271</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Disjuntor 6/10ka C-25A</ProductDescription>
+      <ProductNumberCode>000000000145271</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145272</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Ficha Macho </ProductDescription>
+      <ProductNumberCode>000000000145272</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145275</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caixa de Buchas Par 4x40</ProductDescription>
+      <ProductNumberCode>000000000145275</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145276</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Buxas Cx 6</ProductDescription>
+      <ProductNumberCode>000000000145276</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145277</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>UPS APC 1400va</ProductDescription>
+      <ProductNumberCode>000000000145277</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145278</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Ar Condicionado 18000BTU - Midea</ProductDescription>
+      <ProductNumberCode>000000000145278</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145364</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Sinalização de Segurança</ProductDescription>
+      <ProductNumberCode>000000000145364</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145366</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Detectores de Metais</ProductDescription>
+      <ProductNumberCode>000000000145366</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145383</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Maxell Pilhas AAA</ProductDescription>
+      <ProductNumberCode>000000000145383</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145486</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Central Alarmistica Bosch + Premium Licence</ProductDescription>
+      <ProductNumberCode>000000000145486</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145487</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>IPS-BAT12V-27AH</ProductDescription>
+      <ProductNumberCode>000000000145487</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>147184</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera HikV Dome 4MP</ProductDescription>
+      <ProductNumberCode>000000000147184</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>147185</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera HikV Tub 4MP</ProductDescription>
+      <ProductNumberCode>000000000147185</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>147186</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>DVR HikV 16-CH</ProductDescription>
+      <ProductNumberCode>000000000147186</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>147188</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>DVR HikV 32-CH</ProductDescription>
+      <ProductNumberCode>000000000147188</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>147189</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Disco Duro WD Purple 4TB</ProductDescription>
+      <ProductNumberCode>000000000147189</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>147191</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tubos VD 25mm</ProductDescription>
+      <ProductNumberCode>000000000147191</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>147192</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Calha Técnica 40x40</ProductDescription>
+      <ProductNumberCode>000000000147192</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>147193</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Calha Técnica 16x16</ProductDescription>
+      <ProductNumberCode>000000000147193</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>147194</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caixas de Derivação</ProductDescription>
+      <ProductNumberCode>000000000147194</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>150093</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Impressora HP Deskjet Pro 7720 </ProductDescription>
+      <ProductNumberCode>000000000150093</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>151976</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP MONITOR 27" FULL HD VGA/HDMI</ProductDescription>
+      <ProductNumberCode>000000000151976</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>151977</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>XIAOMI MONITOR 34' MI CURVE</ProductDescription>
+      <ProductNumberCode>000000000151977</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>157209</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>NVR HIKV 16-CH</ProductDescription>
+      <ProductNumberCode>000000000157209</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>157216</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Extensao Sinal Manht. 1080P Ate 50M</ProductDescription>
+      <ProductNumberCode>000000000157216</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>157934</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Manhattan Adaptador DisplayPort p/ HDMI</ProductDescription>
+      <ProductNumberCode>000000000157934</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>157942</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Genius Webcam QCam 6000 FullHD Preta</ProductDescription>
+      <ProductNumberCode>000000000157942</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>157947</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Wintech Bloco de Tomada 5Way</ProductDescription>
+      <ProductNumberCode>000000000157947</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>158092</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP ELITEBOOK 840 G8, i7 11th Gen, SSD 512, RAM 16GB</ProductDescription>
+      <ProductNumberCode>000000000158092</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>158108</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP ELITEBOOK 840 G3, i5 6th Gen, SSD 512, RAM 8GB - TOUCHSCREEN</ProductDescription>
+      <ProductNumberCode>000000000158108</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160009</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caderno de Anotações</ProductDescription>
+      <ProductNumberCode>000000000160009</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160010</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pasta de Arquivo (Files)</ProductDescription>
+      <ProductNumberCode>000000000160010</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160011</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Borracha - Erasor</ProductDescription>
+      <ProductNumberCode>000000000160011</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160012</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Marcador Permanent Multi-color</ProductDescription>
+      <ProductNumberCode>000000000160012</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160013</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Papel A4 Resma</ProductDescription>
+      <ProductNumberCode>000000000160013</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160014</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Clips de Papel</ProductDescription>
+      <ProductNumberCode>000000000160014</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160015</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Lapis/Pencils</ProductDescription>
+      <ProductNumberCode>000000000160015</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160017</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Reguas-Rulers 30cm</ProductDescription>
+      <ProductNumberCode>000000000160017</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160022</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Esferógrafica - Preta </ProductDescription>
+      <ProductNumberCode>000000000160022</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160023</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Esferógrafica - Vermelha</ProductDescription>
+      <ProductNumberCode>000000000160023</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160024</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Esferógrafica - Azul</ProductDescription>
+      <ProductNumberCode>000000000160024</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160025</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>marcador Quadro-Branco</ProductDescription>
+      <ProductNumberCode>000000000160025</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160026</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fita Mascador M - Masking Tape</ProductDescription>
+      <ProductNumberCode>000000000160026</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160027</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tesoura - Scissors</ProductDescription>
+      <ProductNumberCode>000000000160027</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160244</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>File A4</ProductDescription>
+      <ProductNumberCode>000000000160244</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160251</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Marcador Fluorescente</ProductDescription>
+      <ProductNumberCode>000000000160251</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160253</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fita Adesiva</ProductDescription>
+      <ProductNumberCode>000000000160253</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160256</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Envelopes </ProductDescription>
+      <ProductNumberCode>000000000160256</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160257</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Afia Lapis</ProductDescription>
+      <ProductNumberCode>000000000160257</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160258</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Alfinetes - Push Pins</ProductDescription>
+      <ProductNumberCode>000000000160258</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160259</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cortador</ProductDescription>
+      <ProductNumberCode>000000000160259</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160260</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fita Métrica</ProductDescription>
+      <ProductNumberCode>000000000160260</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160261</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cola de Papel</ProductDescription>
+      <ProductNumberCode>000000000160261</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160266</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Papel de Laminagem</ProductDescription>
+      <ProductNumberCode>000000000160266</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>160272</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corrector</ProductDescription>
+      <ProductNumberCode>000000000160272</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>170887</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>TV LED BEKO 43” </ProductDescription>
+      <ProductNumberCode>000000000170887</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>173222</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Instalação de Infra-estrutura de Rede</ProductDescription>
+      <ProductNumberCode>000000000173222</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>174225</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP LASERJET MONO 135W</ProductDescription>
+      <ProductNumberCode>000000000174225</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>174226</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>MOD DDR4 8GB KINGSTON 2666MHZ SODIMM</ProductDescription>
+      <ProductNumberCode>000000000174226</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>180512</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>SAMSUNG A03</ProductDescription>
+      <ProductNumberCode>000000000180512</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>192566</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Toner HP Compativel 201X Preto</ProductDescription>
+      <ProductNumberCode>000000000192566</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>192576</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Toner HP Compativel 201X Cyan</ProductDescription>
+      <ProductNumberCode>000000000192576</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>192579</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Toner HP Compativel 201X Amarelo</ProductDescription>
+      <ProductNumberCode>000000000192579</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>192580</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Toner HP Compativel 201X Magenta</ProductDescription>
+      <ProductNumberCode>000000000192580</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>192594</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 953 Preto</ProductDescription>
+      <ProductNumberCode>000000000192594</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>192595</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 953 Ciano</ProductDescription>
+      <ProductNumberCode>000000000192595</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>192597</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 953 Amarelo</ProductDescription>
+      <ProductNumberCode>000000000192597</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>192598</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 953 Magenta</ProductDescription>
+      <ProductNumberCode>000000000192598</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>194455</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>BATERIAS 12V 5.4AH</ProductDescription>
+      <ProductNumberCode>000000000194455</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>200388</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Câmera Ezviz Interior C1HC</ProductDescription>
+      <ProductNumberCode>000000000200388</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>200394</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cartão de Memória 32GB</ProductDescription>
+      <ProductNumberCode>000000000200394</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>200398</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Calha Técnica 15mm</ProductDescription>
+      <ProductNumberCode>000000000200398</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201015</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Quadro Branco Magnetico 120x80CM </ProductDescription>
+      <ProductNumberCode>000000000201015</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201016</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 953XL Preto</ProductDescription>
+      <ProductNumberCode>000000000201016</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201017</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 953XL Azul</ProductDescription>
+      <ProductNumberCode>000000000201017</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201018</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 953XL Amarelo</ProductDescription>
+      <ProductNumberCode>000000000201018</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201031</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 953XL Magenta</ProductDescription>
+      <ProductNumberCode>000000000201031</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201032</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Toner Compativel HP 651A - 13.500pgs</ProductDescription>
+      <ProductNumberCode>000000000201032</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201033</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Toner 216A Preto</ProductDescription>
+      <ProductNumberCode>000000000201033</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201034</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Toner 216A Azul</ProductDescription>
+      <ProductNumberCode>000000000201034</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201035</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Toner 216A Amarelo</ProductDescription>
+      <ProductNumberCode>000000000201035</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201036</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Toner 216A Magenta</ProductDescription>
+      <ProductNumberCode>000000000201036</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201037</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 652 Preto</ProductDescription>
+      <ProductNumberCode>000000000201037</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201038</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 652 Tri-Color</ProductDescription>
+      <ProductNumberCode>000000000201038</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201041</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Toner Compativel 278A</ProductDescription>
+      <ProductNumberCode>000000000201041</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>201042</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fita OKI Ribbon ML 280 Elite</ProductDescription>
+      <ProductNumberCode>000000000201042</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>202523</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cable Coax Tinned 50 Ohm RG214/U 50 OHM</ProductDescription>
+      <ProductNumberCode>000000000202523</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>202524</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Scan Antenna VHF74 P/N 11074-432</ProductDescription>
+      <ProductNumberCode>000000000202524</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>202525</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>M19 Bracket VHF antenna</ProductDescription>
+      <ProductNumberCode>000000000202525</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>202544</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Serviço de Licenciamento de Equipamentos</ProductDescription>
+      <ProductNumberCode>000000000202544</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>204518</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Glory Maquina de Contagem de Notas - 1250</ProductDescription>
+      <ProductNumberCode>000000000204518</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>213006</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Capas de Arquivo MG</ProductDescription>
+      <ProductNumberCode>000000000213006</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>226660</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Impressora Laserjet MFP Color M479FNW</ProductDescription>
+      <ProductNumberCode>000000000226660</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>231484</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinta p/ Carimbo - Stamp Ink</ProductDescription>
+      <ProductNumberCode>000000000231484</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>231489</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Porta Documentos - Paper Holder</ProductDescription>
+      <ProductNumberCode>000000000231489</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>231501</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Bolsa p/ Plastificar - Lamination</ProductDescription>
+      <ProductNumberCode>000000000231501</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>231503</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caderno de Apontamento - Pocket note</ProductDescription>
+      <ProductNumberCode>000000000231503</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>231594</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>MONITOR 27" HP P27V FHD VGA/HDMI</ProductDescription>
+      <ProductNumberCode>000000000231594</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>231841</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 963XL Preto</ProductDescription>
+      <ProductNumberCode>000000000231841</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>231842</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 963XL CIANO</ProductDescription>
+      <ProductNumberCode>000000000231842</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>231844</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 963XL AMARELO</ProductDescription>
+      <ProductNumberCode>000000000231844</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>231852</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Tinteiro 963XL MAGENTA</ProductDescription>
+      <ProductNumberCode>000000000231852</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>234377</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Transcend HD Ext 2TB</ProductDescription>
+      <ProductNumberCode>000000000234377</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>234378</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Port Design Mochica</ProductDescription>
+      <ProductNumberCode>000000000234378</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>236587</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP TECLADO+MOUSE SEM FIO WIFI 655 PRETO</ProductDescription>
+      <ProductNumberCode>000000000236587</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>236588</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>SAMSUNG SMARTPHONE GALAXY A53 6GB/128GB DS</ProductDescription>
+      <ProductNumberCode>000000000236588</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>236593</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP Elitebook 840 G5 Laptop Intel Core i7 1.80 GHz 16Gb Ram 512GB SSD Windows 10 Pro-64</ProductDescription>
+      <ProductNumberCode>000000000236593</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>254594</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Servidor HP DL 380 G9 HD 2x1TB RAM 64GB</ProductDescription>
+      <ProductNumberCode>000000000254594</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>254602</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>SO WINDOWS SERVER 2016 R2</ProductDescription>
+      <ProductNumberCode>000000000254602</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>254603</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Instalação e Configuração de Servidor</ProductDescription>
+      <ProductNumberCode>000000000254603</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>254610</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Instalação e Configuração PRIMAVERA</ProductDescription>
+      <ProductNumberCode>000000000254610</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>258673</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HIKV KIT DE 4 CAMERAS</ProductDescription>
+      <ProductNumberCode>000000000258673</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>258674</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>BASTIDOR 6U</ProductDescription>
+      <ProductNumberCode>000000000258674</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>258677</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Material Complimentar (Tubos, calhas parafusos)</ProductDescription>
+      <ProductNumberCode>000000000258677</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>265765</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Material de Serralheria</ProductDescription>
+      <ProductNumberCode>000000000265765</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>268524</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>CAPACETES DE SEGURANÇA </ProductDescription>
+      <ProductNumberCode>000000000268524</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>268878</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HIKV NVR - 4 DISCOS</ProductDescription>
+      <ProductNumberCode>000000000268878</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>268879</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>UDA SWITCH 16 POE</ProductDescription>
+      <ProductNumberCode>000000000268879</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>268881</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HIKV CAMERA TUBULAR 4MP</ProductDescription>
+      <ProductNumberCode>000000000268881</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>268884</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HIKV CAMERA DOME 4MP</ProductDescription>
+      <ProductNumberCode>000000000268884</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>268885</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>ARMARIO 12U UDA</ProductDescription>
+      <ProductNumberCode>000000000268885</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>268889</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>CABO HDMI 20M</ProductDescription>
+      <ProductNumberCode>000000000268889</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>274669</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>LAPTOP HP 250 G9 CORE I7 12 TH GEN SSD 512 GB RAM 16 GB 15,6 POLEGADAS</ProductDescription>
+      <ProductNumberCode>000000000274669</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>284313</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>iPhone 12</ProductDescription>
+      <ProductNumberCode>000000000284313</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>287078</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Sistema de CCTV c/ Cameras s/Fio 2MP</ProductDescription>
+      <ProductNumberCode>000000000287078</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>287081</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cartão de Memoria 128GB</ProductDescription>
+      <ProductNumberCode>000000000287081</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>287100</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Extras (Cabo elétrico, tomadas)</ProductDescription>
+      <ProductNumberCode>000000000287100</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>287241</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Samsung A54</ProductDescription>
+      <ProductNumberCode>000000000287241</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>287296</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Samsung A53</ProductDescription>
+      <ProductNumberCode>000000000287296</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>287298</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Passe Personalizado</ProductDescription>
+      <ProductNumberCode>000000000287298</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>290414</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Ficha Balun RJ45</ProductDescription>
+      <ProductNumberCode>000000000290414</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>290418</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera Hybrid Externa 2MP</ProductDescription>
+      <ProductNumberCode>000000000290418</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>290419</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera ColorVu Interna 2MP</ProductDescription>
+      <ProductNumberCode>000000000290419</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>290427</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Suporte p/ TV Plasma</ProductDescription>
+      <ProductNumberCode>000000000290427</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>290429</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>UPS 850VA TOUCH</ProductDescription>
+      <ProductNumberCode>000000000290429</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>290445</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>TV 32" SMART WINTECH </ProductDescription>
+      <ProductNumberCode>000000000290445</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>290446</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fonte de Energia p/ Cameras</ProductDescription>
+      <ProductNumberCode>000000000290446</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>290477</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HikV Kit 4+4 Cam</ProductDescription>
+      <ProductNumberCode>000000000290477</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>290481</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Material Complimentar (Buchas, Calhas, Tubos e acessórios)</ProductDescription>
+      <ProductNumberCode>000000000290481</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>291300</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Detector de Fogo e Fumaça DHI-HY-SA30A</ProductDescription>
+      <ProductNumberCode>000000000291300</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318629</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>USB PEN DRIVE KINGSTON 32GB</ProductDescription>
+      <ProductNumberCode>000000000318629</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318630</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP TONER 415A PRETO</ProductDescription>
+      <ProductNumberCode>000000000318630</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318631</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP TONER 415A CYAN</ProductDescription>
+      <ProductNumberCode>000000000318631</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318632</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP TONER 415A YELLOW</ProductDescription>
+      <ProductNumberCode>000000000318632</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318633</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP TONER 415A MAGENTA</ProductDescription>
+      <ProductNumberCode>000000000318633</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318833</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fita Dupla</ProductDescription>
+      <ProductNumberCode>000000000318833</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318834</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Lembretes Yellow Sticky Notes</ProductDescription>
+      <ProductNumberCode>000000000318834</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318842</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caneta Tinta Violeta</ProductDescription>
+      <ProductNumberCode>000000000318842</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318843</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Papel Iluminado A4</ProductDescription>
+      <ProductNumberCode>000000000318843</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318851</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Marcador Ponta de Feltro</ProductDescription>
+      <ProductNumberCode>000000000318851</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318852</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Porta Documentos Transparente</ProductDescription>
+      <ProductNumberCode>000000000318852</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318853</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fita Transparente</ProductDescription>
+      <ProductNumberCode>000000000318853</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>318894</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cola Pattex</ProductDescription>
+      <ProductNumberCode>000000000318894</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>319074</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>XIAOMI EXTENSOR DE SINAL AC1200</ProductDescription>
+      <ProductNumberCode>000000000319074</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>319155</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Staples</ProductDescription>
+      <ProductNumberCode>000000000319155</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>319157</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Laminação de plastico </ProductDescription>
+      <ProductNumberCode>000000000319157</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>319159</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Borracha Fluida</ProductDescription>
+      <ProductNumberCode>000000000319159</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>319161</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Quadro Branco (Preto)</ProductDescription>
+      <ProductNumberCode>000000000319161</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>319162</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Quadro Branco (Azul)</ProductDescription>
+      <ProductNumberCode>000000000319162</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>319165</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Marcador Permanente (Preto)</ProductDescription>
+      <ProductNumberCode>000000000319165</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>319166</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Marcador Permanente (Azul)</ProductDescription>
+      <ProductNumberCode>000000000319166</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>319167</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Marcador Permanente (Vermelho)</ProductDescription>
+      <ProductNumberCode>000000000319167</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>319168</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caneta preta</ProductDescription>
+      <ProductNumberCode>000000000319168</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>319169</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caneta vermelha</ProductDescription>
+      <ProductNumberCode>000000000319169</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>320230</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Maquina Fotografica FT EOS 4000D Digital 18MP Canon + Bolsa</ProductDescription>
+      <ProductNumberCode>000000000320230</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>320231</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Ring light 13” Até 160cm Altura (3 Modos de Iluminação)</ProductDescription>
+      <ProductNumberCode>000000000320231</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>320237</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Microfone de lapela</ProductDescription>
+      <ProductNumberCode>000000000320237</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>320243</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>PC portatil Asus 15.6” i7-13700H 16GB/512GB SSD W11H</ProductDescription>
+      <ProductNumberCode>000000000320243</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>320254</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mini Tripé Genius Tripod 1</ProductDescription>
+      <ProductNumberCode>000000000320254</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>320264</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>UPS WINTECH 3 000 VA ON LINE WITH SNMP</ProductDescription>
+      <ProductNumberCode>000000000320264</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>321496</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cortador de Papel</ProductDescription>
+      <ProductNumberCode>000000000321496</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>324158</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HIKV NVR DS-7732NI-K4</ProductDescription>
+      <ProductNumberCode>000000000324158</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>324159</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>UDA SWITCH POE 16-PORTS PS318G-F</ProductDescription>
+      <ProductNumberCode>000000000324159</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>324161</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HIKV CAMERA BULLET DS-2CD1043G0-I</ProductDescription>
+      <ProductNumberCode>000000000324161</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>324162</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HIKV CAMERA DOME DS-2CD1143G0-I</ProductDescription>
+      <ProductNumberCode>000000000324162</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>325269</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>ZKTECO BRAND FINGERPRINT ACCESS CONTROL SPEEDFACE-V5L (P)</ProductDescription>
+      <ProductNumberCode>000000000325269</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>330228</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Papel Estreito 12x9 1/2</ProductDescription>
+      <ProductNumberCode>000000000330228</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>330878</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Rolo Termico 75x70x11</ProductDescription>
+      <ProductNumberCode>000000000330878</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>335721</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>DLink Switch 8 portas</ProductDescription>
+      <ProductNumberCode>000000000335721</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>335738</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Bolsa plástica Micas (100)</ProductDescription>
+      <ProductNumberCode>000000000335738</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>335973</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>ZKTECO BIOMETRICO K14</ProductDescription>
+      <ProductNumberCode>000000000335973</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>339089</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP DESKJET E-AIO PLUS 4120 3EM1</ProductDescription>
+      <ProductNumberCode>000000000339089</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>340703</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Estabilizador TNS 90kva</ProductDescription>
+      <ProductNumberCode>000000000340703</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>341069</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Estabilizador TNS 60kva</ProductDescription>
+      <ProductNumberCode>000000000341069</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>342707</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mola de Porta CISA Max: 68KG</ProductDescription>
+      <ProductNumberCode>000000000342707</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>345136</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera Interior S/fio 2MP - Audio</ProductDescription>
+      <ProductNumberCode>000000000345136</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>353884</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>UPS APC SMART 3000VA XLI SRT ONLINE</ProductDescription>
+      <ProductNumberCode>000000000353884</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>354272</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>SAMSUNG GALAXY A14 4GB RAM, 128GB</ProductDescription>
+      <ProductNumberCode>000000000354272</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>354275</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>AP WIFI DLINK 300MB DAP-2230/UAU </ProductDescription>
+      <ProductNumberCode>000000000354275</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>354282</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>DISCO SSD 500GB KINGSTON M.2 PCIE 4.</ProductDescription>
+      <ProductNumberCode>000000000354282</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>354295</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>CABO HDMI 2MT (M/M) PLANO 4K@60HZ PRETO</ProductDescription>
+      <ProductNumberCode>000000000354295</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>356712</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>CABO DE TRANSFERENCIA USB</ProductDescription>
+      <ProductNumberCode>000000000356712</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>360812</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Saca Agrafos</ProductDescription>
+      <ProductNumberCode>000000000360812</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>360817</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Clips 50MM (100UN)</ProductDescription>
+      <ProductNumberCode>000000000360817</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>360819</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corrector Caneta</ProductDescription>
+      <ProductNumberCode>000000000360819</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>360826</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cola Branca 40g</ProductDescription>
+      <ProductNumberCode>000000000360826</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>360829</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Agrafador</ProductDescription>
+      <ProductNumberCode>000000000360829</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>360835</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Maquina calcular 12DGT</ProductDescription>
+      <ProductNumberCode>000000000360835</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>360837</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Envelope branco C4</ProductDescription>
+      <ProductNumberCode>000000000360837</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>360838</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Separador A4 1-2 </ProductDescription>
+      <ProductNumberCode>000000000360838</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>360841</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Envelope branco C3</ProductDescription>
+      <ProductNumberCode>000000000360841</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>361499</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Manutenção de Cameras</ProductDescription>
+      <ProductNumberCode>000000000361499</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>364953</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Quadro branco</ProductDescription>
+      <ProductNumberCode>000000000364953</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>376699</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>COFRE CAIXA PARA 25 CHAVES</ProductDescription>
+      <ProductNumberCode>000000000376699</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>376708</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>PORTA CHAVES COM ETIQUETA</ProductDescription>
+      <ProductNumberCode>000000000376708</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>376771</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Furador de Papel</ProductDescription>
+      <ProductNumberCode>000000000376771</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378140</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tubo 40x80</ProductDescription>
+      <ProductNumberCode>000000000378140</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378141</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Ferro Tipo-U</ProductDescription>
+      <ProductNumberCode>000000000378141</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378145</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Atado de Varão 12mm</ProductDescription>
+      <ProductNumberCode>000000000378145</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378146</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Elotrodos Cx</ProductDescription>
+      <ProductNumberCode>000000000378146</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378147</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Disco de Corte</ProductDescription>
+      <ProductNumberCode>000000000378147</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378152</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Barra em Aço  50mm</ProductDescription>
+      <ProductNumberCode>000000000378152</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378153</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinta de Oleo cor Branca</ProductDescription>
+      <ProductNumberCode>000000000378153</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378154</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Acessórios </ProductDescription>
+      <ProductNumberCode>000000000378154</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378235</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>DVR HIKV 8-CH</ProductDescription>
+      <ProductNumberCode>000000000378235</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378240</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera Analog Int.</ProductDescription>
+      <ProductNumberCode>000000000378240</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378244</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Biometrico HIKV</ProductDescription>
+      <ProductNumberCode>000000000378244</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>378248</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fonte de Alimentação UDA-F10A</ProductDescription>
+      <ProductNumberCode>000000000378248</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>381391</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Porta Chaves com Etiqueta</ProductDescription>
+      <ProductNumberCode>000000000381391</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>381396</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cartolina A4 P-Encadernacao Preta 100un</ProductDescription>
+      <ProductNumberCode>000000000381396</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>381398</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Furador de Papel 20Fls</ProductDescription>
+      <ProductNumberCode>000000000381398</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>381401</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caixa de Caneta Bravo Azul 50Un</ProductDescription>
+      <ProductNumberCode>000000000381401</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>381402</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Agenda A5 Super Spot 2024</ProductDescription>
+      <ProductNumberCode>000000000381402</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>381424</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Esferografica Jotter Royal Azul CT </ProductDescription>
+      <ProductNumberCode>000000000381424</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>381462</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cofre Caixa para 25 Chaves</ProductDescription>
+      <ProductNumberCode>000000000381462</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>382399</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caixa de Caneta Bravo Preta</ProductDescription>
+      <ProductNumberCode>000000000382399</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>382401</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Agrafos (Emb)</ProductDescription>
+      <ProductNumberCode>000000000382401</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>386247</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Material para instalação de estabilizador Trifásico TNS 30</ProductDescription>
+      <ProductNumberCode>000000000386247</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>388147</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Quadro Cortiça 150 x 100</ProductDescription>
+      <ProductNumberCode>000000000388147</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>389406</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Bateria 12V 9AH</ProductDescription>
+      <ProductNumberCode>000000000389406</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>389445</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>SECRETARIA 2 80X65X72CM KIT DE 4 PCS + GAVETA PT</ProductDescription>
+      <ProductNumberCode>000000000389445</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>389452</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>SECRETÁRIA DELTA DESMONTADA 120X65X72</ProductDescription>
+      <ProductNumberCode>000000000389452</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>389470</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>CADEIRA MESH HIGH EXECUTIVA 5-NIVEIS</ProductDescription>
+      <ProductNumberCode>000000000389470</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>389474</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>ARMÁRIO DE AÇO 2 PORTAS H1.830*W870*D70 CINZA</ProductDescription>
+      <ProductNumberCode>000000000389474</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>389480</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mesa de Centro</ProductDescription>
+      <ProductNumberCode>000000000389480</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>389745</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Bebedouro</ProductDescription>
+      <ProductNumberCode>000000000389745</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>398259</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>MONITOR 21.5" HP P22 G5 FHD VGA/HDMI/DP</ProductDescription>
+      <ProductNumberCode>000000000398259</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>398262</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>MONITOR 23.8" HP M24f FHD VGA/HDMI</ProductDescription>
+      <ProductNumberCode>000000000398262</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>408357</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>UPS WINTECH 850va</ProductDescription>
+      <ProductNumberCode>000000000408357</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>408358</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Monitor X 27” FULL HD</ProductDescription>
+      <ProductNumberCode>000000000408358</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>408403</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Switch 8 Portas Intellinet</ProductDescription>
+      <ProductNumberCode>000000000408403</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>416292</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fechadura Manual</ProductDescription>
+      <ProductNumberCode>000000000416292</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>418187</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Polo Astes 6L</ProductDescription>
+      <ProductNumberCode>000000000418187</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>418188</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Apoios</ProductDescription>
+      <ProductNumberCode>000000000418188</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>418189</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Rolo de Fio</ProductDescription>
+      <ProductNumberCode>000000000418189</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>418201</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Placas Sinal de Aviso</ProductDescription>
+      <ProductNumberCode>000000000418201</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>418203</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Esticadores</ProductDescription>
+      <ProductNumberCode>000000000418203</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>418204</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Esticadores</ProductDescription>
+      <ProductNumberCode>000000000418204</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>418582</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Ganchos</ProductDescription>
+      <ProductNumberCode>000000000418582</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>418584</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Ferrul</ProductDescription>
+      <ProductNumberCode>000000000418584</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>418587</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Sirene</ProductDescription>
+      <ProductNumberCode>000000000418587</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>418589</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Central </ProductDescription>
+      <ProductNumberCode>000000000418589</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>425856</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Quadro vidrado- Vitrine 120cm X 100cm</ProductDescription>
+      <ProductNumberCode>000000000425856</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>425863</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>COFRE CAIXA PARA 50 CHAVES</ProductDescription>
+      <ProductNumberCode>000000000425863</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>431625</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>NEKSIS UPS 1500 VA (2 Baterias)</ProductDescription>
+      <ProductNumberCode>000000000431625</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>431637</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>UPS APC SMART 1500VA 230V RACK MOUNT</ProductDescription>
+      <ProductNumberCode>000000000431637</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>432574</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera Dome Dahua 2MP</ProductDescription>
+      <ProductNumberCode>000000000432574</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>432592</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Switch Dahua 8POE</ProductDescription>
+      <ProductNumberCode>000000000432592</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>432593</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>NVR 1HDD 16CH</ProductDescription>
+      <ProductNumberCode>000000000432593</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>432594</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Disco Duro 4TB</ProductDescription>
+      <ProductNumberCode>000000000432594</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>432595</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Switch Dahua 4POE</ProductDescription>
+      <ProductNumberCode>000000000432595</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>432596</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera Tubular Dahua 2MP</ProductDescription>
+      <ProductNumberCode>000000000432596</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>434243</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Guilhotina/ Cutter with plates</ProductDescription>
+      <ProductNumberCode>000000000434243</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>438262</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Marca Texto (20)</ProductDescription>
+      <ProductNumberCode>000000000438262</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>438266</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinta para Carimbo Azul</ProductDescription>
+      <ProductNumberCode>000000000438266</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>438268</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinta para Carimbo Preta</ProductDescription>
+      <ProductNumberCode>000000000438268</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>438290</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Agrafos Peq (Emb)</ProductDescription>
+      <ProductNumberCode>000000000438290</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>438309</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>X-acto</ProductDescription>
+      <ProductNumberCode>000000000438309</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>438318</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Porta Canetas com divisoria</ProductDescription>
+      <ProductNumberCode>000000000438318</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>438330</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Envelope C5</ProductDescription>
+      <ProductNumberCode>000000000438330</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>438332</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Regua metalica</ProductDescription>
+      <ProductNumberCode>000000000438332</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>443662</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera de painel HD AE-DN2017-F2 1080P</ProductDescription>
+      <ProductNumberCode>000000000443662</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>444320</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Moldura Ades. 16x16mm</ProductDescription>
+      <ProductNumberCode>000000000444320</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>444321</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>União VD 20</ProductDescription>
+      <ProductNumberCode>000000000444321</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>444322</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Curva VD 20</ProductDescription>
+      <ProductNumberCode>000000000444322</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>444323</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tubo VD 20 Natural</ProductDescription>
+      <ProductNumberCode>000000000444323</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>444324</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabo RV-K 0,6/1KV 3 G 2,5 PT</ProductDescription>
+      <ProductNumberCode>000000000444324</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>444326</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tomada Schuko C/Obt</ProductDescription>
+      <ProductNumberCode>000000000444326</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>444327</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caixa Est. 85x85mm IP55</ProductDescription>
+      <ProductNumberCode>000000000444327</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>444328</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caixa 1 Fila 2 Mod.</ProductDescription>
+      <ProductNumberCode>000000000444328</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>444338</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Disj.2P 6/10kA C-25A</ProductDescription>
+      <ProductNumberCode>000000000444338</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>444339</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Ligador Wago 3x0,2 4mm</ProductDescription>
+      <ProductNumberCode>000000000444339</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>450294</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>ESTABILIZADOR WINTECH 3000VA </ProductDescription>
+      <ProductNumberCode>000000000450294</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>450916</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>PRETO INK BOTTLE 415 INK TANK 135ML</ProductDescription>
+      <ProductNumberCode>000000000450916</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>450922</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>CYAN INK BOTTLE 415 INK TANK</ProductDescription>
+      <ProductNumberCode>000000000450922</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>450924</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>MAGENTA INK BOTTLE 415 INK TANK</ProductDescription>
+      <ProductNumberCode>000000000450924</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>450927</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>AMARELO INK BOTTLE 415 INK TANK</ProductDescription>
+      <ProductNumberCode>000000000450927</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>450939</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinteiro 953 PRETO</ProductDescription>
+      <ProductNumberCode>000000000450939</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>450955</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinteiro 953 Ciano</ProductDescription>
+      <ProductNumberCode>000000000450955</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>450957</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinteiro 953 MAGENTA</ProductDescription>
+      <ProductNumberCode>000000000450957</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>450958</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinteiro 953 AMARELO</ProductDescription>
+      <ProductNumberCode>000000000450958</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>471839</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fita Anti-Derrapante Preta/Amarela 0,5x10m</ProductDescription>
+      <ProductNumberCode>000000000471839</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>471842</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fita Adesiv. Anti-Derrapante 15mx25mm</ProductDescription>
+      <ProductNumberCode>000000000471842</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>472408</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Teclado-Mouse MAHNT wifi Preto</ProductDescription>
+      <ProductNumberCode>000000000472408</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>472412</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>UPS WINTECH 850va Touch</ProductDescription>
+      <ProductNumberCode>000000000472412</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>474059</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>NVR Movel 4-CH POE</ProductDescription>
+      <ProductNumberCode>000000000474059</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>474062</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabo de Alimentação</ProductDescription>
+      <ProductNumberCode>000000000474062</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>474064</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Disco SSD 1TB</ProductDescription>
+      <ProductNumberCode>000000000474064</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>474066</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera IP 2MP</ProductDescription>
+      <ProductNumberCode>000000000474066</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>474094</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Software Mobile Centre Dahua</ProductDescription>
+      <ProductNumberCode>000000000474094</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>474113</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Câmera IP Discreta 2MP</ProductDescription>
+      <ProductNumberCode>000000000474113</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>478296</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP LASERJET MFP COLOR M479FDW (28/28)</ProductDescription>
+      <ProductNumberCode>000000000478296</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>478299</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>HP LASERJET MFP COLOR M480F (27/29 PPM)</ProductDescription>
+      <ProductNumberCode>000000000478299</ProductNumberCode>
+    </Product>
+    <TaxTable>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>NOR</TaxCode>
+        <Description>Normal</Description>
+        <TaxPercentage>14.0000</TaxPercentage>
+      </TaxTableEntry>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>OUT</TaxCode>
+        <Description>IVA - Regime de Exclusão</Description>
+        <TaxPercentage>0.0000</TaxPercentage>
+      </TaxTableEntry>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>ISE</TaxCode>
+        <Description>Transmissão de bens e serviços não sujeita</Description>
+        <TaxPercentage>0</TaxPercentage>
+      </TaxTableEntry>
+    </TaxTable>
+  </MasterFiles>
+  <SourceDocuments>
+    <SalesInvoices>
+      <NumberOfEntries>2</NumberOfEntries>
+      <TotalDebit>0.00</TotalDebit>
+      <TotalCredit>0.00</TotalCredit>
+      <Invoice>
+        <InvoiceNo>FT 2024/21</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>A</InvoiceStatus>
+          <InvoiceStatusDate>2024-05-01T15:33:35</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>g1dWmeqwQqgU/9+D8Cw03+0jzmE216Hx7ba1hAheQ+jxWYWHZZjVrjGYWiTvpPcWIMg2kEUv4p981nNtmoLHlN5+vIKjr6rueDfnh03OHaOsIm62mxfAQSKat+Ua/8TsoidyxLM79cMZEpifbTutFmeb/wqttlo1zVQuMlHGNtM=</Hash>
+        <HashControl>1</HashControl>
+        <Period>5</Period>
+        <InvoiceDate>2024-05-01</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-05-01T15:33:35</SystemEntryDate>
+        <CustomerID>57216</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>388147</ProductCode>
+          <ProductDescription>Quadro Cortiça 150 x 100</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>104800.0</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>Quadro Cortiça 150 x 100</Description>
+          <CreditAmount>209600.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>29344.00</TaxPayable>
+          <NetTotal>209600.00</NetTotal>
+          <GrossTotal>238944.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/22</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>A</InvoiceStatus>
+          <InvoiceStatusDate>2024-05-01T16:23:54</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>Y5SXLnfrZSDxojQioI1oHywYHgaHMs9HPOb5CrzHGuFUcEs+rSbJJg5yemktCl+J9fTejCxssuab4a1scWPT4IXhz7Ta927o33hTguFAAbu11REcveL+JS59j9UJLOAKCshOSu2gzpHMHTdDcC+IKLynI9AgqQlfnlK7h+EOQgM=</Hash>
+        <HashControl>1</HashControl>
+        <Period>5</Period>
+        <InvoiceDate>2024-05-01</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-05-01T16:23:54</SystemEntryDate>
+        <CustomerID>57216</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>389452</ProductCode>
+          <ProductDescription>SECRETÁRIA DELTA DESMONTADA 120X65X72</ProductDescription>
+          <Quantity>4</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>469000.0</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>SECRETÁRIA DELTA DESMONTADA 120X65X72</Description>
+          <CreditAmount>1876000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>389745</ProductCode>
+          <ProductDescription>Bebedouro</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>227000.0</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>Bebedouro</Description>
+          <CreditAmount>454000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>326200.00</TaxPayable>
+          <NetTotal>2330000.00</NetTotal>
+          <GrossTotal>2656200.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+    </SalesInvoices>
+    <WorkingDocuments>
+      <NumberOfEntries>2</NumberOfEntries>
+      <TotalDebit>0.00</TotalDebit>
+      <TotalCredit>1900670.88</TotalCredit>
+      <WorkDocument>
+        <DocumentNumber>PP 2024/60</DocumentNumber>
+        <DocumentStatus>
+          <WorkStatus>N</WorkStatus>
+          <WorkStatusDate>2024-05-01T17:05:43</WorkStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>ARnPJ6oMpiNR/ixvWg4gbUHH+lxoPW7xD+4g5C8GiFY0ccF9fSJWaARQnxFrpTI3to2eF19sq4+rrbhlLGEHQIdeJbnx74NV8Nk1Ot0izps3iiqqG2lO+3cJUuOf2o7SXwKhhqd85aLLXVp7piiJpFu4G2p9p8NjlXdYLT53gOw=</Hash>
+        <HashControl>1</HashControl>
+        <Period>5</Period>
+        <WorkDate>2024-05-01</WorkDate>
+        <WorkType>PP</WorkType>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-05-01T17:05:43</SystemEntryDate>
+        <CustomerID>57768</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>60405</ProductCode>
+          <ProductDescription>Mão de Obra</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>50000.0</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>Mão de Obra</Description>
+          <CreditAmount>50000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime de Exclusão</TaxExemptionReason>
+          <TaxExemptionCode>M04</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>50000.00</NetTotal>
+          <GrossTotal>50000.00</GrossTotal>
+        </DocumentTotals>
+      </WorkDocument>
+      <WorkDocument>
+        <DocumentNumber>PP 2024/61</DocumentNumber>
+        <DocumentStatus>
+          <WorkStatus>N</WorkStatus>
+          <WorkStatusDate>2024-05-01T17:55:03</WorkStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>LE8kq2/SDbVBoIyjzA4eTRmE0DrcaZI3peRTJAEERAQuptoLhY3ar/CamfeXA7uczAI5zQIDPnuHPih0qIk3/O6xEGEntRuAFKVKtwuLP/IVRzS47LZdSR2eZ3Y6w2W0I3lrSQJzpYE5nBK8jgEmwaZiRCTSB5WlNnjZakmxqmE=</Hash>
+        <HashControl>1</HashControl>
+        <Period>5</Period>
+        <WorkDate>2024-05-01</WorkDate>
+        <WorkType>PP</WorkType>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-05-01T17:55:03</SystemEntryDate>
+        <CustomerID>170907</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>432596</ProductCode>
+          <ProductDescription>Camera Tubular Dahua 2MP</ProductDescription>
+          <Quantity>13</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>71658.8</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>Camera Tubular Dahua 2MP</Description>
+          <CreditAmount>931564.4</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>432592</ProductCode>
+          <ProductDescription>Switch Dahua 8POE</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>96574.4</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>Switch Dahua 8POE</Description>
+          <CreditAmount>193148.8</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>3</LineNumber>
+          <ProductCode>432595</ProductCode>
+          <ProductDescription>Switch Dahua 4POE</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>82490.0</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>Switch Dahua 4POE</Description>
+          <CreditAmount>82490.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>4</LineNumber>
+          <ProductCode>432593</ProductCode>
+          <ProductDescription>NVR 1HDD 16CH</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>151301.0</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>NVR 1HDD 16CH</Description>
+          <CreditAmount>151301.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>5</LineNumber>
+          <ProductCode>57639</ProductCode>
+          <ProductDescription>Cabo UTP Cobre</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>110000.0</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>Cabo UTP Cobre</Description>
+          <CreditAmount>220000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime de Exclusão</TaxExemptionReason>
+          <TaxExemptionCode>M04</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>6</LineNumber>
+          <ProductCode>258674</ProductCode>
+          <ProductDescription>BASTIDOR 6U</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>105000.0</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>BASTIDOR 6U</Description>
+          <CreditAmount>105000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime de Exclusão</TaxExemptionReason>
+          <TaxExemptionCode>M04</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>7</LineNumber>
+          <ProductCode>109191</ProductCode>
+          <ProductDescription>TV Support</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>17000.0</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>TV Support</Description>
+          <CreditAmount>17000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime de Exclusão</TaxExemptionReason>
+          <TaxExemptionCode>M04</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>8</LineNumber>
+          <ProductCode>432594</ProductCode>
+          <ProductDescription>Disco Duro 4TB</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>150167.0</UnitPrice>
+          <TaxPointDate>2024-05-01</TaxPointDate>
+          <Description>Disco Duro 4TB</Description>
+          <CreditAmount>150167.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>211213.93</TaxPayable>
+          <NetTotal>1850670.91</NetTotal>
+          <GrossTotal>2061884.83</GrossTotal>
+        </DocumentTotals>
+      </WorkDocument>
+    </WorkingDocuments>
+    <Payments>
+      <NumberOfEntries>0</NumberOfEntries>
+      <TotalDebit>0.00</TotalDebit>
+      <TotalCredit>0.00</TotalCredit>
+    </Payments>
+  </SourceDocuments>
+</AuditFile>

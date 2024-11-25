@@ -1,0 +1,107 @@
+   <div  th:fragment="menuAdmin" class="fiinika-nav-main">
+        <div data-animation="over-right" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+          <div class="container _1">
+            <a href="/fiinika/dashboard" aria-current="page" class="brand w-nav-brand w--current"></a>
+            <nav role="navigation" class="nav-menu w-nav-menu">
+              <div data-hover="false" data-delay="0" class="dropdown-3 w-dropdown">
+                <div class="dropdown-toggle-2 w-dropdown-toggle">
+                  <div class="icon-2 w-icon-dropdown-toggle"></div>
+                  <div>Receitas</div>
+                </div>
+                <nav class="dropdown-list-3 w-dropdown-list">
+                  <a href="/fiinika/documentos/todos-documentos" class="link-inside-dropdown w-dropdown-link">Ver todos documentos</a>
+                  <a href="/fiinika/documentos/factura/criar-factura" class="link-inside-dropdown w-dropdown-link">Criar factura</a>
+                  <a href="/fiinika/documentos/factura/criar-factura-recibo" class="link-inside-dropdown w-dropdown-link">Criar factura/recibo</a>
+                  <a href="/fiinika/documentos/proforma/criar-proforma" class="link-inside-dropdown w-dropdown-link">Criar proforma</a>
+                </nav>
+              </div>
+              <div th:style="${display_none}" data-hover="false" data-delay="0" class="dropdown-3 w-dropdown">
+                <div class="dropdown-toggle-2 w-dropdown-toggle">
+                  <div class="icon-2 w-icon-dropdown-toggle"></div>
+                  <div>Despesas</div>
+                </div>
+                <nav class="dropdown-list-3 w-dropdown-list">
+                  <a href="/fiinika/despesas/todas-despesas" class="link-inside-dropdown w-dropdown-link">Histórico de despesas</a>
+                  <a href="/fiinika/despesas/criar-despesa" class="link-inside-dropdown w-dropdown-link">Registar despesa</a>
+                </nav>
+              </div>
+              <div data-hover="false" data-delay="0" class="dropdown-3 w-dropdown">
+                <div class="dropdown-toggle-2 w-dropdown-toggle">
+                  <div class="icon-2 w-icon-dropdown-toggle"></div>
+                  <div>Salários</div>
+                </div>
+                <nav class="dropdown-list-3 w-dropdown-list">
+                  <a href="/fiinika/salarios/processamento-de-salarios/processar-salario" class="link-inside-dropdown w-dropdown-link">Processar salários</a>
+                  <a href="/fiinika/salarios/faltas/registar-falta" class="link-inside-dropdown w-dropdown-link">Registrar falta</a>
+                  <a href="/fiinika/salarios/processamento-de-salarios/historico-de-processamentos" class="link-inside-dropdown w-dropdown-link">Histórico de processamentos</a>
+                  <a href="/fiinika/salarios/faltas/historico-de-faltas" class="link-inside-dropdown w-dropdown-link">Histórico de faltas</a>
+                </nav>
+              </div>
+              <div data-hover="false" data-delay="0" class="dropdown-3 w-dropdown">
+                <div class="dropdown-toggle-2 w-dropdown-toggle">
+                  <div class="icon-2 w-icon-dropdown-toggle"></div>
+                  <div>Stock</div>
+                </div>
+                <nav class="dropdown-list-3 w-dropdown-list">
+                  <a href="/fiinika/stock/meu-stock" class="link-inside-dropdown w-dropdown-link">Gestão de Stock</a>
+                </nav>
+              </div>
+              <div data-hover="false" data-delay="0" class="dropdown-3 w-dropdown">
+                <div class="dropdown-toggle-2 w-dropdown-toggle">
+                  <div class="icon-2 w-icon-dropdown-toggle"></div>
+                  <div>Procurement</div>
+                </div>
+                <nav class="dropdown-list-3 w-dropdown-list">
+                  <a href="/fiinika/procurement/meus-pedidos/novo-pedido" class="link-inside-dropdown w-dropdown-link">Novo pedido</a>
+                  <a href="/fiinika/procurement/meus-pedidos/meus-pedidos-historico" aria-current="page" class="link-inside-dropdown w-dropdown-link w--current">Histórico dos meus pedidos</a>
+                  <a href="/fiinika/procurement/pedidos-externos/concursos-abertos" class="link-inside-dropdown w-dropdown-link">Concursos abertos</a>
+                  <a href="/fiinika/procurement/pedidos-externos/minhas-propostas-historico" class="link-inside-dropdown w-dropdown-link">Propostas enviadas</a>
+                  <a href="/fiinika/procurement/pedidos-externos/facturacao" class="link-inside-dropdown w-dropdown-link">Minha faturação</a>
+                </nav>
+              </div>
+              <div data-hover="false" data-delay="0" class="dropdown-3 w-dropdown">
+                <div class="dropdown-toggle-2 w-dropdown-toggle">
+                  <div class="icon-2 w-icon-dropdown-toggle"></div>
+                  <div>Finanças</div>
+                </div>
+                <nav class="dropdown-list-3 w-dropdown-list">
+                  <a href="/fiinika/financas/ver-relatorios" class="link-inside-dropdown w-dropdown-link">Ver relatórios</a>
+                  <a  th:if="${tipo_sub == 1}" th:style="${display_none}" href="#" class="link-inside-dropdown w-dropdown-link">SAFT</a>
+                </nav>
+              </div>
+              <div data-hover="false" data-delay="0" class="dropdown-3 w-dropdown">
+                <div class="dropdown-toggle-2 w-dropdown-toggle">
+                  <div class="icon-2 w-icon-dropdown-toggle"></div>
+                  <div>Cadastros</div>
+                </div>
+                <nav class="dropdown-list-3 w-dropdown-list">
+                  <a href="/fiinika/produtos/todos-produtos" class="link-inside-dropdown w-dropdown-link">Artigos</a>
+                  <a href="/fiinika/categorias/todas-categorias" class="link-inside-dropdown w-dropdown-link">Categorias de artigos</a>
+                  <a href="/fiinika/clientes/todos-clientes" class="link-inside-dropdown w-dropdown-link">Clientes</a>
+                  <a href="/fiinika/fornecedores/todos-fornecedores" class="link-inside-dropdown w-dropdown-link">Fornecedores</a>                 
+                  <a href="/fiinika/bancos/todos-bancos" class="link-inside-dropdown w-dropdown-link">Contas bancárias</a>
+                  <a href="/fiinika/salarios/funcionarios/todos-funcionarios" class="link-inside-dropdown w-dropdown-link">Funcionários</a>
+                  <a href="/fiinika/salarios/retribuicoes-e-deducoes/deducoes-e-retribuicoes-main" class="link-inside-dropdown w-dropdown-link">Retribuições e deduções</a>
+                  <a href="/fiinika/utilizadores/todos-utilizadores" class="link-inside-dropdown w-dropdown-link">Utilizadores do sistema</a>
+                </nav>
+              </div>
+              <div data-hover="false" data-delay="0" class="dropdown-3 w-dropdown">
+                <div class="dropdown-toggle-2 w-dropdown-toggle">
+                  <div class="icon-2 w-icon-dropdown-toggle"></div>
+                  <div>Configurações</div>
+                </div>
+                <nav class="dropdown-list-3 w-dropdown-list">                 
+                  <a href="/fiinika/configuracoes/configuracoes-gerais" class="link-inside-dropdown w-dropdown-link">Configurações gerais</a>
+               
+                </nav>
+              </div>
+              <a href="/logout" class="link-block-5 w-inline-block">
+                 <div>Sair</div>
+              </a>
+            </nav>
+            <div class="menu-button w-nav-button">
+              <div class="w-icon-nav-menu"></div>
+            </div>
+          </div>
+        </div>
+      </div>

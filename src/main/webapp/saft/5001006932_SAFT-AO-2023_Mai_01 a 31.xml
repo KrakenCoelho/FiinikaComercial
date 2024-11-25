@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AuditFile xmlns="urn:OECD:StandardAuditFile-Tax:AO_1.01_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Header>
+    <AuditFileVersion>1.01_01</AuditFileVersion>
+    <CompanyID>MARCAÇÃO-XTRA - ENGENHARIA E SERVIÇOS (SU), LDA</CompanyID>
+    <TaxRegistrationNumber>5001006932</TaxRegistrationNumber>
+    <TaxAccountingBasis>F</TaxAccountingBasis>
+    <CompanyName>MARCAÇÃO-XTRA - ENGENHARIA E SERVIÇOS (SU), LDA</CompanyName>
+    <CompanyAddress>
+      <AddressDetail>ANTONIO FELICIANO DE CASTILHO - VILA ALICE </AddressDetail>
+      <City>LUANDA</City>
+      <Province>LUANDA</Province>
+      <Country>AO</Country>
+    </CompanyAddress>
+    <FiscalYear>2024</FiscalYear>
+    <StartDate>2023-05-01</StartDate>
+    <EndDate>2023-05-31</EndDate>
+    <CurrencyCode>AOA</CurrencyCode>
+    <DateCreated>2024-05-23</DateCreated>
+    <TaxEntity>GLOBAL</TaxEntity>
+    <ProductCompanyTaxID>5001006932</ProductCompanyTaxID>
+    <SoftwareValidationNumber>371/AGT/2022</SoftwareValidationNumber>
+    <ProductID>DexaContas/SELECT SERVICES, LDA</ProductID>
+    <ProductVersion>1.0.0</ProductVersion>
+    <Telephone>+935540190</Telephone>
+    <Email>markxtra.angola@gmail.com</Email>
+  </Header>
+  <MasterFiles>
+    <Customer>
+      <CustomerID>51327</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417559490</CustomerTaxID>
+      <CompanyName>Global Select Beverage - Indústria de Bebidas, Lda</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Bairro Kikuxi - Viana - Luanda </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>928722271</Telephone>
+      <Email>elton.rodrigues@gsb.co.ao</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>51383</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5401034865</CustomerTaxID>
+      <CompanyName>KIKOLO SOCIEDADE INDUSTRIAL DE MOAGEM S.A.</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Viana </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>947813115</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>51456</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417354554</CustomerTaxID>
+      <CompanyName>NOVA FIBREX </CompanyName>
+      <BillingAddress>
+        <AddressDetail>Quilômetro 25, Polo Industrial de Viana, lote 220</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>932023727</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>52456</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5402137250</CustomerTaxID>
+      <CompanyName>MILBRIDGE HOLDING S.A.</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Luanda </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>948423353</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>54094</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417363839</CustomerTaxID>
+      <CompanyName>BISCUIT ANGOLA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Viana - Via Expresso - Engevia </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>940247294</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>55577</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5111052887</CustomerTaxID>
+      <CompanyName>BARGAIN-ENGENHARIA, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Pedro Nolasco de Andrade - Benguela</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>953478765</Telephone>
+      <Email>bargainengenharia@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>76009</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417342866</CustomerTaxID>
+      <CompanyName>PLASTCON, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Zona Econômica Especial (ZEE)</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>940539382</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>100426</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5402133360</CustomerTaxID>
+      <CompanyName>RK DETERGENTES </CompanyName>
+      <BillingAddress>
+        <AddressDetail>Polo Industrial de Viana </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>931025544</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>103985</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5480007343</CustomerTaxID>
+      <CompanyName>GHION - ALIMENTOS, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Viana </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>933067663</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>113254</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417096148</CustomerTaxID>
+      <CompanyName>NUVIBRANDS, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Viana - Kikuxi</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>935238995</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>122510</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417072893</CustomerTaxID>
+      <CompanyName>ÁFRICA FUTURE - COMÉRCIO GERAL E INDÚSTRIA, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>VIANA</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>925521443</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>138244</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5000507245</CustomerTaxID>
+      <CompanyName>CASA DE BREWERIES - COMERCIO E INDUSTRIA, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Zona Industrial de Viana</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>947697729</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>138253</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417477877</CustomerTaxID>
+      <CompanyName>ANGO-TLK - COMERCIO GERAL (SU), LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Estrada de Catete Km 25- Viana</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>928779517</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>145619</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417290548</CustomerTaxID>
+      <CompanyName>LUANDA MOAGENS </CompanyName>
+      <BillingAddress>
+        <AddressDetail>Polo Industrial de Viana </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>939906060</Telephone>
+      <Email>contacto@luandamoagens.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>149504</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417646342</CustomerTaxID>
+      <CompanyName>I3S SOLUTIONS - PRESTAÇÃO DE SERVIÇOS, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Av. Luanda Sul, Belas Business Park, Ed. Bengo</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>222782211</Telephone>
+      <Email>geral@i3s.co.ao</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>173073</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5000192180</CustomerTaxID>
+      <CompanyName>ACE FORTUNE - INDUSTRIA E COMERCIO, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Polo Industrial de Viana </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>930138219</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>174809</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>LUCKY CHIPAPE</CompanyName>
+      <BillingAddress>
+        <AddressDetail>ANTONIO FELICIANO DE CASTILHO - VILA ALICE </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>954720371</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>193259</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5401158300</CustomerTaxID>
+      <CompanyName>INDUSTRIA BALUARTE, LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Estr. de Catete Km 38</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>935048971</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>198534</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5000769207</CustomerTaxID>
+      <CompanyName>HM Foods Comercio e Industria</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Polo Industrial de Viana </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>944684430</Telephone>
+      <Email>finance@hmfoodsindustria.co.ao</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>202502</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5405004200</CustomerTaxID>
+      <CompanyName>FAZENDA AGRICILA INDUSTRIAL VITORIA ETAPE, LDA </CompanyName>
+      <BillingAddress>
+        <AddressDetail>Polo Industrial de Viana </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>926223400</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>213176</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5001436473</CustomerTaxID>
+      <CompanyName>RAMKY - INDUSTRIA E COMERCIO</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Bengo - Panguila</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>937923768</Telephone>
+      <Email>ramky699@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>219577</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5001184431</CustomerTaxID>
+      <CompanyName>BNR UNITED COMERCIO E INDUSTRIA LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>LUANDA</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923178237</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>222094</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5000874841</CustomerTaxID>
+      <CompanyName>SIKA ANGOLA, LDA </CompanyName>
+      <BillingAddress>
+        <AddressDetail>Travessa Mota e Companhia, Viana - Zona Industrial de Kikuxi</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>927942244</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>51333</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Continuous Inkjet Printer - Aluguer</ProductDescription>
+      <ProductNumberCode>00000000051333</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>51335</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Solvente</ProductDescription>
+      <ProductNumberCode>00000000051335</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>51336</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinta</ProductDescription>
+      <ProductNumberCode>00000000051336</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>51388</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Continuous Inkjet Printer </ProductDescription>
+      <ProductNumberCode>00000000051388</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>51389</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Sensor</ProductDescription>
+      <ProductNumberCode>00000000051389</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>51391</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Suporte de Cabeça</ProductDescription>
+      <ProductNumberCode>00000000051391</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>51393</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Installation and Training</ProductDescription>
+      <ProductNumberCode>00000000051393</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>51394</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tinta - Amarelo</ProductDescription>
+      <ProductNumberCode>00000000051394</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>51459</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Laser Dotcoding - Aluguer</ProductDescription>
+      <ProductNumberCode>00000000051459</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>51460</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Manutenção sistema de filtragem wf30 3 copos </ProductDescription>
+      <ProductNumberCode>00000000051460</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>51461</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Treinamento e Instalação</ProductDescription>
+      <ProductNumberCode>00000000051461</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>54093</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Handheld Catridge DK205B</ProductDescription>
+      <ProductNumberCode>00000000054093</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>55578</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Linx 8940</ProductDescription>
+      <ProductNumberCode>00000000055578</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>55579</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Printer Stand</ProductDescription>
+      <ProductNumberCode>00000000055579</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>55580</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Automatic Unti-Bump System and Printhead Protection</ProductDescription>
+      <ProductNumberCode>00000000055580</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>55581</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Printer head stand</ProductDescription>
+      <ProductNumberCode>00000000055581</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>55582</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Instalação</ProductDescription>
+      <ProductNumberCode>00000000055582</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>55583</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Ink 1240</ProductDescription>
+      <ProductNumberCode>00000000055583</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>55584</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Solvent 1512</ProductDescription>
+      <ProductNumberCode>00000000055584</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>55585</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cleaner 5001</ProductDescription>
+      <ProductNumberCode>00000000055585</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>79346</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>BENTSAI - Handheld Inkjet Printer</ProductDescription>
+      <ProductNumberCode>00000000079346</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>79348</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>BENTSAI - Handheld Inkjet Printer B80</ProductDescription>
+      <ProductNumberCode>00000000079348</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>79350</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Handheld Cartridges B80</ProductDescription>
+      <ProductNumberCode>00000000079350</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>100427</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Solvent 1512 - 500ml</ProductDescription>
+      <ProductNumberCode>000000000100427</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>120414</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Continuous Inkjet Printer 8900</ProductDescription>
+      <ProductNumberCode>000000000120414</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>120415</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Continuous Inkjet Printer 8940</ProductDescription>
+      <ProductNumberCode>000000000120415</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>120417</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Shaft encoder </ProductDescription>
+      <ProductNumberCode>000000000120417</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>120435</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Eyemark Sensor</ProductDescription>
+      <ProductNumberCode>000000000120435</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>138243</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Software</ProductDescription>
+      <ProductNumberCode>000000000138243</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>143991</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Addendum </ProductDescription>
+      <ProductNumberCode>000000000143991</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>145164</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Service kit</ProductDescription>
+      <ProductNumberCode>000000000145164</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>148032</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Linx 8940 - Addition </ProductDescription>
+      <ProductNumberCode>000000000148032</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>149507</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Linx Printer Manager License</ProductDescription>
+      <ProductNumberCode>000000000149507</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>159732</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Winding Machine </ProductDescription>
+      <ProductNumberCode>000000000159732</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>165874</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Ink 500ml</ProductDescription>
+      <ProductNumberCode>000000000165874</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>176476</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mão de obra</ProductDescription>
+      <ProductNumberCode>000000000176476</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>191433</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>CIJ 7900</ProductDescription>
+      <ProductNumberCode>000000000191433</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>193260</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Printhead</ProductDescription>
+      <ProductNumberCode>000000000193260</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>193287</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Service Exchange Old 7900  to New Linx 8900</ProductDescription>
+      <ProductNumberCode>000000000193287</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>196627</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Yellow Ink</ProductDescription>
+      <ProductNumberCode>000000000196627</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>196628</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Solvent 1505</ProductDescription>
+      <ProductNumberCode>000000000196628</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>211807</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Linx 8830</ProductDescription>
+      <ProductNumberCode>000000000211807</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>213184</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Ink 1058</ProductDescription>
+      <ProductNumberCode>000000000213184</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>213392</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Solvent 1558</ProductDescription>
+      <ProductNumberCode>000000000213392</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>223633</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Yellow ink 1079</ProductDescription>
+      <ProductNumberCode>000000000223633</ProductNumberCode>
+    </Product>
+    <TaxTable>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>NOR</TaxCode>
+        <Description>Normal</Description>
+        <TaxPercentage>14.0000</TaxPercentage>
+      </TaxTableEntry>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>OUT</TaxCode>
+        <Description>IVA - Regime de Exclusão</Description>
+        <TaxPercentage>0.0000</TaxPercentage>
+      </TaxTableEntry>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>ISE</TaxCode>
+        <Description>Transmissão de bens e serviços não sujeita</Description>
+        <TaxPercentage>0</TaxPercentage>
+      </TaxTableEntry>
+    </TaxTable>
+  </MasterFiles>
+  <SourceDocuments>
+    <SalesInvoices>
+      <NumberOfEntries>0</NumberOfEntries>
+      <TotalDebit>0.00</TotalDebit>
+      <TotalCredit>0.00</TotalCredit>
+    </SalesInvoices>
+    <WorkingDocuments>
+      <NumberOfEntries>4</NumberOfEntries>
+      <TotalDebit>0.00</TotalDebit>
+      <TotalCredit>7159375.00</TotalCredit>
+      <WorkDocument>
+        <DocumentNumber>PP 2023/10</DocumentNumber>
+        <DocumentStatus>
+          <WorkStatus>N</WorkStatus>
+          <WorkStatusDate>2023-05-15T13:12:17</WorkStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>QPM03DHqlAUzVN6mLFX661zpo9lESXRI7M4n39syn1/nPGFbVZp1/BpBScKbYR9AJ5HauJI6bhWPcEysgfv/X3ya1R/2yWuNHLi8YoSloAugDh9+wzGjYY/eY3MjSr97dgJeo+aH1hdXPyEHTH6GoBsCwLEadrDw7EjJ/nwkc3g=</Hash>
+        <HashControl>1</HashControl>
+        <Period>5</Period>
+        <WorkDate>2023-05-15</WorkDate>
+        <WorkType>PP</WorkType>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2023-05-15T13:12:17</SystemEntryDate>
+        <CustomerID>76009</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>79346</ProductCode>
+          <ProductDescription>BENTSAI - Handheld Inkjet Printer</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>460000.0</UnitPrice>
+          <TaxPointDate>2023-05-15</TaxPointDate>
+          <Description>BENTSAI - Handheld Inkjet Printer</Description>
+          <CreditAmount>920000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>54093</ProductCode>
+          <ProductDescription>Handheld Catridge DK205B</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>43125.0</UnitPrice>
+          <TaxPointDate>2023-05-15</TaxPointDate>
+          <Description>Handheld Catridge DK205B</Description>
+          <CreditAmount>86250.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>128800.00</TaxPayable>
+          <NetTotal>1006250.00</NetTotal>
+          <GrossTotal>1135050.0</GrossTotal>
+        </DocumentTotals>
+      </WorkDocument>
+      <WorkDocument>
+        <DocumentNumber>PP 2023/11</DocumentNumber>
+        <DocumentStatus>
+          <WorkStatus>N</WorkStatus>
+          <WorkStatusDate>2023-05-15T13:13:19</WorkStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>ToplungaE9nz4kg/hx0RSzRD2+qhMFNZrnqrIGGJS+OPg858eLp1asbC7pbflMn84MrgOYpMAtdo6E/oji4hZQFzfCsol8ghshwLsmgc9Blt9bWboa4d/O0IOEJGd5ypU/OpryZ2uvF22EW4cfreDFiBjGSpC/RPc3l5Qz7KGrQ=</Hash>
+        <HashControl>1</HashControl>
+        <Period>5</Period>
+        <WorkDate>2023-05-15</WorkDate>
+        <WorkType>PP</WorkType>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2023-05-15T13:13:19</SystemEntryDate>
+        <CustomerID>76009</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>79348</ProductCode>
+          <ProductDescription>BENTSAI - Handheld Inkjet Printer B80</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>1260000.0</UnitPrice>
+          <TaxPointDate>2023-05-15</TaxPointDate>
+          <Description>BENTSAI - Handheld Inkjet Printer B80</Description>
+          <CreditAmount>2520000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>79350</ProductCode>
+          <ProductDescription>Handheld Cartridges B80</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>62000.0</UnitPrice>
+          <TaxPointDate>2023-05-15</TaxPointDate>
+          <Description>Handheld Cartridges B80</Description>
+          <CreditAmount>124000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>370160.00</TaxPayable>
+          <NetTotal>2644000.00</NetTotal>
+          <GrossTotal>3014160.0</GrossTotal>
+        </DocumentTotals>
+      </WorkDocument>
+      <WorkDocument>
+        <DocumentNumber>PP 2023/12</DocumentNumber>
+        <DocumentStatus>
+          <WorkStatus>N</WorkStatus>
+          <WorkStatusDate>2023-05-15T13:14:03</WorkStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>O2IbRc/cgJqWAGlNrwH09OMHsb1a6LwoTifUd4ePyp6qbBq+r5bSMvSmXu3cPy/vseD5KwSE2yX9PL6/vYtYjGK9ioppFU/b0DIGKzCQdb+TY4/bxYIE5k6BjeXFxifc7C/CoCDGPnn1yfDikT0OUY7i54vrWL7R2f0VfXj4TzU=</Hash>
+        <HashControl>1</HashControl>
+        <Period>5</Period>
+        <WorkDate>2023-05-15</WorkDate>
+        <WorkType>PP</WorkType>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2023-05-15T13:14:03</SystemEntryDate>
+        <CustomerID>76009</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>79348</ProductCode>
+          <ProductDescription>BENTSAI - Handheld Inkjet Printer B80</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>1260000.0</UnitPrice>
+          <TaxPointDate>2023-05-15</TaxPointDate>
+          <Description>BENTSAI - Handheld Inkjet Printer B80</Description>
+          <CreditAmount>2520000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>79350</ProductCode>
+          <ProductDescription>Handheld Cartridges B80</ProductDescription>
+          <Quantity>8</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>62000.0</UnitPrice>
+          <TaxPointDate>2023-05-15</TaxPointDate>
+          <Description>Handheld Cartridges B80</Description>
+          <CreditAmount>496000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>422240.00</TaxPayable>
+          <NetTotal>3016000.00</NetTotal>
+          <GrossTotal>3438240.0</GrossTotal>
+        </DocumentTotals>
+      </WorkDocument>
+      <WorkDocument>
+        <DocumentNumber>PP 2023/13</DocumentNumber>
+        <DocumentStatus>
+          <WorkStatus>N</WorkStatus>
+          <WorkStatusDate>2023-05-15T13:45:56</WorkStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>jN7TsjssLKJoAO/NrZ1w5hK8/FWenYf7+DT+bxgYbCTDks1Kbrehi/89zFZQCk29y0RfUE+BimWbedN900dcKe/Y6gM7APhb3QfdxKA/wIkpm+TPsWcx45rhv4Mq6Ml/6OQnd/5s6v9oUC3sWQ/8Y/EblIqWS6DIqsaxaEukCXI=</Hash>
+        <HashControl>1</HashControl>
+        <Period>5</Period>
+        <WorkDate>2023-05-15</WorkDate>
+        <WorkType>PP</WorkType>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2023-05-15T13:45:56</SystemEntryDate>
+        <CustomerID>76009</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>79346</ProductCode>
+          <ProductDescription>BENTSAI - Handheld Inkjet Printer</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>450000.0</UnitPrice>
+          <TaxPointDate>2023-05-15</TaxPointDate>
+          <Description>BENTSAI - Handheld Inkjet Printer</Description>
+          <CreditAmount>450000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>54093</ProductCode>
+          <ProductDescription>Handheld Catridge DK205B</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>43125.0</UnitPrice>
+          <TaxPointDate>2023-05-15</TaxPointDate>
+          <Description>Handheld Catridge DK205B</Description>
+          <CreditAmount>43125.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>63000.00</TaxPayable>
+          <NetTotal>493125.00</NetTotal>
+          <GrossTotal>556125.0</GrossTotal>
+        </DocumentTotals>
+      </WorkDocument>
+    </WorkingDocuments>
+    <Payments>
+      <NumberOfEntries>0</NumberOfEntries>
+      <TotalDebit>0.00</TotalDebit>
+      <TotalCredit>0.00</TotalCredit>
+    </Payments>
+  </SourceDocuments>
+</AuditFile>

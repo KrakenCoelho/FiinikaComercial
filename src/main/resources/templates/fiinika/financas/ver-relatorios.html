@@ -1,0 +1,255 @@
+<!DOCTYPE html><!--  Last Published: Tue Aug 27 2024 07:19:21 GMT+00 (Coordinated Universal Time)  -->
+<html data-wf-page="66cd6b2f3557e5e41351e2b3" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<div th:insert="/fragments/script :: script" id="id_script"></div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+<body>
+  <div class="mother-div">
+    <div class="page-content-wrapper">
+    <div th:insert="/fragments/menuAdmin :: menuAdmin"></div>
+      <div class="content">
+        <section class="criar-page-section">
+          <div class="container">
+            <div class="top-section-navigation">
+              <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+                <div class="text-block-129">q</div>
+              </a>
+              <div class="titulo">
+                <div class="text-block-130">Ver relatórios<br></div>
+              </div>
+              <div class="bot-o-ou-menu">
+                <div class="form-block-5 w-form">
+                  <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="66cd6b2f3557e5e41351e2b3" data-wf-element-id="b396ef29-b89b-61ee-6101-c870a13bc6af"><select id="Field-3" name="Field-3" data-name="Field 3" class="select-field-2 w-select">
+                      <option value="">Escolher ano</option>                    
+                      <option value="2024">2024</option>
+                    </select></form>
+                  <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                  </div>
+                  <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="div-block-262">
+              <div class="quadro-wrapper">
+                <div class="div-block-263">
+                  <div class="div-block-267">
+                    <h5 class="heading-10">Proveitos</h5>
+                  </div>
+                  <div class="div-block-267">
+                    <h5 class="heading-10">Despesas</h5>
+                  </div>
+                  <div class="div-block-267">
+                    <h5 class="heading-10">Disponibilidades</h5>
+                  </div>
+                  <div class="div-block-267">
+                    <h5 class="heading-10">Contas a receber</h5>
+                  </div>
+                  <div class="div-block-267">
+                    <h5 class="heading-10">Contas a pagar</h5>
+                  </div>
+                  <div class="div-block-268">
+                    <div class="text-block-170">Fornecedores</div>
+                  </div>
+                  <div class="div-block-268">
+                    <div class="text-block-170">Salários</div>
+                  </div>
+                  <div class="div-block-268">
+                    <div class="text-block-170">Impostos</div>
+                  </div>
+                  <div class="div-block-268"></div>
+                  <div class="div-block-267 _0">
+                    <h5 class="heading-10">Stock próprio</h5>
+                  </div>
+                  <div class="div-block-267 _0">
+                    <h5 class="heading-10">Stock de fornecedores</h5>
+                  </div>
+                </div>
+                <div class="div-block-264">
+                  <div class="div-block-266">
+                    <div class="text-block-171" th:each="mes, cont :${meses}" th:if="${m[cont.index] <= mesInt}">[[${mes}]]</div>
+                  </div>
+                  
+                  <div class="div-block-270" th:each="i : ${#numbers.sequence(0, 7)}">
+                  <div th:each="mes, cont :${meses}" th:if="${m[cont.index] <= mesInt}">
+                    <div th:if="${i == 0}"  class="div-block-269 verde">
+                      <div class="text-block-172">KZ [[${#numbers.formatDecimal(proveitos[cont.index], 1, 'POINT', 2, 'COMMA')}]]</div>
+                    </div>
+                    <div th:if="${i == 1}" class="div-block-269 red">
+                      <div class="text-block-172">KZ [[${#numbers.formatDecimal(despesas[cont.index], 1, 'POINT', 2, 'COMMA')}]]</div>
+                    </div>
+                    <div  th:if="${i == 2}" class="div-block-269 ">
+                      <div class="text-block-172">KZ [[${#numbers.formatDecimal(proveitos[cont.index], 1, 'POINT', 2, 'COMMA')}]]</div>
+                    </div>
+                    <div  th:if="${i == 3}" class="div-block-269 ">
+                      <div class="text-block-172">KZ [[${#numbers.formatDecimal(contasreceber[cont.index], 1, 'POINT', 2, 'COMMA')}]]</div>
+                    </div>
+                    <div  th:if="${i == 4}" class="div-block-269 ">
+                      <div class="text-block-172">KZ 0,00</div>
+                    </div>
+                    <div th:if="${i == 5}" class="div-block-269 _12">
+                      <div class="text-block-172 no-b">KZ 0,00</div>
+                   </div>
+                    <div th:if="${i == 6}" class="div-block-269 _12">
+                      <div class="text-block-172 no-b">KZ 0,00</div>
+                   </div>
+                    <div th:if="${i == 7}" class="div-block-269 _12">
+                      <div class="text-block-172 no-b">KZ 0,00</div>
+                   </div>
+                   </div>
+                  </div>
+                  
+                   <div class="div-block-270 _20" th:each="i : ${#numbers.sequence(0, 2)}">
+					<div th:each="mes, cont :${meses}" th:if="${m[cont.index] <= mesInt}">
+	                   <div  th:if="${i == 0}" class="div-block-269">
+	                      <div class="text-block-172">KZ 000,00</div>
+	                    </div>
+	                    <div  th:if="${i == 1}" class="div-block-269">
+	                      <div class="text-block-172">KZ 000,00</div>
+	                    </div>
+                    </div>
+                  </div>
+
+                
+                 
+                 
+
+               
+              </div>
+            </div>
+            <div class="div-block-271">
+              <div class="w-layout-grid grid-21">
+                <div id="w-node-_060fe18d-bbb3-0c53-571a-c606102cb92c-1351e2b3" class="section-data">
+                  <h1 class="page-h1 sub">Variação dos proveitos (2024)</h1>
+                  <div class="div-block-272">
+                    <div class="grafico _2"><canvas id="vendas"></canvas></div>
+                    <div class="dados">
+                      <div class="div-block-141">
+                        <div class="text-block-157">Proveitos totais</div>
+                        <div class="text-block-190">KZ [[${#numbers.formatDecimal(totalProveitos, 1, 'POINT', 2, 'COMMA')}]]</div>
+                      </div>
+                      <div class="div-block-141">
+                        <div class="text-block-157">Média mensal</div>
+                        <div class="text-block-190">KZ [[${#numbers.formatDecimal(mediaMensal, 1, 'POINT', 2, 'COMMA')}]]</div>
+                      </div>
+                      <div class="div-block-141">
+                        <div class="text-block-157">Proveitos este mês</div>
+                        <div class="text-block-190">KZ [[${#numbers.formatDecimal(proveitoMes, 1, 'POINT', 2, 'COMMA')}]]</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="w-node-_15870727-f2f6-1670-ec49-a52eef14cb9e-1351e2b3" class="section-data">
+                  <h1 class="page-h1 sub">Variação da despesa (2024)</h1>
+                  <div class="div-block-272">
+                    <div class="grafico _2"><canvas id="despesas"></canvas></div>
+                    <div class="dados">
+                      <div class="div-block-141">
+                        <div class="text-block-157">Despesas totais</div>
+                        <div class="text-block-190">KZ [[${#numbers.formatDecimal(despesaTotal, 1, 'POINT', 2, 'COMMA')}]]</div>
+                      </div>
+                      <div class="div-block-141">
+                        <div class="text-block-157">Média mensal</div>
+                        <div class="text-block-190">KZ [[${#numbers.formatDecimal(mediaMensalD, 1, 'POINT', 2, 'COMMA')}]]</div>
+                      </div>
+                      <div class="div-block-141">
+                        <div class="text-block-157">Despesas este mês</div>
+                        <div class="text-block-190">KZ [[${#numbers.formatDecimal(despesaMes, 1, 'POINT', 2, 'COMMA')}]]</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  <div class="close-flyout"></div>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+   <script th:inline="javascript">
+	   
+  /*<![CDATA[*/                
+  meses_vendas   = [[${meses_venda}]]
+  num_vendas_mes = [[${num_vendas}]]
+  meses_despesas = [[${meses_despesas}]]
+  num_despesas_mes = [[${num_despesas}]]
+  /*]]>*/
+  
+
+
+  var color = [
+      'rgba(255, 99, 132, 0.2)',
+      'rgba(54, 162, 235, 0.2)',
+      'rgba(255, 206, 86, 0.2)',
+      'rgba(75, 192, 192, 0.2)',
+      'rgba(153, 102, 255, 0.2)',
+      'rgba(255, 159, 64, 0.2)',
+      'rgba(255, 99, 132, 0.2)',
+      'rgba(54, 162, 235, 0.2)',
+      'rgba(255, 206, 86, 0.2)',
+      'rgba(75, 192, 192, 0.2)',
+      'rgba(153, 102, 255, 0.2)',
+      'rgba(255, 159, 64, 0.2)'
+  ]
+  var ctx = document.getElementById('vendas');
+  var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+          labels: meses_vendas,
+          datasets: [{
+              label: '# de Vendas',
+              data: num_vendas_mes,
+              backgroundColor: color,
+              borderColor: color,
+              borderWidth: 1
+          }]
+      },
+      options: {
+          scales: {
+              y: {
+                  beginAtZero: true
+              }
+          }
+      }
+  });
+  
+  var ctx2 = document.getElementById('despesas');
+  var myChart2 = new Chart(ctx2, {
+      type: 'bar',
+      data: {
+          labels: meses_despesas,
+          datasets: [{   
+        	  label: '# de Despesas',
+              data: num_despesas_mes,
+              backgroundColor: color,
+              borderColor: color,
+              borderWidth: 1
+          }]
+      },
+      options: {
+          scales: {
+              y: {
+                  beginAtZero: true
+              }
+          }
+      }
+  });
+  
+
+
+  $('#ano').change(				
+     function() {			
+    	 window.location = "/dexa/configuracoes/relatorios/"+$("#ano").val()
+   });
+
+   
+</script>
+</body>
+</html>

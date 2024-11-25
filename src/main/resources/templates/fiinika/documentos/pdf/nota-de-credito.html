@@ -1,0 +1,283 @@
+<!DOCTYPE html><!--  Last Published: Fri Jan 27 2023 10:27:41 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6285acd78240b51902548dcb" data-wf-site="5e488f7b9065e702921384e9">
+<head>
+  <meta charset="utf-8"/>
+  <title>[[${fact.codigo_factura}]]</title>
+  <meta content="Nota de crédito" property="og:title"/>
+  <meta content="Nota de crédito" property="twitter:title"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link th:href="@{${server} + '/cssPdf/normalize.css'}" rel="stylesheet" type="text/css"/>
+  <link th:href="@{${server} + '/cssPdf/components.css'}" rel="stylesheet" type="text/css"/>
+  <link th:href="@{${server} + '/cssPdf/dexa-contas.css'}" rel="stylesheet" type="text/css"/> 
+    <style type="text/css">
+	 body { padding: 5px; }
+
+            .footer {
+                position: running(footer);
+                font-size: 11px;
+                text-align: center;
+            }
+
+            @page {
+                @bottom-center {
+                    content: element(footer)
+                }
+            }
+
+            .pagenumber:before {
+                content: counter(page)
+            }
+
+            .pagecount:before {
+                content: counter(pages)
+            }
+</style>
+</head>
+<body class="body-2">
+  <div class="a4">
+    <div class="div-block-86 w-clearfix">
+      <div class="logo-brand"><img style="width:220px;  height: 100px;" th:src="@{${server}+'/imgs/empresas/'+ ${emp.foto_logotipo}}" loading="lazy" alt=""/></div>
+      <div class="nome-da-empresa">
+        <div class="text-block-97">[[${emp.nomeEmpresa}]]</div>
+        <div class="text-block-97">NIF: [[${emp.nif}]]</div>
+        <div class="div-block-87">
+          <div class="text-block-98">+244[[${emp.telemovel}]]</div>
+          <div class="text-block-98">[[${emp.email}]]</div>
+          <div class="text-block-98">[[${emp.endereco}]]</div>
+        </div>
+      </div>
+    </div>
+    <div class="text-block-100">Original</div>
+    <div class="div-block-88" style="border-top: 1px solid #d0d3dd; border-bottom: 1px solid #d0d3dd;">
+      <div class="text-block-99">NOTA DE CRÉDITO [[${fact.codigo_factura}]]</div>
+      <div class="text-block-100-copy"></div>
+    </div>
+    <div class="div-block-94">
+      <div class="div-block-91-copy-copy">
+        <div class="motivos" >[[${nota.motivo}]]</div>
+      </div>
+      <div class="_450">
+        <div class="text-block-102">MOTIVO</div>
+        <div class="text-block-111">[[${nota.causa}]]</div>
+      </div>
+      <div class="div-block-91">
+        <div class="text-block-102">DOCUMENTO DE ORIGEM</div>
+        <div class="text-block-111">[[${nota.origem}]]</div>
+      </div>
+    </div>
+    <div class="div-block-89 w-clearfix">
+      <div class="nome-do-cliente">
+        <div class="text-block-101">Exmo (s) Senhor (es)</div>
+        <div class="text-block-97">[[${nota.nomeCliente}]]</div>
+        <div class="text-block-97" th:if="${cl.nif == '999999999'}">NIF: Consumidor Final</div>
+        <div class="text-block-97" th:unless="${cl.nif == '999999999'}">NIF: [[${cl.nif}]]</div>
+        <div class="div-block-87">
+          <div class="text-block-98">+244[[${cl.telemovel}]]</div>
+          <div class="text-block-98">[[${cl.email}]]</div>
+          <div class="text-block-98">[[${cl.endereco}]]</div>
+        </div>
+      </div>
+      <div class="div-block-90">
+        <div class="div-block-91">
+          <div class="text-block-102">DATA DE EMISSÃO</div>
+          <div class="text-block-106">[[${T(com.ao.fiinikacomercial.funcoes.Funcoes).FormatDate(fact.data_emissao)}]]</div>
+        </div>
+        <div class="div-block-91">
+          <div class="text-block-102">VENDEDOR</div>
+          <div class="text-block-106">[[${fact.vendedor}]]</div>
+        </div>
+      </div>
+    </div>
+    <div class="content-wrapper">
+      <div class="info-despesa-wrapper w-clearfix">
+        <div class="d-ref">
+          <div class="ref-text">REF</div>
+        </div>
+        <div class="d-descricao">
+          <div class="ref-text">DESCRIÇÃO</div>
+        </div>
+        <div class="d-qtd">
+          <div class="ref-text">QTD</div>
+        </div>
+        <div class="d-preco">
+          <div class="ref-text">PR. UNITÁRIO</div>
+        </div>
+        <div class="d-qtd">
+          <div class="ref-text">DSC. %</div>
+        </div>
+        <div class="d-qtd">
+          <div class="ref-text">COD.</div>
+        </div>
+        <div class="d-qtd">
+          <div class="ref-text">TAXA %</div>
+        </div>
+        <div class="d-preco">
+          <div class="ref-text">TOTAL</div>
+        </div>
+      </div>
+      
+      <div class="div-block-4 w-clearfix" th:each="it : ${itens}" style="border-bottom: 0.2px solid #d0d3dd;">
+        <div class="d-ref">
+          <div class="ref-text-2">#[[${it.ref_cat}]]</div>
+        </div>
+        <div class="d-descricao">
+          <div class="ref-text-2">[[${it.descricao_prod}]]</div>
+          <div class="imposto-v1">[[${it.motivo_ise}]]</div>
+        </div>
+        <div class="d-qtd">
+          <div class="ref-text-2">[[${it.qtd}]]</div>
+        </div>
+        <div class="d-preco">
+          <div class="ref-text-2">[[${#numbers.formatDecimal(it.preco, 1, 'POINT', 2, 'COMMA')}]]</div>
+        </div>
+        <div class="d-qtd">
+          <div class="ref-text-2">00.00</div>
+        </div>
+        <div class="d-qtd">
+          <div class="ref-text-2">[[${it.codigo_ise}]]</div>
+        </div>
+        <div class="d-qtd">
+          <div class="ref-text-2">[[${it.taxa_prod_nota}]]</div>
+        </div>
+        <div class="d-preco">
+          <div class="ref-text-2">[[${#numbers.formatDecimal(it.subtotal, 1, 'POINT', 2, 'COMMA')}]]</div>
+        </div>
+      </div>
+      
+   
+    </div>
+    <div class="new-block w-clearfix">
+      <div class="parte-1">
+        <div class="div-block-91"></div>
+        <div>
+          <div>
+            <div>
+              <div class="text-block-102-copy">RESUMO DE IMPOSTOS</div>
+              <div>
+	            <div class="info-despesa-wrapper w-clearfix">
+	              <div class="nova-div">
+	                <div class="ref-text-copy">MOTIVO</div>
+	              </div>             
+	              <div class="ttx">
+	                <div class="ref-text-copy">TAXA %</div>
+	              </div>
+	              <div class="v-i">
+	                <div class="ref-text-copy">B. INCIDÊNCIA</div>
+	              </div>
+	              <div class="d-ref">
+	                <div class="ref-text-copy">VALOR</div>
+	              </div>
+	            </div>
+	            
+	            <div class="div-block-4 w-clearfix" th:each="it,cont: ${somas}" style="border-bottom: 0.2px solid #d0d3dd;" th:if="${it.value['preco'] != 0.0}">
+	              <div class="nova-div">
+	                <div class="ref-text-2" th:if="${it.key != '0.00'}">Iva</div>
+	                <div class="ref-text-2" th:unless="${it.key != '0.00'}">Isento</div>
+	              </div>
+	              <div class="tx">
+	                <div class="ref-text-2">[[${it.key}]]</div>
+	              </div>
+	              <div class="inc-200">
+	                <div class="ref-text-2">[[${#numbers.formatDecimal(it.value['preco'], 1, 'POINT', 2, 'COMMA')}]]</div>
+	              </div>
+	              <div class="d-ref">
+	                <div class="ref-text-2">[[${#numbers.formatDecimal(it.value['imposto'], 1, 'POINT', 2, 'COMMA')}]]</div>
+	              </div>
+	            </div>
+	            
+            	<div class="div-block-4 w-clearfix" th:if="${fact.impos_retido != '0' }" style="border-bottom: 0.2px solid #d0d3dd;">
+	              <div class="nova-div">
+	                <div class="ref-text-2">IIS</div>               
+	              </div>
+	              <div class="tx">
+	                <div class="ref-text-2">6.5</div>
+	              </div>
+	              <div class="inc-200">
+	                <div class="ref-text-2">[[${#numbers.formatDecimal(total_inc_ret, 1, 'POINT', 2, 'COMMA')}]]</div>
+	              </div>
+	              <div class="d-ref">
+	                <div class="ref-text-2"  >[[${#numbers.formatDecimal(fact.impos_retido, 1, 'POINT', 2, 'COMMA')}]]</div>
+	              </div>
+	            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-block-91-copy">
+          <div class="text-block-102-copy" style="border-bottom: 0.5px solid #000;">COORDENADAS BANCÁRIAS</div>
+          <div class="iban">[[${coord.banco}]] - [[${coord.sigla}]]</div>
+          <div class="iban">[[${coord.numero_conta}]]</div>
+          <div class="iban">[[${coord.iban}]]</div>
+           <div class="iban">[[${coord.titular}]]</div>
+        </div>
+      </div>
+      <div class="parte-2">
+        <div>
+          <div class="sumario w-clearfix">
+            <div class="d-ref"></div>
+            <div class="valor-imp">
+              <div class="ref-text-copy">SUMÁRIO</div>
+            </div>
+          </div>
+          <div class="div-block-4 w-clearfix" style="border-bottom: 0.2px solid #d0d3dd;">
+            <div class="nome-do-suma">
+              <div class="text-sium">Total ilíquido:</div>
+            </div>
+            <div class="inc">
+               <div class="ref-text-2">[[${#numbers.formatDecimal(fact.total, 1, 'POINT', 2, 'COMMA')}]]</div>
+            </div>
+          </div>
+          <div class="div-block-4 w-clearfix" style="border-bottom: 0.2px solid #d0d3dd;">
+            <div class="nome-do-suma">
+              <div class="text-sium">Desconto Financeiro:</div>
+            </div>
+            <div class="inc">
+              <div class="ref-text-2">[[${#numbers.formatDecimal(fact.valor_desconto, 1, 'POINT', 2, 'COMMA')}]]</div>
+            </div>
+          </div>
+          <div class="div-block-4 w-clearfix" style="border-bottom: 0.2px solid #d0d3dd;">
+            <div class="nome-do-suma">
+              <div class="text-sium">Total de impostos(IVA):</div>
+            </div>
+            <div class="inc">
+               <div class="ref-text-2">[[${#numbers.formatDecimal(fact.taxa, 1, 'POINT', 2, 'COMMA')}]]</div>
+            </div>
+          </div>
+          <div class="div-block-4 w-clearfix" th:if="${fact.impos_retido != '0' }" style="border-bottom: 0.2px solid #d0d3dd;">
+            <div class="nome-do-suma">
+              <div class="text-sium">Impostos Retidos:</div>
+            </div>
+            <div class="inc">
+              <div class="ref-text-2">[[${#numbers.formatDecimal(fact.impos_retido, 1, 'POINT', 2, 'COMMA')}]]</div>
+            </div>
+          </div>
+          <div class="div-block-4-copy w-clearfix">
+            <div class="nome-do-suma">
+              <div class="text-sium-copy">TOTAL A PAGAR</div>
+            </div>
+            <div class="d-ref">
+              <div class="ref-text-2-copy d-ref">KZ [[${#numbers.formatDecimal(fact.total_final, 1, 'POINT', 2, 'COMMA')}]]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="assinaturass w-clearfix">
+      <div class="parte-1">
+        <h4 class="text-block-102">CLIENTE</h4>
+        <div class="div-block-2"></div>
+        <div class="text-block-114">DATA: ______/_________/____________</div>
+      </div>
+      <div class="parte-3">
+        <h4 class="text-block-102">VENDEDOR</h4>
+        <div class="div-block-2"></div>
+        <div class="text-block-115">DATA: ______/_________/____________</div>
+      </div>
+    </div>
+  </div>
+  <center style="text-align:center" th:if="${obs_txt == 0}" >
+      <p><div class="text-block-100-copy">Documento emitido para fins de Formação ou Testes. Não tem validade fiscal</div></p>
+  </center>
+  <div class="footer" style="border-top: 1px solid #d0d3dd;"><div class="imposto-v1" style="text-align: center;font-size:10px">[[${hash_msg}]] - Processado Por Programa Validado nº 371/AGT/2022 DEXA CONTAS</div>   <span class="pagenumber"/> de <span class="pagecount"/> </div>
+</body>
+</html>

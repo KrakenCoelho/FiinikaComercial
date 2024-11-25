@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<!--  Last Published: Thu Sep 24 2020 10:19:18 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5f6c6e945f0817951ea78d36" data-wf-site="5f6c6e945f08177dcba78d2a">
+<body class="body-1">
+
+<div id="script" th:fragment="script" >
+<div id="div_modal_mae" style="display:none;opacity:0" class="modals-wrapper">
+    <div id="div_sucesso" style="display:none;-webkit-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" class="modal success">
+      <div class="modal-icon success"></div>
+      <div class="modal-text-wrapper">
+        <h2 class="modal-header">Sucesso!</h2>
+        <div class="modal-subtext visible" id="texto_sucesso"></div>
+      </div>
+      <div class="close-modal"></div>
+    </div>
+    
+    <div id="div_info" style="display:none;-webkit-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="modal info">
+      <div class="modal-icon info"></div>
+      <div class="modal-text-wrapper">
+        <h2 class="modal-header">Informação</h2>
+        <div class="modal-subtext visible" id="texto_info"></div>
+      </div>
+      <div class="close-modal"></div>
+    </div>
+    
+    <div id="div_erro" style="display:none;-webkit-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="modal error">
+      <div class="modal-icon error"></div>
+      <div class="modal-text-wrapper">
+        <h2 class="modal-header">Erro!</h2>
+        <div class="modal-subtext visible" id="texto_erro">This is some text inside of a div block.</div>
+      </div>
+      <div class="close-modal"></div>
+    </div>
+    
+    <div id="div_alerta" style="display:none;-webkit-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="modal warning w-clearfix">
+      <div class="modal-icon warning"></div>
+      <div class="modal-text-wrapper">
+        <h2 class="modal-header">Alerta</h2>
+        <div class="modal-subtext visible" id="texto_alerta">This is some text inside of a div block.</div>
+      </div>
+      <div class="modal-cta-wrapper">
+        <div class="_3-buttons-wrapper">
+          <a href="#" class="action-button modal-button cancelar-acao w-inline-block">
+            <div class="button-text">Cancelar</div>
+          </a>
+          <a href="#" id="botao_acao" class="action-button modal-button sim w-inline-block">
+            <div class="button-text texto_bt">Sim, apagar</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mega-close-modal"></div>
+  </div>
+  
+  <div class="modal-trigger-wrapper" style="display:none">
+    <a id="w-node-ed304165-4fa3-0bb7-59c5-bf40afbe7b21-4dea5deb" href="#" class="sucesso">Sucesso </a>
+    <a id="w-node-f0a58a09-6a5b-69dd-b14e-feda93e05c58-4dea5deb" href="#" class="informacao">Informação</a>
+    <a id="w-node-cf2de119-531f-b9c5-6c52-6dcd55842505-4dea5deb" href="#" class="erro">Erro</a>
+    <a id="w-node-_6926af45-38cc-56a4-a9da-a4126f900c18-4dea5deb" href="#" class="alerta">Alerta</a>
+  </div>
+  
+
+
+    
+  <script th:inline="javascript">
+  var sucesso = 0, url="", msg="", user = 0, msg_elim="",url_elim="", modal_sucesso = "", num_max_itens = 0, month = new Array();
+    
+	   let css_property1 = {"display": "block", "opacity": "1"}
+	   let css_property2 = {"display": "block", "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg)", "opacity": "1", "transform-style": "preserve-3d"}
+	  
+  
+   /*<![CDATA[*/                
+        
+          
+      /*]]>*/
+      function showLoading(){
+      swal({
+		    title: 'Aguarde...',
+		    allowEscapeKey: false,
+		    allowOutsideClick: false,		   
+		    onOpen: () => {
+		      swal.showLoading();
+		    }
+		  })
+      }
+      
+      function showLoadingPage(){
+          swal({
+    		    title: 'Aguarde...',
+    		    allowEscapeKey: true,
+    		    allowOutsideClick: false,    		  
+    		    onOpen: () => {
+    		      swal.showLoading();
+    		    }
+    		  })
+          }
+      
+    
+		  
+		const SucessoLogin = function() {
+		  swal({
+		    title: 'Aguarde...',
+		    allowEscapeKey: false,
+		    allowOutsideClick: false,
+		    timer: 1000,
+		    onOpen: () => {
+		      swal.showLoading();
+		    }
+		  }).then(
+		    () => {},
+		    (dismiss) => {
+		      if (dismiss === 'timer') {		       
+		    	 
+			        $("#div_modal_mae").css(css_property1)
+			  	    $("#div_sucesso").css(css_property2)
+			  	    $("#texto_sucesso").html(msg)
+		      
+		        setTimeout(function(){
+		        	 window.location = url
+		       },990); 
+		      }
+		    }
+		  )
+		};
+		
+      function Falha(){    	  
+    	   $("#falha").css("display","block")	    		   
+        setTimeout(function(){
+        	 $("#falha").css("display","none")
+       },4000); 
+      }
+      
+      function Alerta(){
+    	 
+    	  /*swal({ 
+	          title: "Aviso",
+	          text: msg,
+	          type: 'warning',
+	          timer: 2500,
+	          showConfirmButton: false
+	        })
+	        */
+	        $("#div_modal_mae").css(css_property1)
+	        $("#div_info").css(css_property2)
+	  	    $("#texto_info").html(msg)
+      }
+      
+      function Error(){
+    	  
+    	    $("#div_modal_mae").css(css_property1)
+	        $("#div_erro").css(css_property2)
+	  	    $("#texto_erro").html(msg)
+      }
+      
+      function SucessoRegisto(){
+    	    swal.close()
+	        $("#div_modal_mae").css(css_property1)
+	  	    $("#div_sucesso").css(css_property2)
+	  	    $("#texto_sucesso").html(msg)
+	  	   
+	        setTimeout(function(){
+                window.location = url
+            },1200);
+     } 
+      
+	function Sucesso(msg){
+		 $("#div_modal_mae").css(css_property1)
+	  	 $("#div_sucesso").css(css_property2)
+	  	 $("#texto_sucesso").html(msg)
+	  	 
+	   }
+	
+	function AvisoDelete(){
+		    $("#div_modal_mae").css(css_property1)
+	  	    $("#div_alerta").css(css_property2)
+	  	    $("#texto_alerta").html("Deseja eliminar o "+msg+"?")
+	  	    $("#botao_acao").attr('onclick', 'Apaga()')
+	
+		
+		//		 Apaga()			
+			
+			
+	}
+	
+		function AvisoSubscricao(){
+		    $("#div_modal_mae").css(css_property1)
+	  	    $("#div_alerta").css(css_property2)
+	  	    $(".texto_bt").html("Subscrever")
+	  	    $("#texto_alerta").html(msg)
+	  	    $("#botao_acao").attr('href', "/dexa/configuracoes/escolher-pacote")		
+			
+			
+	}
+		
+		function AvisoDadosFalta(){
+		    $("#div_modal_mae").css(css_property1)
+	  	    $("#div_alerta").css(css_property2)
+	  	    $(".texto_bt").html("Configurar")
+	  	    $("#texto_alerta").html(msg)
+	  	    $("#botao_acao").attr('href', "/dexa/configuracoes/configuracoes-gerais")
+			
+	}
+		
+		function AvisoCategoria(){
+		    $("#div_modal_mae").css(css_property1)
+	  	    $("#div_alerta").css(css_property2)
+	  	    $(".texto_bt").html("Criar categoria")
+	  	    $("#texto_alerta").html(msg)
+	  	    $("#botao_acao").attr('href', "/dexa/categorias/criar-categoria")		
+			
+			
+	}
+		
+		function AvisoAutenticar(){
+		    $("#div_modal_mae").css(css_property1)
+	  	    $("#div_alerta").css(css_property2)
+	  	    $(".texto_bt").html("Login")
+	  	    $("#texto_alerta").html(msg)
+	  	    $("#botao_acao").attr('href', "/index")		
+			
+			
+	}
+
+	
+	function Apaga(){	    
+		  
+		$("#div_alerta").css("display","none")
+		
+		 $.getJSON(url_elim, {
+               id : user,               
+               ajax : 'true'
+           }, function(data){  
+	               var r = new Map(Object.entries(data))		               
+				   if(r.get("1") == "Ok"){						  
+					   Sucesso(msg_elim)
+					   var delay=1000; //1 seconds
+		                 setTimeout(function(){
+		                       window.location=url
+		                },delay); 
+				
+					 if(r.get("1") == "No"){
+					
+						}
+				   }
+			});
+  		 
+	}
+   
+	 $(document).ready(function(){
+	   	   $('#phone').inputmask('999999999');
+	   })
+	    $(document).ready(function(){
+	   	   $('#iban').inputmask('AO06.9999.9999.9999.9999.9999.9');
+	   })
+	
+	   
+// Para o preço 	   
+function moeda(a, t) {		 
+	
+	
+    let e = "."
+      , r = ","
+      , n = ""
+      , h = j = 0
+      , u = tamanho2 = 0
+      , l = ajd2 = ""
+      , o = window.Event ? t.which : t.keyCode;
+      a.value = a.value.replace('','');            
+    if (n = String.fromCharCode(o),
+    -1 == "0123456789".indexOf(n))
+        return !1;
+    for (u = a.value.replace('','').length,
+    h = 0; h < u && ("0" == a.value.charAt(h) || a.value.charAt(h) == r); h++)
+        ;
+    for (l = ""; h < u; h++)
+        -1 != "0123456789".indexOf(a.value.charAt(h)) && (l += a.value.charAt(h));
+    if (l += n,
+    0 == (u = l.length) && (a.value = ""),
+    1 == u && (a.value = "0" + r + "0" + l),
+    2 == u && (a.value = "0" + r + l),
+    u > 2) {
+        for (ajd2 = "",
+        j = 0,
+        h = u - 3; h >= 0; h--)
+            3 == j && (ajd2 += e,
+            j = 0),
+            ajd2 += l.charAt(h),
+            j++;
+        for (a.value = "",
+        tamanho2 = ajd2.length,
+        h = tamanho2 - 1; h >= 0; h--)
+            a.value += ajd2.charAt(h);
+        a.value += r + l.substr(u - 2, u)
+    }
+   
+    return !1
+}
+	 
+	// usa vírgula como separador decimal, ponto como separador de milhar, sempre com 2 casas decimais
+		const formatter = new Intl.NumberFormat('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+		function moeda(e) {
+		    const input = e.target;
+		    // elimina tudo que não é dígito
+		    input.value = input.value.replace(/\D+/g, '');
+		    if (input.value.length === 0) // se não tem nada preenchido, não tem o que fazer
+		        return;
+		    // verifica se ultrapassou a quantidade máxima de dígitos (pegar o valor no dataset)
+		    const maxDigits = parseInt(input.dataset.maxDigits);
+		    if (input.value.length > maxDigits) {
+		        // O que fazer nesse caso? Decidi pegar somente os primeiros dígitos
+		        input.value = input.value.substring(0, maxDigits);
+		    }
+		    // lembrando que o valor é a quantidade de centavos, então precisa dividir por 100
+		    console.log(formatter.format(parseInt(input.value) / 100))
+		    input.value = formatter.format(parseInt(input.value) / 100);
+		    if( input.value == "0,00"){
+		    	input.value = ""
+		    }
+		    
+		}
+
+	 
+	 
+	 function Dec(valor){
+			
+			var val= new Number(valor);
+			var decimal=val.toLocaleString("pt-BR",{
+				minimumFractionDigits:2,
+				maximumFractionDigits:2});
+				return decimal;
+		
+	}
+
+
+$(function() {
+	$("#data_emissao").attr("readonly","readonly")
+	$("#data_emissaoA").datepicker({
+	dateFormat: "dd-mm-yy",
+        //showButtonPanel: true,
+         dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'],
+         dayNamesMin: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'],
+         showOtherMonths: true,
+         monthNames: ['Janeiro','Fervereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+         minDate: 0,
+         numberOfMonths: 1,
+         nextText: 'Proximo',
+         prevText:'Anterior'
+});
+	   
+   
+	
+  $("#data_exp" ).datepicker({
+	dateFormat: "dd-mm-yy",
+        //showButtonPanel: true,
+         dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'],
+         dayNamesMin: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'],
+         showOtherMonths: true,
+         monthNames: ['Janeiro','Fervereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+         minDate: '+7',
+         numberOfMonths: 1,
+         nextText: 'Proximo',
+         prevText:'Anterior',
+         altField: "#alternate",
+        // altFormat: "DD, d MM",
+         onSelect: function (selectedDate) { 
+             var texto = selectedDate.split("-")             
+             $(".selected_date").val(texto[0]+" de "+month[texto[1]-1]+", "+texto[2]); 
+         }
+});
+
+//Data de pagamento recibo
+	$("#data_pagamento").datepicker({
+	dateFormat: "dd-mm-yy",
+        //showButtonPanel: true,
+         dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'],
+         dayNamesMin: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'],
+         showOtherMonths: true,
+         monthNames: ['Janeiro','Fervereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+         maxDate: 0,
+         numberOfMonths: 1,
+         nextText: 'Proximo',
+         prevText:'Anterior'
+});
+
+
+
+});
+
+
+	month[0] = "Jan";
+	month[1] = "Fev";
+	month[2] = "Mar";
+	month[3] = "Abr";
+	month[4] = "Maio";
+	month[5] = "Juh";
+	month[6] = "Jul";
+	month[7] = "Ago";
+	month[8] = "Set";
+	month[9] = "Out";
+	month[10] = "Nov";
+	month[11] = "Dez";
+	// var mes = month[d.getMonth()];
+
+function addDaysToDate(date, days){
+    var res = new Date(date);
+    res.setDate(res.getDate() + days);
+    return res.toISOString().slice(0, 10);
+}
+
+//=================================== Facturas categorias, produtos, add linha, remove e calculos =============================================
+
+//----------------------------------------			
+  function Categ(id){         
+  		
+  			 $('#id_categoria'+id).change(
+               function() {
+            	   val_id = $(this).val()
+  				 $.getJSON("/ajax/produtos", {
+                  id_categoria : val_id,
+                  ajax : 'true'
+              	}, function(data) {  
+  	            var i=0;
+                  var html = '';
+                  var len = data.length;
+            if(len>0){
+                  for ( i=0; i < len; i++) {
+  	                if(i==0){ 
+  	                  
+  	                  t =  data[i][4]*(data[i][6]*1/100)	     // Para a taxa do produto se é com iva ou sem iva		            
+  	                  t =  parseFloat(t) + parseFloat(data[i][4])        
+  	                        	
+  		              var prec= Dec(data[i][4]); // Adiciona casas decimais e milesimas
+                        var ref=data[i][7];
+  		              $("#preco"+id).val(prec);
+   					  $("#qtd"+id).val(1);
+   					  $('#taxa'+id).val(data[i][6]);  					
+  		              $("#subtotal"+id).val(Dec(t));
+                      $("#ref"+id).val(ref);
+                      $('#tipo_servico'+id).val(data[i][8]);                     
+                        
+  		          }
+                      html += '<option value="' + data[i][0] + '">'
+                              + data[i][3] + '</option>';
+                       
+                  }
+                  html += '</option>';
+                  $('#id_produto'+id).html(html);             
+                
+  				Total_Imposto()
+  				//DescontoAux()
+                  }else{
+  	                  $("#preco"+id).val("");
+   					  $("#qtd"+id).val("");
+  		              $("#subtotal"+id).val("");
+                        $("#ref"+id).val("");
+                        $('#id_produto'+id).html(html);
+  				}
+       });
+  	              
+  });
+
+  				}
+  				
+  				
+	
+  function Prod(id){	
+     		
+     	$('#id_produto'+id).change(
+          function() {
+        	  val_id = $(this).val();	
+              $.getJSON("/ajax/produtos_data", {
+                  id_produto : val_id,
+                  ajax : 'true'
+              }, function(data) {     
+                  $('#preco'+id).val(Dec(data.preco_produto));      
+                  
+                   t   =  data.preco_produto *(data.taxa_prod*1/100)	     // Para a taxa do produto se é com iva ou sem iva		            
+  	               t =  parseFloat(t) + parseFloat(data.preco_produto) 
+                           
+                  $('#subtotal'+id).val(Dec(t*$('#qtd'+id).val()));
+                  $('#taxa'+id).val(data.taxa_prod); 
+                  $('#tipo_servico'+id).val(data.tipo_produto); 
+                 
+              
+                
+  				
+  				Total_Imposto()
+  				//DescontoAux()
+             });
+          });
+  }
+
+
+  function Qtd(id){
+  	 $('#qtd'+id).keyup(function() {  	  
+                  var sub = $(this).val()*RemovePV($('#preco'+id).val());
+                  
+                   t   =  sub *($("#taxa"+id).val()*1/100)	     // Para a taxa do produto se é com iva ou sem iva		            
+  	             sub =  parseFloat(t) + parseFloat(sub) 
+                  
+                  $('#subtotal'+id).val(Dec(sub));
+  				
+  				Total_Imposto()
+  				//DescontoAux()
+                           
+          });
+  }
+  
+  function Mais(id){
+	  console.log(id)
+       	    $('#qtd'+id).val(parseInt($('#qtd'+id).val())+1)	  	
+                var sub = $('#qtd'+id).val()*RemovePV($('#preco'+id).val());	                  
+                t   =  sub *($("#taxa"+id).val()*1/100)	     // Para a taxa do produto se é com iva ou sem iva		            
+ 	             sub =  parseFloat(t) + parseFloat(sub) 
+                 
+                 $('#subtotal'+id).val(Dec(sub));
+ 				
+ 				Total_Imposto()	  	
+	          
+	  }
+  
+  
+  function Menos(id){
+	  
+	  if($('#qtd'+id).val()>1){
+		  
+		  $('#qtd'+id).val(parseInt($('#qtd'+id).val())-1)	  	
+          var sub = $('#qtd'+id).val()*RemovePV($('#preco'+id).val());	                  
+          t   =  sub *($("#taxa"+id).val()*1/100)	     // Para a taxa do produto se é com iva ou sem iva		            
+            sub =  parseFloat(t) + parseFloat(sub) 
+           
+           $('#subtotal'+id).val(Dec(sub));
+			
+		   Total_Imposto()	
+	  }
+ 	     	
+        
+}
+
+  function Preco(id){
+  	 $('#preco'+id).keyup(function() {  	  
+		  		 var sub = $('#qtd'+id).val()*RemovePV($('#preco'+id).val());	                  
+		         t   =  sub *($("#taxa"+id).val()*1/100)	     // Para a taxa do produto se é com iva ou sem iva		            
+		           sub =  parseFloat(t) + parseFloat(sub) 
+                  $('#subtotal'+id).val(Dec(sub));
+  				
+  			    Total_Imposto()
+  				//DescontoAux()
+                           
+          });
+  }
+
+  function Subtotal(total){
+
+      $("#total").val(Dec(total));
+      var imp= total*(impost/100)
+      $("#imposto_").val(Dec(imp))  
+      Total(total)
+  }
+  
+// ------------------- DESCONTOS ------------------
+    function AddDesconto(){
+			  $("#linha_desconto").css("display","block")
+		  }
+		  
+	function RemDesconto(){	 
+			  $("#linha_desconto").css("display","none")
+			  $("#desconto").val(0)
+			  Total_Imposto()
+	}
+	
+	
+   $(function() {
+            
+              $("#desconto").change(function() {                
+              	var desconto=0
+                  var desconto = RemovePV($("#total").val())*(RemovePV($("#desconto").val())/100)	
+                  var vfinal= (parseFloat(RemovePV($("#total").val())) - parseFloat(desconto) + parseFloat(RemovePV($("#imposto_").val())))
+  				$("#total_final").val(Dec(vfinal))
+  				console.log("Conversao aaa"+(vfinal))
+  				$("#total_finalF").val(parseFloat(vfinal));
+              	
+              	Total_Imposto()
+
+  });
+  })
+
+   function DescontoAux() {
+                          
+  			 var desconto=0
+  		     var desconto = RemovePV($("#total").val())*(RemovePV($("#desconto").val())/100)		               
+  		     var vfinal= (parseFloat(RemovePV($("#total").val())) - parseFloat(desconto) + parseFloat(RemovePV($("#imposto_").val())))
+  			 $("#total_final").val(Dec(vfinal))
+  			 console.log("Conversao aaa"+(vfinal))
+  			 $("#total_finalF").val(parseFloat(vfinal));
+
+  }
+  
+
+  function Total_Imposto(){
+
+
+  	var precos = $(".precosss").map(function() {
+  	   return $(this).val();
+  	}).get();
+  	
+  	var qtds = $(".qtds").map(function() {
+  	   return $(this).val();
+  	}).get();
+  	
+  	var taxas = $(".taxas").map(function() {
+  	   return $(this).val();
+  	}).get();
+  	
+  	var sbts = $(".sbt").map(function() {
+  	   return $(this).val();
+  	}).get();
+  	
+  	
+  	var servs = $(".servicos").map(function() {
+   	   return $(this).val();
+   	}).get();
+  	
+  	linhas = precos.length;
+
+
+
+    total_imposto = 0,total=0,subtotal=0,total_retido=0,subtotal_incidir_ret=0;
+  	for(i=0;i<linhas;i++){
+  		total_imposto = total_imposto + (parseFloat(RemovePV(precos[i])) * qtds[i]) * ( (taxas[i]*1)/100);
+  	    total=total+parseFloat(RemovePV(sbts[i]));
+  	    subtotal = subtotal + (parseFloat(RemovePV(precos[i])) * qtds[i]);
+  	    if(servs[i] == "Serviço 6.5"){
+  	    	 total_retido = total_retido + (parseFloat(RemovePV(precos[i])) * qtds[i]) * ( (6.5*1)/100);
+  	    	  subtotal_incidir_ret = subtotal_incidir_ret + (parseFloat(RemovePV(precos[i])) * qtds[i]);
+  	    }
+  	    
+  	    // Para os items em Mobile
+  	}
+  	
+  	 total=total-total_retido
+  	
+  	$("#imposto_").val(Dec(total_imposto));
+  	$("#total").val(Dec(subtotal));
+	// Verificar o desconto aqui
+  	//desconto = RemovePV($("#total").val())*(RemovePV($("#desconto").val())/100)
+  	// ou 
+  	desconto = total*(RemovePV($("#desconto").val())/100)
+  	
+  	$("#desconto_").val(Dec(desconto))
+  	$("#valor_desconto").val(Dec(desconto))  	
+  	total=total-desconto;
+	//====== XXX =====
+	$("#imposto_retido_").val(total_retido)
+	
+	
+	
+  	Total(total)
+  	
+  	
+  }
+
+  function Total(valor){
+  	$("#total_final").val(Dec(valor));
+  	$("#total_finalF").val(valor);
+  	//----------Sset Span
+	$("#sp_total_final").text($("#total_final").val());
+	$("#sp_imposto_").text($("#imposto_").val());
+	$("#sp_total").text($("#total").val());
+	$("#sp_desconto").text($("#desconto_").val());
+	$("#sp_imposto_retido_").text(Dec($("#imposto_retido_").val()));
+	
+  	
+  	
+  	
+  	
+  }
+  
+  
+     n_row = 0,n_row_aux = 1, array_linha = []
+	
+			function Rem(id){
+				var qtd_inicial=parseInt($("#qtdLinhaMain").val());
+		        var total=RemovePV($("#total_final").val());	          
+		        var sub= $("#subtotal"+id).val();
+			
+				if(qtd_inicial!=1){
+					if(sub!=0){				
+					total=total-RemovePV(sub);
+					}
+					console.log(qtd_inicial+" aqui ");
+					$("#div"+id).remove();
+					$("#divM"+id).remove();
+				    $("#qtdLinhaMain").val(qtd_inicial-1);	
+				   Total_Imposto()	
+				   n_row--
+				   // DescontoAux()			       
+				//	n_linha--;
+					}
+				}
+		
+		// Remove ponto e virgula
+		function RemovePV(str_valor){
+			 var imp =  str_valor.replaceAll(".", "")
+		     return  imp.replace(",",".")       
+		}
+		
+		
+		function ConfirmarM(){
+			console.log(array_linha)
+			var precos = $(".precosss").map(function() {
+			  	   return $(this).val();
+			  	}).get();
+			  	
+			  	var qtds = $(".qtds").map(function() {
+			  	   return $(this).val();
+			  	}).get();
+			  	
+			  	var taxas = $(".taxas").map(function() {
+			  	   return $(this).val();
+			  	}).get();
+			  	
+			  	var sbts = $(".sbt").map(function() {
+			  	   return $(this).val();
+			  	}).get();
+			  	
+				var prods = $(".produtosss").map(function() {
+				  	   return $(this).text();
+				  	}).get(); 
+			  	/*
+				var prods = [];
+				  for(i=0;i<linhas;i++){	
+					 prods[i]=$("#id_produto"+i+1).val();
+				  	}
+			  	*/
+			  	linhas = precos.length;
+			  	
+			  
+
+			 var itemRowMobile =""
+		     for(i=0;i<linhas;i++){			  		
+			  	    // Para os items em Mobile
+			     itemRowMobile +=    '<div id="divM'+(array_linha[i])+'" class="item-posto">'+
+			  	                      '<div class="div-block-102">'+
+						                  '<div class="text-block-117">'+prods[i]+'</div>'+
+						                  '<div class="form-field-lable">kz '+parseFloat(RemovePV(precos[i])) * qtds[i]+'</div>'+
+						                '</div>'+
+						                '<a href="#" onclick="Rem('+(array_linha[i])+')"  id="M'+(i+1)+'" class="div-block-103 w-inline-block">'+
+						                  '<div class="icon form-field-dropdown">'+
+						                    '<div class="material-symbols-rounded">delete_outline</div>'+
+						                  '</div>'+
+						                '</a></div>'
+			  	}
+			
+	        	$("#items_table_mobile").html(itemRowMobile)
+	         
+			
+		}
+		
+// ============ PEsquisa de cliente ao criar factura =====
+	var availableOptions = [];
+	
+	$(function() {
+	    $.each(clientes, function(index, cli) {
+	        availableOptions.push(cli.nomeCliente); // Adiciona cada elemento do array cat ao array availableOptions
+	    });
+	
+	    $(".opcoes").autocomplete({
+	        source: availableOptions,
+	        minLength: 0,
+	        select: function(event, ui) {
+	            var selectedCliente = $.grep(clientes, function(cli){
+	                return cli.nomeCliente === ui.item.value;
+	            });
+	            if (selectedCliente.length > 0) {
+	            	$("#id_cliente").val(selectedCliente[0].idCliente)
+	                Detalhes(selectedCliente[0]);
+	            }
+	        }
+	    }).focus(function() {
+	        $(this).autocomplete("search", "");
+	    }).blur(function() {
+	        if (!this.value) {
+	        	 $(".detalhes").css("display","none")
+	             $("#id_cliente").val("")
+	        }
+	    });
+	});
+	
+	
+// ====================== PEsquisa de codigo produto ao criar factura ================
+ 	function Init(){
+	 $('.referencia').on('keyup', function(event) {
+        	 var inputId = $(event.target).attr('data');
+        	 if($(event.target).val() == ""){
+        		  setValores(inputId)
+        		  return
+        	  }
+  	   console.log(inputId)
+              $.getJSON("/ajax/docs_ref_produto", {
+            	  ref: $(event.target).val(),
+                  ajax : 'true'
+              }, function(data) {     
+                 
+    	        console.log(data)
+	    	    if(data){	    	    
+	    	   
+	    	      $('#id_categoria'+inputId).val(data.id_categoriafk)
+	    	      CategRefPrd(inputId,data.id_categoriafk,data.idProduto)
+	    	      ProdRefPrd(inputId,data.idProduto)
+	    	      $('#id_produto'+inputId).val(data.idProduto)
+	    	     
+	    	      console.log(data.idProduto+" "+ $('#id_produto'+inputId).val())
+	    	    	                          
+	    	     }else{    	
+					  setValores(inputId)
+					  Total_Imposto()    
+	    			}
+  				
+  			
+              });
+          });
+        }
+        
+        function setValores(inputId){
+		  $('#id_categoria'+inputId).val("")  
+		  $('#id_produto'+inputId).val("")  	
+		  $('#preco'+inputId).val(Dec(0))  
+		  $('#qtd'+inputId).val("0")  
+		  $('#subtotal'+inputId).val(Dec(0))  
+		  Total_Imposto() 
+		}
+          
+        function CategRefPrd(id,val_id,idProd){         
+  		
+  				 $.getJSON("/ajax/produtos", {
+                  id_categoria : val_id,
+                  ajax : 'true'
+              	}, function(data) {  
+  	            var i=0;
+                  var html = '', selected=false;
+                  var len = data.length;
+            if(len>0){
+                  for ( i=0; i < len; i++) {
+  	                if(i==0){ 
+  	                  
+  	                  t =  data[i][4]*(data[i][6]*1/100)	     // Para a taxa do produto se é com iva ou sem iva		            
+  	                  t =  parseFloat(t) + parseFloat(data[i][4])        
+  	                        	
+  		              var prec= Dec(data[i][4]); // Adiciona casas decimais e milesimas
+                        var ref=data[i][7];
+  		              $("#preco"+id).val(prec);
+   					  $("#qtd"+id).val(1);
+   					  $('#taxa'+id).val(data[i][6]);  					
+  		              $("#subtotal"+id).val(Dec(t));
+                      $("#ref"+id).val(ref);
+                      $('#tipo_servico'+id).val(data[i][8]);                     
+                        
+  		          }
+  		          if(data[i][0] == idProd){
+						html += '<option value="' + data[i][0] + '" selected>'
+                              + data[i][3] + '</option>';
+					}else{
+						  html += '<option value="' + data[i][0] + '">'
+                              + data[i][3] + '</option>';
+					}
+                    
+                       
+                  }
+                  html += '</option>';
+                  $('#id_produto'+id).html(html);             
+                
+  				Total_Imposto()
+  				//DescontoAux()
+                  }else{
+  	                  $("#preco"+id).val("");
+   					  $("#qtd"+id).val("");
+  		              $("#subtotal"+id).val("");
+                        $("#ref"+id).val("");
+                        $('#id_produto'+id).html(html);
+  				}
+       				 });
+  		}
+  				
+  				
+  	function ProdRefPrd(id,val_id){         
+     		
+              $.getJSON("/ajax/produtos_data", {
+                  id_produto : val_id,
+                  ajax : 'true'
+              }, function(data) {     
+                  $('#preco'+id).val(Dec(data.preco_produto));      
+                  
+                   t   =  data.preco_produto *(data.taxa_prod*1/100)	     // Para a taxa do produto se é com iva ou sem iva		            
+  	               t =  parseFloat(t) + parseFloat(data.preco_produto) 
+                           
+                  $('#subtotal'+id).val(Dec(t*$('#qtd'+id).val()));
+                  $('#taxa'+id).val(data.taxa_prod); 
+                  $('#tipo_servico'+id).val(data.tipo_produto); 
+                 
+              
+                
+  				
+  				Total_Imposto()
+  				//DescontoAux()
+             });
+         
+  }
+
+		
+		 
+		
+  	
+    </script>
+    
+    
+  </div>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>

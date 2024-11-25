@@ -1,0 +1,99 @@
+<!DOCTYPE html><!--  Last Published: Wed Jun 26 2024 14:31:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="667ada12e2b008b7d4b9ef76" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<body>
+  <div class="mother-div">
+    <div class="html-embed w-embed"></div>
+    <div class="close-flyout"></div>
+    <div class="page-content-wrapper">
+    <div th:insert="/fragments/menuAdmin :: menuAdmin"></div>   
+      <div class="content">
+        <section class="container">
+          <div class="top-section-navigation">
+            <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+              <div class="text-block-129">q</div>
+            </a>
+            <div class="titulo">
+              <div class="text-block-130">Recibo<br></div>
+            </div>
+          </div>
+          <div class="div-block-10"  th:each="recibo,iterator: ${recibo}">
+            <div class="w-layout-grid grid-4">
+              <div id="w-node-_23348918-4ad9-8898-86b9-791d9562d9b3-d4b9ef76">
+                <div class="list-item">
+                  <div class="list-item-lable">Nº do Recibo</div>
+                  <div class="list-item">[[${recibo.codigo_recibo}]]</div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-lable">Data de criação</div>
+                  <div class="list-item">[[${recibo.data_recibo}]]</div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-lable">Valor da factura</div>
+                  <div class="list-item">KZ [[${#numbers.formatDecimal(recibo.valor_pago, 1, 'POINT', 2, 'COMMA')}]]</div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-lable">Valor recebido</div>
+                  <div class="list-item green">KZ [[${#numbers.formatDecimal(recibo.valor_pago, 1, 'POINT', 2, 'COMMA')}]]</div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-lable">Operador</div>
+                  <div class="list-item">[[${recibo.vendedor_recibo}]]</div>
+                </div>
+              </div>
+              <div id="w-node-_23348918-4ad9-8898-86b9-791d9562d9cd-d4b9ef76">
+                <div class="list-item">
+                  <div class="list-item-lable">Cliente</div>
+                  <div class="list-item">[[${cliente[0][2]}]]</div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-lable">Acção</div>
+                  <div class="_3-buttons-wrapper _800">
+                    <a th:href="@{'/documentos/pdf/recibo/'+${aux}}" target="_new"  class="action-button full w-inline-block imprimir">
+                      <div class="icon quick-action">
+                        <div class="main-font-icon">w</div>
+                        <div class="button-text quick-action-text">Descarregar</div>
+                      </div>
+                    </a>
+                    <a  th:href="@{'/documentos/pdf/recibo/'+${aux}}"  target="_new" class="action-button full w-inline-block imprimir">
+                      <div class="icon quick-action">
+                        <div class="main-font-icon">o</div>
+                        <div class="button-text quick-action-text">Imprimir</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <a href="#" class="close-flyout w-inline-block"></a>
+    <div class="criar-page-mobile-menu">
+      <a href="javascript:history.back()" class="back-button-wrapper w-inline-block">
+        <div class="icon back">
+          <div class="main-font-icon">arrow_back</div>
+        </div>
+      </a>
+      <link rel="prefetch" href="javascript:history.back()">
+      <div>
+        <h1 class="criar-page-title">Recibo</h1>
+      </div>
+    </div>
+  </div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+   <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+   <script th:inline="javascript">
+    
+ /*<![CDATA[*/	 		  
+    		
+     url = "https://"+window.location.hostname+"/app/pdf/recibo.php?value="+[[${aux}]]
+	 $(".imprimir").attr("href", url)
+	/*]]>*/
+	
+  </script>
+</body>
+</html>

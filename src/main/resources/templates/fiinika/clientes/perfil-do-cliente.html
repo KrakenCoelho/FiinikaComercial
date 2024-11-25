@@ -1,0 +1,520 @@
+<!DOCTYPE html><!--  Last Published: Wed Jun 26 2024 14:31:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="667ada12e2b008b7d4b9ef5f" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<body>
+  <div class="mother-div">
+    <div class="criar-page-mobile-menu">
+      <a href="javascript:history.back()" class="back-button-wrapper w-inline-block">
+        <div class="icon back">
+          <div class="main-font-icon">arrow_back</div>
+        </div>
+      </a>
+      <link rel="prefetch" href="javascript:history.back()">
+      <div>
+        <h1 class="criar-page-title">Perfil do cliente</h1>
+      </div>
+      <div class="div-block-105">
+        <a href="/fiinika/clientes/editar-cliente" class="action-button w-inline-block">
+          <div class="icon quick-action">
+            <div class="main-font-icon">edit</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="html-embed w-embed"></div>
+    <div class="close-flyout"></div>
+    <div class="page-content-wrapper">
+		
+      <div th:insert="/fragments/menuAdmin :: menuAdmin"></div>  
+      
+      <div class="content" th:each="c,iterator: ${cliente}">
+        <div class="container">
+          <div class="top-section-navigation">
+            <a href="javascript:history.back()" class="seta-para-tras w-inline-block">
+              <div class="text-block-129">q</div>
+            </a>
+            <div class="titulo"></div>
+            <div class="bot-o-ou-menu">
+              <a th:href="@{'/fiinika/clientes/editar-cliente/' +${aux}}" class="action-button w-inline-block">
+                <div class="icon quick-action">
+                  <div class="main-font-icon u">u</div>
+                  <div class="button-text quick-action-text">Editar</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="div-block-7">
+            <div class="w-layout-grid grid-2">
+              <div class="img-wrapper cliente">
+              <img  th:src="@{'/imgs/clientes/'+ ${c.foto_logotipo}}"  loading="lazy" sizes="(max-width: 479px) 77vw, (max-width: 767px) 78vw, (max-width: 991px) 83vw, 96vw" alt="" class="img is--contain"></div>
+              <div id="w-node-d043887a-a5aa-bca2-3006-06290e62090c-b95930ff" class="div-block-6">
+                <div class="w-layout-grid grid-3">
+                  <div id="w-node-_91f7b2e1-80e8-7878-3971-eea7037ec7d0-b95930ff">
+                    <div class="list-item">
+                      <div class="list-item-lable">Nome</div>
+                      <div class="list-item">[[${c.nomeCliente}]]</div>
+                    </div>
+                    <div class="list-item">
+                      <div class="list-item-lable">NIF</div>
+                      <div class="list-item">[[${c.nif}]]</div>
+                    </div>
+                    <div class="list-item">
+                      <div class="list-item-lable">Telemóvel</div>
+                      <div class="list-item">[[${c.telemovel}]]</div>
+                    </div>
+                    <div class="list-item">
+                      <div class="list-item-lable">Email</div>
+                      <div class="list-item">[[${c.email}]]</div>
+                    </div>
+                  </div>
+                  <div id="w-node-f6e19744-e5cd-4063-4724-2efeb7351c05-b95930ff">
+                    <div class="list-item">
+                      <div class="list-item-lable">Endereço</div>
+                      <div class="list-item">[[${c.endereco}]]</div>
+                    </div>
+                    <div class="list-item">
+                      <div class="list-item-lable">Tipo de cliente</div>
+                      <div class="list-item">[[${c.tipo_cliente}]]</div>
+                    </div>
+                    <div class="list-item">
+                      <div class="list-item-lable">Data de criação</div>
+                      <div class="list-item">[[${T(com.ao.fiinikacomercial.funcoes.Funcoes).FormatDate(c.data_cadastro)}]]</div>
+                    </div>
+                     <a href="#" class="action-button full w-inline-block imprimir" target="_new">
+                      <div class="icon quick-action">
+                        <div class="main-font-icon">o</div>
+                        <div class="button-text quick-action-text">Imprimir Extracto</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="w-form">
+            <form id="email-form-2" name="email-form-2" data-name="Email Form 2" method="get">
+              <div class="form-section _5">
+                <div class="kpi-grid">
+                  <div id="w-node-_88ce47df-f758-64ea-b199-19255b5cd960-b95930ff" class="kpi">
+                    <div class="kpi-top-section">
+                      <div class="kpi-icon-wrapper">
+                        <div class="icon inside-kpi">
+                          <div class="material-symbols-rounded smaller-icon">task</div>
+                        </div>
+                      </div>
+                      <h2 class="kpi-header">Facturado</h2>
+                    </div>
+                    <div class="kpi-mid-section">
+                      <div class="kpi-valor currency">Kz</div>
+                      <div class="kpi-valor">[[${#numbers.formatDecimal(total_factura, 1, 'POINT', 2, 'COMMA')}]]</div>
+                    </div>
+                    <div class="kpi-bottom-section">
+                      <div class="kpi-stats-wrapper">
+                         <div th:if="${v_facturado >= 0}" class="kpi-stats positive">
+                            <div class="icon kpi-stats-icon">
+                              <div class="main-font-icon smaller-icon">8</div>
+                            </div>
+                            <div class="stats">[[${#numbers.formatDecimal(v_facturado, 1, 'POINT', 2, 'COMMA')}]]%</div>
+                          </div>
+                          <div th:if="${v_facturado <= -1}" class="kpi-stats negative">
+                            <div class="icon kpi-stats-icon">
+                              <div class="main-font-icon smaller-icon down">8</div>
+                            </div>
+                            <div class="stats">[[${#numbers.formatDecimal(v_facturado, 1, 'POINT', 2, 'COMMA')}]]%</div>
+                          </div>                         
+                        
+                      </div>                     
+                    </div>
+                  </div>
+                  <div id="w-node-_88ce47df-f758-64ea-b199-19255b5cd9ce-b95930ff" class="kpi">
+                    <div class="kpi-top-section">
+                      <div class="kpi-icon-wrapper">
+                        <div class="icon inside-kpi">
+                          <div class="material-symbols-rounded smaller-icon">task</div>
+                        </div>
+                      </div>
+                      <h2 class="kpi-header">Recibos</h2>
+                    </div>
+                    <div class="kpi-mid-section">
+                      <div class="kpi-valor currency">Kz</div>
+                      <div class="kpi-valor">[[${#numbers.formatDecimal(total_recibo, 1, 'POINT', 2, 'COMMA')}]]</div>
+                    </div>
+                    <div class="kpi-bottom-section">
+                      <div class="kpi-stats-wrapper">
+                         <div th:if="${v_recibo >= 0}" class="kpi-stats positive">
+                            <div class="icon kpi-stats-icon">
+                              <div class="main-font-icon smaller-icon">8</div>
+                            </div>
+                            <div class="stats">[[${#numbers.formatDecimal(v_recibo, 1, 'POINT', 2, 'COMMA')}]]%</div>
+                          </div>
+                          <div th:if="${v_recibo <= -1}" class="kpi-stats negative">
+                            <div class="icon kpi-stats-icon">
+                              <div class="main-font-icon smaller-icon down">8</div>
+                            </div>
+                            <div class="stats">[[${#numbers.formatDecimal(v_recibo, 1, 'POINT', 2, 'COMMA')}]]%</div>
+                          </div>
+                         
+                      </div>
+                     
+                    </div>
+                  </div>
+                  <div id="w-node-_88ce47df-f758-64ea-b199-19255b5cda06-b95930ff" class="kpi">
+                    <div class="kpi-top-section">
+                      <div class="kpi-icon-wrapper">
+                        <div class="icon inside-kpi">
+                          <div class="material-symbols-rounded smaller-icon">task</div>
+                        </div>
+                      </div>
+                      <h2 class="kpi-header">Reembolso</h2>
+                    </div>
+                    <div class="kpi-mid-section">
+                      <div class="kpi-valor currency">Kz</div>
+                      <div class="kpi-valor">[[${#numbers.formatDecimal(total_reembolso, 1, 'POINT', 2, 'COMMA')}]]</div>
+                    </div>
+                    <div class="kpi-bottom-section">
+                      <div class="kpi-stats-wrapper">
+                         <div th:if="${v_reembolso >= 0}" class="kpi-stats positive">
+                            <div class="icon kpi-stats-icon">
+                              <div class="main-font-icon smaller-icon">8</div>
+                            </div>
+                            <div class="stats">[[${#numbers.formatDecimal(v_reembolso, 1, 'POINT', 2, 'COMMA')}]]%</div>
+                          </div>
+                          <div th:if="${v_reembolso <= -1}" class="kpi-stats negative">
+                            <div class="icon kpi-stats-icon">
+                              <div class="main-font-icon smaller-icon down">8</div>
+                            </div>
+                            <div class="stats">[[${#numbers.formatDecimal(v_reembolso, 1, 'POINT', 2, 'COMMA')}]]%</div>
+                          </div>                         
+                      </div>                      
+                    </div>
+                  </div>
+                  <!-- 
+                  <div id="w-node-e261d2bb-7259-f16a-be85-20a7a56ce614-b95930ff" class="kpi">
+                    <div class="kpi-top-section">
+                      <div class="kpi-icon-wrapper">
+                        <div class="icon inside-kpi">
+                          <div class="material-symbols-rounded smaller-icon">task</div>
+                        </div>
+                      </div>
+                      <h2 class="kpi-header">Por pagar</h2>
+                    </div>
+                    <div class="kpi-mid-section">
+                      <div class="kpi-valor currency">Kz</div>
+                      <div class="kpi-valor">49.660,53</div>
+                    </div>
+                    <div class="kpi-bottom-section">
+                      <div class="kpi-stats-wrapper">
+                        <div class="kpi-stats positive">
+                          <div class="icon kpi-stats-icon">
+                            <div class="material-symbols-rounded smaller-icon">trending_up</div>
+                          </div>
+                          <div class="stats">8.26%</div>
+                        </div>
+                        <div class="kpi-stats negative hidden">
+                          <div class="icon kpi-stats-icon">
+                            <div class="material-symbols-rounded smaller-icon">trending_down</div>
+                          </div>
+                          <div class="stats">8.26%</div>
+                        </div>
+                      </div>
+                      <div class="kpi-dropdown-wrap">
+                        <a href="#" class="table-action-button w-inline-block">
+                          <div class="icon kpi-dropdown-icon">
+                            <div class="button-text quick-action-text _0-margin">Últimos 7 dias</div>
+                            <div class="material-symbols-rounded">arrow_drop_down</div>
+                          </div>
+                        </a>
+                        <div class="flyout-menu-wrapper kpi-actions-flyout">
+                          <div class="flyout-menu-content in-table"><label class="menu-item with-radio-button w-radio">
+                              <div class="w-form-formradioinput w-form-formradioinput--inputType-custom radio-button w-radio-input"></div><input type="radio" name="radio" id="radio-44" value="Radio" data-name="Radio 44" style="opacity:0;position:absolute;z-index:-1"><span class="button-text radio-text w-form-label" for="radio-44">Últimos 7 dias</span>
+                            </label><label class="menu-item with-radio-button w-radio">
+                              <div class="w-form-formradioinput w-form-formradioinput--inputType-custom radio-button w-radio-input"></div><input type="radio" name="radio" id="radio-44" value="Radio" data-name="Radio 44" style="opacity:0;position:absolute;z-index:-1"><span class="button-text radio-text w-form-label" for="radio-44">Últimos 15 dias</span>
+                            </label><label class="menu-item with-radio-button w-radio">
+                              <div class="w-form-formradioinput w-form-formradioinput--inputType-custom radio-button w-radio-input"></div><input type="radio" name="radio" id="radio-44" value="Radio" data-name="Radio 44" style="opacity:0;position:absolute;z-index:-1"><span class="button-text radio-text w-form-label" for="radio-44">Últimos 30 dias</span>
+                            </label><label class="menu-item with-radio-button w-radio">
+                              <div class="w-form-formradioinput w-form-formradioinput--inputType-custom radio-button w-radio-input"></div><input type="radio" name="radio" id="radio-44" value="Radio" data-name="Radio 44" style="opacity:0;position:absolute;z-index:-1"><span class="button-text radio-text w-form-label" for="radio-44">Últimos 6 meses</span>
+                            </label><label class="menu-item with-radio-button w-radio">
+                              <div class="w-form-formradioinput w-form-formradioinput--inputType-custom radio-button w-radio-input"></div><input type="radio" name="radio" id="radio-44" value="Radio" data-name="Radio 44" style="opacity:0;position:absolute;z-index:-1"><span class="button-text radio-text w-form-label" for="radio-44">Últimos 12 meses</span>
+                            </label></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>-->
+                </div>
+              </div>
+            </form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+          
+          
+          <div>
+            <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="w-tabs">
+              <div class="tabs-menu w-tab-menu">
+                <a data-w-tab="Tab 1" class="table-tab-link w-inline-block w-tab-link w--current">
+                  <div>Proformas</div>
+                </a>
+                <a data-w-tab="Tab 2" class="table-tab-link w-inline-block w-tab-link">
+                  <div>Facturas</div>
+                </a>
+                <a data-w-tab="Tab 3" class="table-tab-link w-inline-block w-tab-link">
+                  <div>Recibos</div>
+                </a>
+                <a data-w-tab="Tab 4" class="table-tab-link w-inline-block w-tab-link">
+                  <div>Notas </div>
+                </a>
+              </div>
+              <div class="w-tab-content">
+
+              <div th:each="i: ${#numbers.sequence(1, 5)}" th:data-w-tab="'Tab '+ ${i}" th:id="'id_'+${i}" class="w-tab-pane">
+            
+                  <div class="w-form">
+                    <form id="email-form-3" name="email-form-3" data-name="Email Form 3" method="get">
+                       <div class="table">
+                        <div class="table-row cell-label-wrapper"><label class="w-checkbox table-checkbox-wrapper">
+                            <div class="w-checkbox-input w-checkbox-input--inputType-custom table-checkbox"></div>
+                            <input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"><span class="checkbox-lable hidden w-form-label" for="checkbox-2">Checkbox</span>
+                          </label>
+                          <div class="table-row-content">
+                            <div class="cell-label _10">
+                              <div class="table-cell-text">Nº</div>
+                            </div>
+                            <div class="cell-label _25">
+                              <div class="table-cell-text">Entidade</div>
+                            </div>
+                            <div class="cell-label _15">
+                              <div class="table-cell-text">Criado por</div>
+                            </div>
+                            <div class="cell-label _15">
+                              <div class="table-cell-text">Data</div>
+                            </div>
+                            <div class="cell-label _20">
+                              <div class="table-cell-text">Valor</div>
+                            </div>
+                            <div class="cell-label _15">
+                              <div class="table-cell-text">Documento</div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="table-row" th:each="factura,iterator: ${facturas}"  th:if="${factura[4]== tipo_doc[i-1] && i == leng[i-1] }" th:with="id=${T(com.ao.fiinikacomercial.funcoes.Funcoes).Codifica(factura[0])}">
+                        <label class="w-checkbox table-checkbox-wrapper">
+                            <div class="w-checkbox-input w-checkbox-input--inputType-custom table-checkbox"></div><input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"><span class="checkbox-lable hidden w-form-label" for="checkbox-2">Checkbox</span>
+                          </label>
+                          <a th:href="@{${link[i-1]} + ${id}}" class="table-row-content item-link w-inline-block">
+                            <div class="table-cell _10">
+                              <div class="table-cell-text bold">[[${factura[1]}]]</div>
+                            </div>
+                            <div class="table-cell _25 client-cell">
+                              <div class="table-image-wrapper">
+                              <img th:src="@{'/imgs/clientes/'+ ${c.foto_logotipo}}" sizes="(max-width: 767px) 60px, 44px"  loading="lazy"  alt="" class="img is--contain"></div>
+                              <div class="table-cell-text">[[${c.nomeCliente}]]</div>
+                            </div>
+                            <div class="table-cell _15 i">
+                              <div class="table-cell-text">[[${factura[7]}]]</div>
+                            </div>
+                            <div class="table-cell _15 i">
+                              <div class="table-cell-text">[[${factura[6]}]]</div>
+                            </div>
+                            <div class="table-cell _20">
+                              <div class="table-cell-text">KZ [[${#numbers.formatDecimal(factura[3], 1, 'POINT', 2, 'COMMA')}]]</div>
+                            </div>
+                            <div class="table-cell _15">
+                              <div class="status-wrapper pago hidden">
+                                <div class="status-text">Pago</div>
+                              </div>
+                              <div class="status-wrapper nao-pago hidden">
+                                <div class="status-text">Não pago</div>
+                              </div>
+                              <div class="status-wrapper reembolso hidden">
+                                <div class="status-text">Rembolso</div>
+                              </div>
+                              
+                             
+                              
+                            <div th:if="${factura[4] == 'PP'}" class="status-wrapper nao-pago">
+                              <div class="status-text">proforma</div>
+                            </div>
+                             <div th:if="${factura[4] == 'FT'}" class="status-wrapper factura">
+                              <div class="status-text">FACTURA</div>
+                            </div>
+                              <div th:if="${factura[4] == 'FR'}" class="status-wrapper factura">
+                              <div class="status-text">FACTURA/Recibo</div>
+                            </div>
+                             <div th:if="${factura[4] == 'NC'}" class="status-wrapper reembolso">
+                              <div class="status-text">nota de cRÉDITO</div>
+                            </div>
+                              
+                            </div>
+                          </a>
+                          <div class="table-row-action-button-wrapper">
+                           
+                            <div class="flyout-menu-wrapper table-actions-flyout">
+                              <div class="flyout-menu-content in-table">
+                                <a href="#" class="menu-item w-inline-block">
+                                  <div class="menu-icon-wrapper">
+                                    <div class="icon menu-left-icon">
+                                      <div class="material-symbols-rounded">visibility</div>
+                                    </div>
+                                  </div>
+                                  <div class="button-text">Visualizar</div>
+                                </a>
+                                <a href="#" class="menu-item w-inline-block">
+                                  <div class="menu-icon-wrapper">
+                                    <div class="icon menu-left-icon">
+                                      <div class="material-symbols-rounded">Print</div>
+                                    </div>
+                                  </div>
+                                  <div class="button-text">Imprimir</div>
+                                </a>
+                                <a href="#" class="menu-item w-inline-block">
+                                  <div class="menu-icon-wrapper">
+                                    <div class="icon menu-left-icon">
+                                      <div class="material-symbols-rounded">Download</div>
+                                    </div>
+                                  </div>
+                                  <div class="button-text">Descarregar</div>
+                                </a>
+                                <a href="#" class="menu-item w-inline-block">
+                                  <div class="menu-icon-wrapper">
+                                    <div class="icon menu-left-icon">
+                                      <div class="material-symbols-rounded">Delete</div>
+                                    </div>
+                                  </div>
+                                  <div class="button-text">Eliminar</div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                      <div class="table-row" th:each="r,iterator: ${recibos}"  th:if="${'RC' == tipo_doc[i-1] && i == leng[i-1] }" th:with="id=${T(com.ao.fiinikacomercial.funcoes.Funcoes).Codifica(r.id_recibo)}">
+                        <label class="w-checkbox table-checkbox-wrapper">
+                            <div class="w-checkbox-input w-checkbox-input--inputType-custom table-checkbox"></div>
+                            <input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"><span class="checkbox-lable hidden w-form-label" for="checkbox-2">Checkbox</span>
+                          </label>
+                          <a th:href="@{'/dexa/documentos/recibo/visualizar-recibo/' +${id}}" class="table-row-content item-link w-inline-block">
+                            <div class="table-cell _10">
+                              <div class="table-cell-text bold">[[${r.codigo_recibo}]]</div>
+                            </div>
+                            <div class="table-cell _25 client-cell">
+                              <div class="table-image-wrapper">
+                              <img th:src="@{'/imgs/clientes/'+ ${c.foto_logotipo}}" sizes="(max-width: 767px) 60px, 44px"  loading="lazy"  alt="" class="img is--contain"></div>
+                              <div class="table-cell-text">[[${c.nome_cliente}]]</div>
+                            </div>
+                            <div class="table-cell _15 i">
+                              <div class="table-cell-text">[[${r.vendedor_recibo}]]</div>
+                            </div>
+                            <div class="table-cell _15 i">
+                              <div class="table-cell-text">[[${T(com.ao.dexaconta.funcoes.Funcoes).FormatDate(r.data_recibo)}]]</div>
+                            </div>
+                            <div class="table-cell _20">
+                              <div class="table-cell-text">KZ [[${#numbers.formatDecimal(r.total_recibo, 1, 'POINT', 2, 'COMMA')}]]</div>
+                            </div>
+                            <div class="table-cell _15">
+                              <div class="status-wrapper pago hidden">
+                                <div class="status-text">Pago</div>
+                              </div>
+                              <div class="status-wrapper nao-pago hidden">
+                                <div class="status-text">Não pago</div>
+                              </div>
+                              <div class="status-wrapper reembolso hidden">
+                                <div class="status-text">Rembolso</div>
+                              </div>
+                              
+                            <div class="status-wrapper pago">
+                              <div class="status-text">recibo</div>
+                            </div>
+                              
+                      
+                            </div>
+                          </a>
+                          <div class="table-row-action-button-wrapper">
+                            <a href="#" class="table-action-button w-inline-block">
+                              <div class="icon _3-dots"><img loading="lazy" width="12" src="/images/3dots-gray.svg" alt="" class="_3dots"></div>
+                            </a>
+                            <div class="flyout-menu-wrapper table-actions-flyout">
+                              <div class="flyout-menu-content in-table">
+                                <a href="#" class="menu-item w-inline-block">
+                                  <div class="menu-icon-wrapper">
+                                    <div class="icon menu-left-icon">
+                                      <div class="material-symbols-rounded">visibility</div>
+                                    </div>
+                                  </div>
+                                  <div class="button-text">Visualizar</div>
+                                </a>
+                                <a href="#" class="menu-item w-inline-block">
+                                  <div class="menu-icon-wrapper">
+                                    <div class="icon menu-left-icon">
+                                      <div class="material-symbols-rounded">Print</div>
+                                    </div>
+                                  </div>
+                                  <div class="button-text">Imprimir</div>
+                                </a>
+                                <a href="#" class="menu-item w-inline-block">
+                                  <div class="menu-icon-wrapper">
+                                    <div class="icon menu-left-icon">
+                                      <div class="material-symbols-rounded">Download</div>
+                                    </div>
+                                  </div>
+                                  <div class="button-text">Descarregar</div>
+                                </a>
+                                <a href="#" class="menu-item w-inline-block">
+                                  <div class="menu-icon-wrapper">
+                                    <div class="icon menu-left-icon">
+                                      <div class="material-symbols-rounded">Delete</div>
+                                    </div>
+                                  </div>
+                                  <div class="button-text">Eliminar</div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                      </div>
+                    </form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+    <script th:inline="javascript">
+   // $("#id_1").attr("class","")
+   $("#id_1").addClass("w-tab-pane w--tab-active");
+   
+      /*<![CDATA[*/		 
+		  url = "https://"+window.location.hostname+"/app/pdf/extracto-corrente-do-cliente.php?extr="+[[${enc}]]	 
+		  $(".imprimir").attr("href", url)
+	  	/*]]>*/
+	  
+  
+  </script>
+</body>
+</html>

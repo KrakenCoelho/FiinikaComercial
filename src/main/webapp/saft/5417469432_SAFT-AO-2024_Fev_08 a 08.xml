@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AuditFile xmlns="urn:OECD:StandardAuditFile-Tax:AO_1.01_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Header>
+    <AuditFileVersion>1.01_01</AuditFileVersion>
+    <CompanyID>ALSASAT</CompanyID>
+    <TaxRegistrationNumber>5417469432</TaxRegistrationNumber>
+    <TaxAccountingBasis>F</TaxAccountingBasis>
+    <CompanyName>ALSASAT</CompanyName>
+    <CompanyAddress>
+      <AddressDetail>Bairro Capalanga, Rua do Piaget, Casa n°250</AddressDetail>
+      <City>LUANDA</City>
+      <Province>LUANDA</Province>
+      <Country>AO</Country>
+    </CompanyAddress>
+    <FiscalYear>2024</FiscalYear>
+    <StartDate>2024-02-08</StartDate>
+    <EndDate>2024-02-08</EndDate>
+    <CurrencyCode>AOA</CurrencyCode>
+    <DateCreated>2024-02-08</DateCreated>
+    <TaxEntity>GLOBAL</TaxEntity>
+    <ProductCompanyTaxID>5417469432</ProductCompanyTaxID>
+    <SoftwareValidationNumber>371/AGT/2022</SoftwareValidationNumber>
+    <ProductID>DexaContas/SELECT SERVICES, LDA</ProductID>
+    <ProductVersion>1.0.0</ProductVersion>
+    <Telephone>+923083447</Telephone>
+    <Email>alsasat13af@hotmail.com</Email>
+  </Header>
+  <MasterFiles>
+    <Customer>
+      <CustomerID>17025</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5410001060</CustomerTaxID>
+      <CompanyName>Endiama - EP</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua Major Kanhangulo, n° 100</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>222334585</Telephone>
+      <Email>endiama.invest@endiama.co.ao</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>24792</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5701016811</CustomerTaxID>
+      <CompanyName>Águas e Saneamento de Malanje-EP</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua C, Dangereux, Bairro Quinzanga ,Malanje</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923713385</Telephone>
+      <Email>carlossmuhongo@yahoo.com.br</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>66524</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5401111380</CustomerTaxID>
+      <CompanyName>WSS-SA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Luanda-Angola, rua revolução de Outubro nº 100</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923628442</Telephone>
+      <Email>wssdop680@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>75337</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5417153346</CustomerTaxID>
+      <CompanyName>UAR I- Sociedade Mineira .LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Rua nº66, Casa nº730, Urbanização Lar do Patriota, Município de Belas</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>947249749</Telephone>
+      <Email>Antonio.lando@uari.co.ao</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>88231</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>5401140509</CustomerTaxID>
+      <CompanyName>SAIPEM SPA (SUCURSAL) Angola LDA</CompanyName>
+      <BillingAddress>
+        <AddressDetail>35GQ+CJW,Talatona</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923602366</Telephone>
+      <Email>vasco.dasilva@saipem.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>242219</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>9700</CustomerTaxID>
+      <CompanyName>ABCD edit</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Luanda</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>910201111</Telephone>
+      <Email>email@gg.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17061</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Repetidor Digital Motorola</ProductDescription>
+      <ProductNumberCode>00000000017061</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17062</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Rádio Portátil Digital Motorola</ProductDescription>
+      <ProductNumberCode>00000000017062</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17064</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Painel Solar</ProductDescription>
+      <ProductNumberCode>00000000017064</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17065</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Regulador De Tensão </ProductDescription>
+      <ProductNumberCode>00000000017065</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17066</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Bateria De Alta Capacidade</ProductDescription>
+      <ProductNumberCode>00000000017066</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17067</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Kite De Conexão Solar </ProductDescription>
+      <ProductNumberCode>00000000017067</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17068</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabo Coaxial RF-RG213</ProductDescription>
+      <ProductNumberCode>00000000017068</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17109</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pararaio Ponta De Franklin Completo </ProductDescription>
+      <ProductNumberCode>00000000017109</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17113</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabo De Cobre Nú 50mml</ProductDescription>
+      <ProductNumberCode>00000000017113</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17115</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Varão De Terra 2.5mml</ProductDescription>
+      <ProductNumberCode>00000000017115</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17118</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mastro De Tubo Galvanizado</ProductDescription>
+      <ProductNumberCode>00000000017118</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17119</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Varão De Rosca Sem Fim</ProductDescription>
+      <ProductNumberCode>00000000017119</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>17120</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Kite De Conexão e a braçadeira </ProductDescription>
+      <ProductNumberCode>00000000017120</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>24809</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Configuração</ProductDescription>
+      <ProductNumberCode>00000000024809</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>24811</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Deslocação</ProductDescription>
+      <ProductNumberCode>00000000024811</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>24818</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Instalação</ProductDescription>
+      <ProductNumberCode>00000000024818</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>27977</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabo Coaxial Heliax 1/2"</ProductDescription>
+      <ProductNumberCode>00000000027977</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>27982</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Filtro Duplex Banda Alta</ProductDescription>
+      <ProductNumberCode>00000000027982</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>27983</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Conectores NM Para cabo RG58</ProductDescription>
+      <ProductNumberCode>00000000027983</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>27986</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Conectores NM Para cabo Heliax 1/2"</ProductDescription>
+      <ProductNumberCode>00000000027986</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>27988</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Conectores NM Para cabo Heliax 1/2"</ProductDescription>
+      <ProductNumberCode>00000000027988</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>29844</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Antena VHF</ProductDescription>
+      <ProductNumberCode>00000000029844</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75116</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Repetidor Motorola DR 3000</ProductDescription>
+      <ProductNumberCode>00000000075116</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75126</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Repetidor Motorola MTR 3000</ProductDescription>
+      <ProductNumberCode>00000000075126</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75131</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Repetidor Motorola GR500</ProductDescription>
+      <ProductNumberCode>00000000075131</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75138</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Repetidor Motorola GR700</ProductDescription>
+      <ProductNumberCode>00000000075138</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75140</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Repetidor Motorola SLR5000</ProductDescription>
+      <ProductNumberCode>00000000075140</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75141</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Repetidor Motorola SLR5500</ProductDescription>
+      <ProductNumberCode>00000000075141</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75142</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Repetidor Motorola SLR8000</ProductDescription>
+      <ProductNumberCode>00000000075142</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75143</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio portátil Analógico Motorola DP1400 </ProductDescription>
+      <ProductNumberCode>00000000075143</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75144</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio portátil Digital Motorola DP1400 </ProductDescription>
+      <ProductNumberCode>00000000075144</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75154</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio portátil Digital Motorola DP4601</ProductDescription>
+      <ProductNumberCode>00000000075154</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75159</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio portátil Digital Motorola DP4000 Sereis</ProductDescription>
+      <ProductNumberCode>00000000075159</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75165</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio Base Móvel Motorola Digital DM4000 Sereis</ProductDescription>
+      <ProductNumberCode>00000000075165</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75166</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio Base Móvel Motorola Digital DM4601 </ProductDescription>
+      <ProductNumberCode>00000000075166</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75167</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio Base Móvel Motorola Digital DM1400 Sereis</ProductDescription>
+      <ProductNumberCode>00000000075167</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75168</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio Base Móvel Motorola Analogico DM1400 Sereis</ProductDescription>
+      <ProductNumberCode>00000000075168</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75170</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio Base Fixa Motorola Analógico DM1400 Sereis</ProductDescription>
+      <ProductNumberCode>00000000075170</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75171</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio Base Fixa Motorola Digital DM4000 Sereis</ProductDescription>
+      <ProductNumberCode>00000000075171</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75174</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio Base Fixa Motorola Digital DM4601</ProductDescription>
+      <ProductNumberCode>00000000075174</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75424</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio portátil Analógico Motorola GP340 Sereis</ProductDescription>
+      <ProductNumberCode>00000000075424</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75428</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radio portátil Analógico Motorola CP040 Sereis</ProductDescription>
+      <ProductNumberCode>00000000075428</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75432</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Assitencia de Radios Motorola Sereis</ProductDescription>
+      <ProductNumberCode>00000000075432</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75453</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Bateria de Radio Motorola GP340</ProductDescription>
+      <ProductNumberCode>00000000075453</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75455</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Bateria de Radio Motorola CP040 Sereis</ProductDescription>
+      <ProductNumberCode>00000000075455</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75458</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Antena de Radio Portátil Motorola VHF </ProductDescription>
+      <ProductNumberCode>00000000075458</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75464</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Carregador de Radio Motorola GP340</ProductDescription>
+      <ProductNumberCode>00000000075464</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>75465</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Carregador de Radio Motorola CP040</ProductDescription>
+      <ProductNumberCode>00000000075465</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>88213</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Telefone Sátelite IRIDIUM 9555</ProductDescription>
+      <ProductNumberCode>00000000088213</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>88216</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cartão SIM IRIDIUM-I3C  Actvação Pré-Pago</ProductDescription>
+      <ProductNumberCode>00000000088216</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>88218</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Plano Iridium Africa-Medio Oriente 500Minutos</ProductDescription>
+      <ProductNumberCode>00000000088218</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>92106</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>NVR Hikvision 16 Canal</ProductDescription>
+      <ProductNumberCode>00000000092106</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>92108</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Disco Duro 2TB Sata </ProductDescription>
+      <ProductNumberCode>00000000092108</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>92109</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Disco Duro 4TB Sata </ProductDescription>
+      <ProductNumberCode>00000000092109</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>92115</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabo de Rede UDA 305MT UTP CAT6</ProductDescription>
+      <ProductNumberCode>00000000092115</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>92119</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera de vigilância 4MP Colorvu Bullet</ProductDescription>
+      <ProductNumberCode>00000000092119</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>92121</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera de vigilância 4MP ILOCK D120</ProductDescription>
+      <ProductNumberCode>00000000092121</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>92124</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Camera de PTZ SPEED DOME IP</ProductDescription>
+      <ProductNumberCode>00000000092124</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>92125</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>SWITCH POE de 16 Canal PS318G-F</ProductDescription>
+      <ProductNumberCode>00000000092125</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>92126</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Conector RJ45 CAT6 100UD</ProductDescription>
+      <ProductNumberCode>00000000092126</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>92615</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tubo Galvanizado 6M-12DFG</ProductDescription>
+      <ProductNumberCode>00000000092615</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>238142</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Caixa de Radio Portatel</ProductDescription>
+      <ProductNumberCode>000000000238142</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>238143</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Botão seletor  Radio portátil</ProductDescription>
+      <ProductNumberCode>000000000238143</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>242292</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Radia GHAK</ProductDescription>
+      <ProductNumberCode>000000000242292</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>242347</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Art 6000</ProductDescription>
+      <ProductNumberCode>000000000242347</ProductNumberCode>
+    </Product>
+    <TaxTable>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>NOR</TaxCode>
+        <Description>Normal</Description>
+        <TaxPercentage>14.0000</TaxPercentage>
+      </TaxTableEntry>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>OUT</TaxCode>
+        <Description>IVA - Regime de Exclusão</Description>
+        <TaxPercentage>0.0000</TaxPercentage>
+      </TaxTableEntry>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>ISE</TaxCode>
+        <Description>Transmissão de bens e serviços não sujeita</Description>
+        <TaxPercentage>0</TaxPercentage>
+      </TaxTableEntry>
+    </TaxTable>
+  </MasterFiles>
+  <SourceDocuments>
+    <SalesInvoices>
+      <NumberOfEntries>1</NumberOfEntries>
+      <TotalDebit>0.00</TotalDebit>
+      <TotalCredit>12000.00</TotalCredit>
+      <Invoice>
+        <InvoiceNo>FT 2024/15</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-02-08T13:14:15</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>IPk2/p9foyD/UHKwBlSDsLBfo53QeQUOtwnWNiWU48Q3Qusd41yBhDPCmmssYxSdV+8d9lFYYB/M43EcrIj9V3yl1ZNEv1+gEHik065RMHouDATlnFVjMv7+EdmrYPncfJaB0xAwbfXmcmyyJ+4KiGpAME5inJu+xwwzboUlOPA=</Hash>
+        <HashControl>1</HashControl>
+        <Period>2</Period>
+        <InvoiceDate>2024-02-08</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-02-08T13:14:15</SystemEntryDate>
+        <CustomerID>24792</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>242347</ProductCode>
+          <ProductDescription>Art 6000</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>6000.0</UnitPrice>
+          <TaxPointDate>2024-02-08</TaxPointDate>
+          <Description>Art 6000</Description>
+          <CreditAmount>12000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>NOR</TaxCode>
+            <TaxPercentage>14</TaxPercentage>
+          </Tax>
+          <SettlementAmount>0</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>1680.00</TaxPayable>
+          <NetTotal>12000.00</NetTotal>
+          <GrossTotal>13680.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+    </SalesInvoices>
+    <WorkingDocuments>
+      <NumberOfEntries>0</NumberOfEntries>
+      <TotalDebit>0.00</TotalDebit>
+      <TotalCredit>0.00</TotalCredit>
+    </WorkingDocuments>
+    <Payments>
+      <NumberOfEntries>0</NumberOfEntries>
+      <TotalDebit>0.00</TotalDebit>
+      <TotalCredit>0.00</TotalCredit>
+    </Payments>
+  </SourceDocuments>
+</AuditFile>

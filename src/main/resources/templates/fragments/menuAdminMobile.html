@@ -1,0 +1,150 @@
+ <div th:fragment="menuAdminMobile" class="mobile-nav wf-section">
+    <a href="#" class="mobile-logo w-inline-block"><img src="/images/dexa-contas-white.png" loading="lazy" srcset="/images/dexa-contas-white-p-500.png 500w, /images/dexa-contas-white.png 750w" sizes="(max-width: 479px) 130px, (max-width: 767px) 27vw, 100vw" alt="" class="img mobile-logo-img"></a>
+    <div class="nav-wrapper">
+      <div class="menu-buttons-wrapper">
+        <div id="w-node-_7cf79696-fde8-5ae9-f790-68c9a80034cc-a80034c7" class="profile-menu-content">
+          <div class="flyout-menu-wrapper profile-flyout">
+            <div class="flyout-menu-content less-padding-copy">
+              <a href="#" class="menu-item _11 w-inline-block">
+                <div class="menu-icon-wrapper">
+                  <div class="icon menu-left-icon">
+                    <div class="main-font-icon">account_circle</div>
+                  </div>
+                </div>
+                <div class="button-text">Minha conta</div>
+              </a>
+              <a href="/dexa/configuracoes/todas-configuracoes" class="menu-item _11 w-inline-block">
+                <div class="menu-icon-wrapper">
+                  <div class="icon menu-left-icon">
+                    <div class="main-font-icon">settings</div>
+                  </div>
+                </div>
+                <div class="button-text">Configurações</div>
+              </a>
+              <a href="/dexa/configuracoes/configuracoes-gerais" class="menu-item _11 w-inline-block">
+                <div class="menu-icon-wrapper">
+                  <div class="icon menu-left-icon">
+                    <div class="main-font-icon">help</div>
+                  </div>
+                </div>
+                <div class="button-text">Centro de ajuda</div>
+              </a>
+              <div class="cancelar-link-wrapper e-criar-nova-fatura-copy">
+                <a href="/index" class="menu-item logout-button w-inline-block">
+                  <div class="menu-icon-wrapper">
+                    <div class="icon menu-left-icon">
+                      <div class="main-font-icon">power_settings_new</div>
+                    </div>
+                  </div>
+                  <div class="button-text">Terminar sessão</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="round-photo-thumbnail"><img th:src="@{'/imgs/users/'+ ${foto_perfil}}" loading="lazy" alt="" class="cover-photo"></div>
+        </div>
+        <div id="w-node-_7cf79696-fde8-5ae9-f790-68c9a80034ee-a80034c7" class="menu-trigger">
+          <div class="icon hamberg-menu">
+            <div class="main-font-icon bigger-icon">5</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shadow"></div>
+    <div class="menu-logo-cover"></div>
+    <div class="sidebar-menu-wrapper">
+      <div class="menu-item-2">
+        <a href="/dexa/dashboard" aria-current="page" class="menu-link w-inline-block w--current">
+          <div class="menu-link-icon">
+            <div class="icon">
+              <div class="main-font-icon">a</div>
+            </div>
+          </div>
+          <div class="menu-link-text">Início</div>
+        </a>
+        <a href="/dexa/documentos/todos-documentos" class="menu-link w-inline-block">
+          <div class="menu-link-icon">
+            <div class="icon">
+              <div class="main-font-icon">c</div>
+            </div>
+          </div>
+          <div class="menu-link-text">Documentos</div>
+        </a>
+        <a th:style="${display_none}" href="/dexa/despesas/todas-despesas" class="menu-link w-inline-block">
+          <div class="menu-link-icon">
+            <div class="icon">
+              <div class="main-font-icon">b</div>
+            </div>
+          </div>
+          <div class="menu-link-text">Despesas</div>
+        </a>
+        <a  th:style="${display_none}" href="/dexa/produtos/todos-produtos" class="menu-link w-inline-block">
+          <div class="menu-link-icon">
+            <div class="icon">
+              <div class="main-font-icon">3</div>
+            </div>
+          </div>
+          <div class="menu-link-text">Artigos</div>
+        </a>
+        <a href="/dexa/clientes/todos-clientes" class="menu-link w-inline-block">
+          <div class="menu-link-icon">
+            <div class="icon">
+              <div class="main-font-icon">j</div>
+            </div>
+          </div>
+          <div class="menu-link-text">Clientes</div>
+        </a>
+        <a th:style="${display_none}" href="/dexa/fornecedores/todos-fornecedores" class="menu-link w-inline-block">
+          <div class="menu-link-icon">
+            <div class="icon">
+              <div class="main-font-icon">z</div>
+            </div>
+          </div>
+          <div class="menu-link-text">Fornecedores</div>
+        </a>
+        <a th:style="${display_none}" href="/dexa/utilizadores/todos-utilizadores" class="menu-link w-inline-block">
+          <div class="menu-link-icon">
+            <div class="icon">
+              <div class="main-font-icon">k</div>
+              <div class="html-embed w-embed"></div>
+            </div>
+          </div>
+          <div class="menu-link-text">Utilizadores</div>
+        </a>
+        <a th:style="${display_none}" href="/dexa/configuracoes/relatorios" class="menu-link w-inline-block">
+          <div class="menu-link-icon">
+            <div class="icon">
+              <div class="main-font-icon">8</div>
+            </div>
+          </div>
+          <div class="menu-link-text">Relatórios</div>
+        </a>
+      </div>
+      <div class="menu-item-2 bottom">
+        <a th:if="${tipo_sub == 1}"  th:style="${display_none}" href="/dexa/configuracoes/saft" class="menu-link w-inline-block">
+          <div class="menu-link-icon">
+            <div class="icon">
+              <div class="main-font-icon">6</div>
+            </div>
+          </div>
+          <div class="menu-link-text">SAF-T</div>
+        </a>
+        <a th:style="${display_none}" href="/dexa/configuracoes/todas-configuracoes" class="menu-link w-inline-block">
+          <div class="menu-link-icon">
+            <div class="icon">
+              <div class="main-font-icon">e</div>
+            </div>
+          </div>
+          <div class="menu-link-text">Configurações</div>
+        </a>
+        <a href="#" onclick="Logout()" class="menu-link w-inline-block">
+          <div class="menu-link-icon">
+            <div class="icon">
+              <div class="main-font-icon">q</div>
+            </div>
+          </div>
+          <div class="menu-link-text">Logout</div>
+        </a>
+      </div>
+    </div>
+  </div>

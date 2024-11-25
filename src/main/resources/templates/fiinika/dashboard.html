@@ -1,0 +1,678 @@
+<!DOCTYPE html><!--  Last Published: Wed Jun 26 2024 14:31:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="667ada12e2b008b7d4b9ef05" data-wf-site="667ada12e2b008b7d4b9eee9">
+<head th:insert="/fragments/header :: header"></head>
+<div th:insert="/fragments/script :: script" id="id_script"></div>
+<body>
+  <div class="mother-div dash">
+    <div class="page-content-wrapper">
+    <div th:insert="/fragments/menuAdmin :: menuAdmin"></div>  
+      <div class="content">
+        <section class="criar-page-section">
+          <div class="container">
+            <div class="dash-main-content">
+              <div class="div-block-116">
+                <div class="w-layout-grid grid-9">
+                  <div id="w-node-_9f039224-a64e-fde7-a0e6-3aaeec10d3b7-d4b9ef05" class="div-block-118">
+                    <div class="text-block-127">Receita do mês</div>
+                    <div class="text-block-128">KZ [[${#numbers.formatDecimal(total_recibo, 1, 'POINT', 2, 'COMMA')}]]</div>
+                  </div>
+                  <div id="w-node-f409b8eb-beb2-6adb-92ec-f4911966618d-d4b9ef05" class="div-block-118">
+                    <div class="text-block-127">Despesas do mês</div>
+                    <div class="text-block-128">KZ [[${#numbers.formatDecimal(total_despesa, 1, 'POINT', 2, 'COMMA')}]]</div>
+                  </div>
+                  <div id="w-node-_59a2c31c-5240-de70-f82b-da556f4feb97-d4b9ef05" class="div-block-118">
+                    <div class="text-block-127">Resultado do mês</div>
+                    <div class="text-block-128">KZ [[${#numbers.formatDecimal(result, 1, 'POINT', 2, 'COMMA')}]]</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="div-block-117">
+                <div class="w-layout-grid grid-8">
+                  <a id="w-node-_5c9ae21a-59ef-d615-2500-031f23d9f397-d4b9ef05" href="/fiinika/documentos/factura/criar-factura-recibo" class="link-block-4 w-inline-block">
+                    <div class="text-block-126">s</div>
+                    <div class="text-block-132">Criar factura/recibo</div>
+                  </a>
+                  <a id="w-node-_3972feaf-ad14-da59-8e53-5ba878926a75-d4b9ef05" href="/fiinika/documentos/proforma/criar-proforma" class="link-block-4 w-inline-block">
+                    <div class="text-block-126">c</div>
+                    <div>Criar proforma</div>
+                  </a>
+                  <a id="w-node-d90a1aab-10a1-7d66-647e-3817fc037b85-d4b9ef05" href="/fiinika/despesas/criar-despesa" class="link-block-4 w-inline-block">
+                    <div class="text-block-126">h</div>
+                    <div>Registar despesa</div>
+                  </a>
+                  <a id="w-node-ed8c9c38-2ee0-2a88-5361-05bcd61a13c6-d4b9ef05" href="/fiinika/clientes/criar-novo-cliente" class="link-block-4 w-inline-block">
+                    <div class="text-block-126">j</div>
+                    <div>Criar cliente</div>
+                  </a>
+                  <a id="w-node-_82199ef8-2021-81e0-0940-07ceae3ad3f8-d4b9ef05" href="/fiinika/fornecedores/criar-fornecedor" class="link-block-4 w-inline-block">
+                    <div class="text-block-126">x</div>
+                    <div>Criar fornecedor</div>
+                  </a>
+                  <a id="w-node-_186928af-e8e1-3e07-290b-0ba2bbae6338-d4b9ef05" href="/fiinika/stock/meu-stock" class="link-block-4 w-inline-block">
+                    <div class="text-block-126">a</div>
+                    <div>Meu stock</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="form-wrapper w-form">
+              <form id="wf-form-Criar-Fatura" name="wf-form-Criar-Fatura" data-name="Criar Fatura" method="get" class="form" data-wf-page-id="667ada12e2b008b7d4b9ef05" data-wf-element-id="0fdf0245-ad7e-cb69-8478-86e5811315de">
+                <div class="form-section">
+                  <div class="form-section-wrapper">
+                    <h2 class="table-header">Últimos movimentos</h2>
+                  </div>
+                  <div class="table">
+                    <div class="table-row cell-label-wrapper">
+                      <div class="table-row-content">
+                        <div class="cell-label _10">
+                          <div class="table-cell-text">Nº</div>
+                        </div>
+                        <div class="cell-label _25">
+                          <div class="table-cell-text">Entidade</div>
+                        </div>
+                        <div class="cell-label _15">
+                          <div class="table-cell-text">Criado por</div>
+                        </div>
+                        <div class="cell-label _15">
+                          <div class="table-cell-text">Data</div>
+                        </div>
+                        <div class="cell-label _20">
+                          <div class="table-cell-text">Valor</div>
+                        </div>
+                        <div class="cell-label _15">
+                          <div class="table-cell-text">Documento</div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                   <div id="div_main">
+                    <div class="table-row" th:each="factura,cont: ${facturas}" th:with="id=${T(com.ao.fiinikacomercial.funcoes.Funcoes).Codifica(factura[0])}">
+                    
+                
+                       <a  th:id="'link'+${cont.index}" th:name="${id}"  class="table-row-content item-link w-inline-block">
+                                    
+                        <div class="table-cell _10">
+                          <div class="table-cell-text bold">[[${factura[1]}]]</div>
+                        </div>
+                        <div class="table-cell _25 client-cell i">
+                          <div class="table-image-wrapper">
+                          <img th:src="@{'/imgs/clientes/'+ ${factura[8]}}" sizes="(max-width: 479px) 100vw, (max-width: 767px) 13vw, 43.984375px"  loading="lazy"  alt="" class="img is--contain"></div>
+                          <div class="table-cell-text">[[${factura[2]}]]</div>
+                        </div>
+                        <div class="table-cell _15 i">
+                          <div class="table-cell-text">[[${factura[7]}]]</div>
+                        </div>
+                        <div class="table-cell _15">
+                          <div class="table-cell-text">[[${factura[6]}]]</div>
+                        </div>
+                        <div class="table-cell _20">
+                          <div class="table-cell-text">KZ [[${#numbers.formatDecimal(factura[3], 1, 'POINT', 2, 'COMMA')}]]</div>
+                        </div>
+                        <div class="table-cell _15">
+                          <div class="status-wrapper pago hidden">
+                            <div class="status-text">Pago</div>
+                          </div>
+                          <div class="status-wrapper nao-pago hidden">
+                            <div class="status-text">Não pago</div>
+                          </div>
+                          <div class="status-wrapper reembolso hidden">
+                            <div class="status-text">Rembolso</div>
+                          </div>
+                          <div th:if="${factura[4] == 'PP'}" class="status-wrapper nao-pago">
+                            <div class="status-text">proforma</div>
+                          </div>
+                           <div th:if="${factura[4] == 'FT'}" class="status-wrapper factura">
+                            <div class="status-text">FACTURA</div>
+                          </div>
+                            <div th:if="${factura[4] == 'FR'}" class="status-wrapper factura">
+                            <div class="status-text">FACTURA/RECIBO</div>
+                          </div>
+                           <div th:if="${factura[4] == 'NC'}" class="status-wrapper reembolso">
+                            <div class="status-text">nota de cRÉDITO</div>
+                          </div>
+                        </div>
+                      </a>
+
+                     </div>
+                    </div>
+                    
+                    
+	                <div id="div_documentos" style="display:none">
+	                </div>
+ 
+                  </div>
+                </div>
+              </form>
+              <div class="w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="w-form-fail">
+                <div>Oops! Something went wrong while submitting the form.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="close-flyout"></div>
+  <div class="not-valid">
+    <div class="text-block-116">Dimensão de ecrã não suportada...</div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=667ada12e2b008b7d4b9eee9" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="/js/fiinika-comercial-app.js" type="text/javascript"></script>
+  <script th:inline="javascript">
+  
+  /*<![CDATA[*/     
+ // facturas = [[${facturas}]]; 
+  //link = [[${link}]];
+  demo = [[${demo}]];
+  servidor = [[${servidor}]];  
+  /*]]>*/
+  
+  
+  if(demo == 1){
+  msg = "Bem vindo ao Fiinika Comercial, caro utilizador todo o documento gerado\n"+ 
+         "apartir da conta gratis não terá validade fiscal, faça a sua subscrição clicando em Subscrever"
+    //Alerta()
+    AvisoSubscricao()
+  }
+
+
+  
+  /*<![CDATA[*/     
+	facturas = [[${facturas}]];	
+	link = [[${link}]];
+	demo = [[${demo}]];
+	servidor = [[${servidor}]];	 
+	/*]]>*/
+	
+	
+	for(i=0; i<facturas.length;i++){
+		switch(facturas[i][4]) {
+		  case "PP":
+			  $("#link"+i).attr("href",link[0]+$("#link"+i).attr("name"))
+		    break;
+		  case "FT":
+			  $("#link"+i).attr("href",link[1]+$("#link"+i).attr("name"))
+		    break;
+		  case "FR":
+			  $("#link"+i).attr("href",link[2]+$("#link"+i).attr("name"))
+		    break;
+		  case "NC":
+			  $("#link"+i).attr("href",link[3]+$("#link"+i).attr("name"))
+		    break;
+		  default:
+		    // code block
+		}
+		
+			
+		
+		
+	}
+	
+  $('.form-text-field').change(
+          function() {
+        	  
+        	  if($("#ano").val()== "" && $("#mes").val()== "" && $("#tipo").val() == ""){
+        		  $("#div_main").css("display","block")
+    	    	  $("#div_documentos").css("display","none")
+        		  return
+        	  }
+  	  
+              $.getJSON("/ajax/docs_dashboard", {
+            	  ano: $("#ano").val(),
+                  mes: $("#mes").val(),
+                  tipo: $("#tipo").val(),
+                  ajax : 'true'
+              }, function(data) {     
+                 
+    	          var html = '',i, div_tipo = '';
+    	          var len = data.length;
+    	        // console.log(data[0].length)
+    	    if(len>0){	
+    	    	  $("#div_main").css("display","none")
+    	    	  $("#div_documentos").css("display","block")
+    	    	  
+    	    	for(i=0; i < data[0].length; i++){
+    	    		
+    	    		if($("#tipo").val() == 'RC'){  
+        	    		
+        	    		div_tipo = '<div class="status-wrapper pago"><div class="status-text">recibo</div></div>'
+        	    		link = "/fiinika/documentos/recibo/visualizar-recibo/"+data[0][i][7]
+        	    		
+        	       html +='<div class="table-row">'+
+                            '<label class="w-checkbox table-checkbox-wrapper">'+
+                              '<div class="w-checkbox-input w-checkbox-input--inputType-custom table-checkbox"></div><input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"><span class="checkbox-lable hidden w-form-label" for="checkbox-2">Checkbox</span>'+
+                            '</label>'+
+                            '<a  href="'+link+'" class="table-row-content item-link w-inline-block">'+                
+                              '<div class="table-cell _10">'+
+                                '<div class="table-cell-text bold">'+data[0][i][1]+'</div>'+
+                              '</div>'+
+                              '<div class="table-cell _25 client-cell i">'+
+                                '<div class="table-image-wrapper">'+
+                                '<img  src="/imgs/clientes/'+data[0][i][6]+'"  sizes="(max-width: 479px) 100vw, (max-width: 767px) 13vw, 43.984375px"  loading="lazy"  alt="" class="img is--contain"></div>'+
+                                '<div class="table-cell-text">'+data[0][i][2]+'</div>'+
+                              '</div>'+
+                              '<div class="table-cell _15 i">'+
+                                '<div class="table-cell-text">'+data[0][i][3]+'</div>'+
+                              '</div>'+
+                              '<div class="table-cell _15">'+
+                                '<div class="table-cell-text">'+data[0][i][4]+'</div>'+
+                              '</div>'+
+                              '<div class="table-cell _20">'+
+                                '<div class="table-cell-text">KZ '+data[0][i][5]+'</div>'+
+                              '</div>'+
+                              '<div class="table-cell _15">'+
+                                '<div class="status-wrapper pago hidden">'+
+                                  '<div class="status-text">Pago</div>'+
+                                '</div>'+
+                                '<div class="status-wrapper nao-pago hidden">'+
+                                  '<div class="status-text">Não pago</div>'+
+                                '</div>'+
+                                '<div class="status-wrapper reembolso hidden">'+
+                                  '<div class="status-text">Rembolso</div>'+
+                                '</div>'+
+                                 div_tipo+
+                              '</div>'+
+                            '</a>'+
+                            '<div class="table-row-action-button-wrapper">'+                             
+                              '<div class="flyout-menu-wrapper table-actions-flyout">'+
+                                '<div class="flyout-menu-content in-table">'+
+                                  '<a href="#" class="menu-item w-inline-block">'+
+                                    '<div class="menu-icon-wrapper">'+
+                                      '<div class="icon menu-left-icon">'+
+                                        '<div class="main-font-icon">visibility</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                    '<div class="button-text">Visualizar</div>'+
+                                  '</a>'+
+                                  '<a href="#" class="menu-item w-inline-block">'+
+                                    '<div class="menu-icon-wrapper">'+
+                                      '<div class="icon menu-left-icon">'+
+                                        '<div class="main-font-icon">Print</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                    '<div class="button-text">Imprimir</div>'+
+                                  '</a>'+
+                                  '<a href="#" class="menu-item w-inline-block">'+
+                                    '<div class="menu-icon-wrapper">'+
+                                      '<div class="icon menu-left-icon">'+
+                                        '<div class="main-font-icon">Download</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                    '<div class="button-text">Descarregar</div>'+
+                                  '</a>'+
+                                  '<a href="#" class="menu-item w-inline-block">'+
+                                    '<div class="menu-icon-wrapper">'+
+                                      '<div class="icon menu-left-icon">'+
+                                        '<div class="main-font-icon">Delete</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                    '<div class="button-text">Eliminar</div>'+
+                                  '</a>'+
+                                '</div>'+
+                              '</div>'+
+                            '</div>'+                        
+                          '</div>'
+                          
+        	    	  }else{
+    	    	
+        	    		  if(data[0][i][4] == "PP"){	    		
+            	    			div_tipo =  '<div class="status-wrapper nao-pago"><div class="status-text">proforma</div></div>'    
+            	    			link = "/fiinika/documentos/proforma/visualizar-proforma/"+data[0][i][9]                           
+            	    		}
+            	    		if(data[0][i][4] == "FT" || data[0][i][4] == "FR"){	    		
+            	    			div_tipo = '<div class="status-wrapper factura"><div class="status-text">FACTURA</div></div>'
+            	    			link = "/fiinika/documentos/factura/visualizar-factura/"+data[0][i][9]                            
+            	    		}
+            	    		if(data[0][i][4] == "NC"){	    		
+            	    			div_tipo = '<div class="status-wrapper reembolso"><div class="status-text">nota de cRÉDITO</div></div>' 
+                                link = "/fiinika/documentos/nota-de-credito/visualizar-nota-de-credito/"+data[0][i][9]
+            	    		}         
+    	    		
+    	       html +='<div class="table-row">'+
+                        '<label class="w-checkbox table-checkbox-wrapper">'+
+                          '<div class="w-checkbox-input w-checkbox-input--inputType-custom table-checkbox"></div><input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"><span class="checkbox-lable hidden w-form-label" for="checkbox-2">Checkbox</span>'+
+                        '</label>'+
+                        '<a  href="'+link+'" class="table-row-content item-link w-inline-block">'+                
+                          '<div class="table-cell _10">'+
+                            '<div class="table-cell-text bold">'+data[0][i][1]+'</div>'+
+                          '</div>'+
+                          '<div class="table-cell _25 client-cell i">'+
+                            '<div class="table-image-wrapper">'+
+                            '<img  src="/imgs/clientes/'+data[0][i][8]+'"  sizes="(max-width: 479px) 100vw, (max-width: 767px) 13vw, 43.984375px"  loading="lazy"  alt="" class="img is--contain"></div>'+
+                            '<div class="table-cell-text">'+data[0][i][2]+'</div>'+
+                          '</div>'+
+                          '<div class="table-cell _15 i">'+
+                            '<div class="table-cell-text">'+data[0][i][7]+'</div>'+
+                          '</div>'+
+                          '<div class="table-cell _15">'+
+                            '<div class="table-cell-text">'+data[0][i][6]+'</div>'+
+                          '</div>'+
+                          '<div class="table-cell _20">'+
+                            '<div class="table-cell-text">KZ '+data[0][i][3]+'</div>'+
+                          '</div>'+
+                          '<div class="table-cell _15">'+
+                            '<div class="status-wrapper pago hidden">'+
+                              '<div class="status-text">Pago</div>'+
+                            '</div>'+
+                            '<div class="status-wrapper nao-pago hidden">'+
+                              '<div class="status-text">Não pago</div>'+
+                            '</div>'+
+                            '<div class="status-wrapper reembolso hidden">'+
+                              '<div class="status-text">Rembolso</div>'+
+                            '</div>'+
+                             div_tipo+
+                          '</div>'+
+                        '</a>'+
+                        '<div class="table-row-action-button-wrapper">'+
+                          '<a href="#" class="table-action-button w-inline-block">'+
+                            '<div class="icon _3-dots"><img loading="lazy" width="12" src="/images/3dots-gray.svg" alt="" class="_3dots"></div>'+
+                          '</a>'+
+                          '<div class="flyout-menu-wrapper table-actions-flyout">'+
+                            '<div class="flyout-menu-content in-table">'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">visibility</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Visualizar</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Print</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Imprimir</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Download</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Descarregar</div>'+
+                              '</a>'+
+                              '<a href="#" class="menu-item w-inline-block">'+
+                                '<div class="menu-icon-wrapper">'+
+                                  '<div class="icon menu-left-icon">'+
+                                    '<div class="main-font-icon">Delete</div>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="button-text">Eliminar</div>'+
+                              '</a>'+
+                            '</div>'+
+                          '</div>'+
+                        '</div>'+                        
+                      '</div>'
+        	       }  
+    	    		
+    	    	}
+    	    	 
+    	          $('#div_documentos').html(html);                                   
+    	     }else{    	    	
+    			  $('#div_documentos').html('Não foram encontrados documentos');     
+    			}
+  				
+  			
+              });
+          });
+  
+  
+//================================== Por NOME ==============================
+	
+  $('.pesquisa').keyup(function(){
+   url = ""
+        	  if($(this).val() == ""){
+        		  $("#div_main").css("display","block")
+    	    	  $("#div_documentos").css("display","none")
+        		  return
+        	  }else{
+        		  if($(this).val().includes("RC") || $(this).val().includes("rc")){
+   	    		 url = "/ajax/documentos_dashboardRC"
+   	    	   }else{
+   	    		 url = "/ajax/documentos_dashboard"
+   	    	    }
+        	  }
+        	  
+  	  
+              $.getJSON(url, {
+                  nome: $(this).val(),                
+                  ajax : 'true'
+              }, function(data) {     
+                 
+    	          var html = '',i, div_tipo = '',link='';
+    	          var len = data.length;
+    	          
+    	    if(len>0){	
+    	    	  $("#div_main").css("display","none")
+    	    	  $("#div_documentos").css("display","block")
+    	    	  
+    	    	for(i=0; i < data[0].length; i++){
+    	    		
+    	    		  if(url == "/ajax/documentos_dashboardRC"){
+    	    			  
+          	    		div_tipo = '<div class="status-wrapper pago"><div class="status-text">recibo</div></div>'
+            	    	link = "/fiinika/documentos/recibo/visualizar-recibo/"+data[0][i][7]
+            	    		
+            	       html +='<div class="table-row">'+
+                                '<label class="w-checkbox table-checkbox-wrapper">'+
+                                  '<div class="w-checkbox-input w-checkbox-input--inputType-custom table-checkbox"></div><input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"><span class="checkbox-lable hidden w-form-label" for="checkbox-2">Checkbox</span>'+
+                                '</label>'+
+                                '<a  href="'+link+'" class="table-row-content item-link w-inline-block">'+                
+                                  '<div class="table-cell _10">'+
+                                    '<div class="table-cell-text bold">'+data[0][i][1]+'</div>'+
+                                  '</div>'+
+                                  '<div class="table-cell _25 client-cell i">'+
+                                    '<div class="table-image-wrapper">'+
+                                    '<img  src="/imgs/clientes/'+data[0][i][6]+'"  sizes="(max-width: 479px) 100vw, (max-width: 767px) 13vw, 43.984375px"  loading="lazy"  alt="" class="img is--contain"></div>'+
+                                    '<div class="table-cell-text">'+data[0][i][2]+'</div>'+
+                                  '</div>'+
+                                  '<div class="table-cell _15 i">'+
+                                    '<div class="table-cell-text">'+data[0][i][3]+'</div>'+
+                                  '</div>'+
+                                  '<div class="table-cell _15">'+
+                                    '<div class="table-cell-text">'+data[0][i][4]+'</div>'+
+                                  '</div>'+
+                                  '<div class="table-cell _20">'+
+                                    '<div class="table-cell-text">KZ '+data[0][i][5]+'</div>'+
+                                  '</div>'+
+                                  '<div class="table-cell _15">'+
+                                    '<div class="status-wrapper pago hidden">'+
+                                      '<div class="status-text">Pago</div>'+
+                                    '</div>'+
+                                    '<div class="status-wrapper nao-pago hidden">'+
+                                      '<div class="status-text">Não pago</div>'+
+                                    '</div>'+
+                                    '<div class="status-wrapper reembolso hidden">'+
+                                      '<div class="status-text">Rembolso</div>'+
+                                    '</div>'+
+                                     div_tipo+
+                                  '</div>'+
+                                '</a>'+
+                                '<div class="table-row-action-button-wrapper">'+                                 
+                                  '<div class="flyout-menu-wrapper table-actions-flyout">'+
+                                    '<div class="flyout-menu-content in-table">'+
+                                      '<a href="#" class="menu-item w-inline-block">'+
+                                        '<div class="menu-icon-wrapper">'+
+                                          '<div class="icon menu-left-icon">'+
+                                            '<div class="main-font-icon">visibility</div>'+
+                                          '</div>'+
+                                        '</div>'+
+                                        '<div class="button-text">Visualizar</div>'+
+                                      '</a>'+
+                                      '<a href="#" class="menu-item w-inline-block">'+
+                                        '<div class="menu-icon-wrapper">'+
+                                          '<div class="icon menu-left-icon">'+
+                                            '<div class="main-font-icon">Print</div>'+
+                                          '</div>'+
+                                        '</div>'+
+                                        '<div class="button-text">Imprimir</div>'+
+                                      '</a>'+
+                                      '<a href="#" class="menu-item w-inline-block">'+
+                                        '<div class="menu-icon-wrapper">'+
+                                          '<div class="icon menu-left-icon">'+
+                                            '<div class="main-font-icon">Download</div>'+
+                                          '</div>'+
+                                        '</div>'+
+                                        '<div class="button-text">Descarregar</div>'+
+                                      '</a>'+
+                                      '<a href="#" class="menu-item w-inline-block">'+
+                                        '<div class="menu-icon-wrapper">'+
+                                          '<div class="icon menu-left-icon">'+
+                                            '<div class="main-font-icon">Delete</div>'+
+                                          '</div>'+
+                                        '</div>'+
+                                        '<div class="button-text">Eliminar</div>'+
+                                      '</a>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>'+                        
+                              '</div>'
+    	    			  
+    	    		  }else{
+    	    			  
+    	    		
+    	    		   if(data[0][i][4] == "PP"){	    		
+      	    			div_tipo =  '<div class="status-wrapper nao-pago"><div class="status-text">proforma</div></div>'    
+      	    			link = "/fiinika/documentos/proforma/visualizar-proforma/"+data[0][i][9]                           
+	      	    		}
+	      	    		if(data[0][i][4] == "FT" || data[0][i][4] == "FR"){	    		
+	      	    			div_tipo = '<div class="status-wrapper factura"><div class="status-text">FACTURA</div></div>'
+	      	    			link = "/fiinika/documentos/factura/visualizar-factura/"+data[0][i][9]                            
+	      	    		}
+	      	    		if(data[0][i][4] == "NC"){	    		
+	      	    			div_tipo = '<div class="status-wrapper reembolso"><div class="status-text">nota de cRÉDITO</div></div>' 
+	                          link = "/fiinika/documentos/nota-de-credito/visualizar-nota-de-credito/"+data[0][i][9]
+	      	    		}    
+      	    		//div_tipo = <div class="status-wrapper pago"><div class="status-text">recibo</div></div>
+      	    		
+      	       html +='<div class="table-row">'+
+                          '<label class="w-checkbox table-checkbox-wrapper">'+
+                            '<div class="w-checkbox-input w-checkbox-input--inputType-custom table-checkbox"></div><input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"><span class="checkbox-lable hidden w-form-label" for="checkbox-2">Checkbox</span>'+
+                          '</label>'+
+                          '<a  href="'+link+'" class="table-row-content item-link w-inline-block">'+                
+                            '<div class="table-cell _10">'+
+                              '<div class="table-cell-text bold">'+data[0][i][1]+'</div>'+
+                            '</div>'+
+                            '<div class="table-cell _25 client-cell i">'+
+                              '<div class="table-image-wrapper">'+
+                              '<img  src="/imgs/clientes/'+data[0][i][8]+'"  sizes="(max-width: 479px) 100vw, (max-width: 767px) 13vw, 43.984375px"  loading="lazy"  alt="" class="img is--contain"></div>'+
+                              '<div class="table-cell-text">'+data[0][i][2]+'</div>'+
+                            '</div>'+
+                            '<div class="table-cell _15 i">'+
+                              '<div class="table-cell-text">'+data[0][i][7]+'</div>'+
+                            '</div>'+
+                            '<div class="table-cell _15">'+
+                              '<div class="table-cell-text">'+data[0][i][6]+'</div>'+
+                            '</div>'+
+                            '<div class="table-cell _20">'+
+                              '<div class="table-cell-text">KZ '+data[0][i][3]+'</div>'+
+                            '</div>'+
+                            '<div class="table-cell _15">'+
+                              '<div class="status-wrapper pago hidden">'+
+                                '<div class="status-text">Pago</div>'+
+                              '</div>'+
+                              '<div class="status-wrapper nao-pago hidden">'+
+                                '<div class="status-text">Não pago</div>'+
+                              '</div>'+
+                              '<div class="status-wrapper reembolso hidden">'+
+                                '<div class="status-text">Rembolso</div>'+
+                              '</div>'+
+                               div_tipo+
+                            '</div>'+
+                          '</a>'+
+                          '<div class="table-row-action-button-wrapper">'+
+                            '<a href="#" class="table-action-button w-inline-block">'+
+                              '<div class="icon _3-dots"><img loading="lazy" width="12" src="/images/3dots-gray.svg" alt="" class="_3dots"></div>'+
+                            '</a>'+
+                            '<div class="flyout-menu-wrapper table-actions-flyout">'+
+                              '<div class="flyout-menu-content in-table">'+
+                                '<a href="#" class="menu-item w-inline-block">'+
+                                  '<div class="menu-icon-wrapper">'+
+                                    '<div class="icon menu-left-icon">'+
+                                      '<div class="main-font-icon">visibility</div>'+
+                                    '</div>'+
+                                  '</div>'+
+                                  '<div class="button-text">Visualizar</div>'+
+                                '</a>'+
+                                '<a href="#" class="menu-item w-inline-block">'+
+                                  '<div class="menu-icon-wrapper">'+
+                                    '<div class="icon menu-left-icon">'+
+                                      '<div class="main-font-icon">Print</div>'+
+                                    '</div>'+
+                                  '</div>'+
+                                  '<div class="button-text">Imprimir</div>'+
+                                '</a>'+
+                                '<a href="#" class="menu-item w-inline-block">'+
+                                  '<div class="menu-icon-wrapper">'+
+                                    '<div class="icon menu-left-icon">'+
+                                      '<div class="main-font-icon">Download</div>'+
+                                    '</div>'+
+                                  '</div>'+
+                                  '<div class="button-text">Descarregar</div>'+
+                                '</a>'+
+                                '<a href="#" class="menu-item w-inline-block">'+
+                                  '<div class="menu-icon-wrapper">'+
+                                    '<div class="icon menu-left-icon">'+
+                                      '<div class="main-font-icon">Delete</div>'+
+                                    '</div>'+
+                                  '</div>'+
+                                  '<div class="button-text">Eliminar</div>'+
+                                '</a>'+
+                              '</div>'+
+                            '</div>'+
+                          '</div>'+                        
+                        '</div>'    	    		  
+    	    	
+    	    		  }  
+    	    		
+    	    	}
+    	          $('#div_documentos').html(html);                                   
+    	     }else{    	    	
+    			  $('#div_documentos').html('Não foram encontrados documentos');     
+    			}
+  				console.log(url)
+  			
+              });
+          });
+  
+  /*
+  	$('#mes').change(
+          function() {
+  	  
+              $.getJSON("/ajax/docs_dashboard", {
+            	  ano: $("#ano").val(),
+                  mes: $(this).val(),
+                  tipo: $("#tipo").val(),
+                  ajax : 'true'
+              }, function(data) {     
+                  console.log()
+  				
+  			
+              });
+          });
+  	
+  	$('#mes').change(
+            function() {
+    	  
+                $.getJSON("/ajax/docs_dashboard", {
+              	  ano: $("#ano").val(),
+                    mes: $(this).val(),
+                    tipo: $("#tipo").val(),
+                    ajax : 'true'
+                }, function(data) {     
+                    console.log()
+    				
+    			
+                });
+            });
+  */
+  
+  </script>
+</body>
+</html>

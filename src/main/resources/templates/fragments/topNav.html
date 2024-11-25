@@ -1,0 +1,64 @@
+   <div th:fragment="topNav" class="top-nav _1">
+        <div class="top-nav-content">
+          <div class="nav-info-wrappper">
+            <a href="javascript:history.back()" class="back-btn-wrapper w-inline-block">
+              <div class="icon big">
+                <div class="main-font-icon">q</div>
+              </div>
+            </a>
+            <div class="bradcrump-wrapper">
+              <h1 class="page-title">Início</h1>
+            </div>
+          </div>
+          <div class="profile-dropdown-wrapper">
+                      <div class="_3-buttons-wrapper add">
+              <div data-hover="false" data-delay="0" class="w-dropdown">
+                <div class="button main dropdown w-dropdown-toggle">
+                  <div>Criar</div>
+                  <div class="right-icon-wrapper left-border">
+                    <div class="icon button-dropdown">
+                      <div class="main-font-icon">y</div>
+                    </div>
+                  </div>
+                </div>
+                <nav class="dropdown-list-2 w-dropdown-list">
+                  <a href="/dexa/documentos/proforma/criar-proforma" class="menu-item _11 w-inline-block">
+                    <div class="menu-icon-wrapper">
+                      <div class="icon menu-left-icon">
+                        <div class="main-font-icon">add</div>
+                      </div>
+                    </div>
+                    <div class="button-text">Proforma</div>
+                  </a>
+                  <a  href="/dexa/documentos/factura/criar-factura" class="menu-item _11 w-inline-block">
+                    <div class="menu-icon-wrapper">
+                      <div class="icon menu-left-icon">
+                        <div class="main-font-icon">add</div>
+                      </div>
+                    </div>
+                    <div class="button-text">Factura</div>
+                  </a>                  
+                  <a  href="/dexa/documentos/factura/criar-factura-recibo" class="menu-item _11 w-inline-block">
+                    <div class="menu-icon-wrapper">
+                      <div class="icon menu-left-icon">
+                        <div class="main-font-icon">add</div>
+                      </div>
+                    </div>
+                    <div class="button-text">Factura/Recibo</div>
+                  </a>
+                </nav>
+              </div>
+            </div>
+            <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
+              <div class="dropdown-toggle profile w-dropdown-toggle">
+                <div class="round-photo-thumbnail"><img th:src="@{'/imgs/users/'+ ${foto_perfil}}" loading="lazy" alt="" class="cover-photo"></div>
+                <div class="dropdown-text">[[${logado}]]</div>
+                <div class="icon big _000">
+                  <div class="main-font-icon">y</div>
+                </div>
+              </div>
+              <nav class="dropdown-list w-dropdown-list"></nav>
+            </div>
+          </div>
+        </div>
+      </div>

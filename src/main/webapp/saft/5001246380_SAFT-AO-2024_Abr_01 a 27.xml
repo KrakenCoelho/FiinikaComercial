@@ -1,0 +1,2907 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AuditFile xmlns="urn:OECD:StandardAuditFile-Tax:AO_1.01_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Header>
+    <AuditFileVersion>1.01_01</AuditFileVersion>
+    <CompanyID>Megastyle </CompanyID>
+    <TaxRegistrationNumber>5001246380</TaxRegistrationNumber>
+    <TaxAccountingBasis>F</TaxAccountingBasis>
+    <CompanyName>Megastyle </CompanyName>
+    <CompanyAddress>
+      <AddressDetail>Projecto Nova Vida, Rua 121, casa 1288</AddressDetail>
+      <City>LUANDA</City>
+      <Province>LUANDA</Province>
+      <Country>AO</Country>
+    </CompanyAddress>
+    <FiscalYear>2024</FiscalYear>
+    <StartDate>2024-04-01</StartDate>
+    <EndDate>2024-04-27</EndDate>
+    <CurrencyCode>AOA</CurrencyCode>
+    <DateCreated>2024-05-07</DateCreated>
+    <TaxEntity>GLOBAL</TaxEntity>
+    <ProductCompanyTaxID>5001246380</ProductCompanyTaxID>
+    <SoftwareValidationNumber>371/AGT/2022</SoftwareValidationNumber>
+    <ProductID>DexaContas/SELECT SERVICES, LDA</ProductID>
+    <ProductVersion>1.0.0</ProductVersion>
+    <Telephone>+946664031</Telephone>
+    <Email>megastyleofficial@gmail.com</Email>
+  </Header>
+  <MasterFiles>
+    <Customer>
+      <CustomerID>300455</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Noe Mateus </CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923504002</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>301408</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Silva Silvio</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>945674231</Telephone>
+      <Email>neusamiguel1997@hotmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>301754</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Adão Chitumba</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923474792</Telephone>
+      <Email>adamsjchitumba@hotmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>302405</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Maria Geni</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923658418</Telephone>
+      <Email>mariachicolomuenho@hotmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>304182</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Elizabeth Silva</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Samba</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>927692568</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>304516</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Nuria Inglês</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Kilamba</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923336723</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>305802</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Delfina Miranda</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>921305399</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>305829</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Wandermiro Fonseca</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Cazenga, Bairro Hoji Ya Henda.</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923135566</Telephone>
+      <Email>wandermirofonseca@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>305830</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Elidia Dias</CompanyName>
+      <BillingAddress>
+        <AddressDetail>kilamba</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>922245025</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>307327</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Aires Santana</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Luanda Sul(Jacinto Tchipa)</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>941600802</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>307380</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Edson Papel</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>925934602</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>308016</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Euridix Cundea</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>947045394</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>309485</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Maria Bíe</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>943005792</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>310912</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Rebeca Micolo</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923821506</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>314211</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Desconhecido</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>0</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>314428</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Alice Ferreira</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova Vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>928779038</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>315080</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Teresa Neto</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Projecto Nova Vida Casa 1288</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923397889</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>317862</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Irine Cavuquila</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>924846571</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>321971</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Dj Reborn</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Projeto Nando, campos universitários </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923306368</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>328845</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Iracelma Pedro</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Vivendas do Kilamba</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>924471597</Telephone>
+      <Email>iraluis1@hotmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>329880</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Antonieta Domingos</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova Vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>924978751</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>330152</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Luilina Afonso</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova Vida </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>947927262</Telephone>
+      <Email>luilina2005@icloud.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>336803</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Rosimere Gonçalves</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Cazenga</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>999999999</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>341004</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Elisio Pedro Zua</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova Vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>933576048</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>341095</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Julia de Brito</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova Vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>999999991</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>346804</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Juliana Correia</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Camama</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>929995016</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>357120</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Irina Gomes</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova Vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>927828286</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>357427</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Eva Simbo</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova Vida Rua 39</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923736271</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>369060</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Domiano Ngonjei</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Kikolo</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>927998875</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>374353</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>ALDA ALVES </CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>924518027</Telephone>
+      <Email>alvesbocolo1@hotmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>402725</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Edmilson Key</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova Vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>932046761</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>407774</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Juventina Morais</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Patriota </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>998888999</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>427055</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Manuel Vieira </CompanyName>
+      <BillingAddress>
+        <AddressDetail>Cacuaco</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>946253266</Telephone>
+      <Email>netdoutrino19@gmail.com</Email>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>427157</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Yolanda</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>925488900</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>427185</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Dalton</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>923002010</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>427290</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Sem nome</CompanyName>
+      <BillingAddress>
+        <AddressDetail>Casa </AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>123456789</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>427364</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Joceline </CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova Vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>946102745</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Customer>
+      <CustomerID>427450</CustomerID>
+      <AccountID>Desconhecido</AccountID>
+      <CustomerTaxID>999999999</CustomerTaxID>
+      <CompanyName>Inacio Lucas </CompanyName>
+      <BillingAddress>
+        <AddressDetail>Nova Vida</AddressDetail>
+        <City>LUANDA</City>
+        <PostalCode>Desconhecido</PostalCode>
+        <Province>LUANDA</Province>
+        <Country>AO</Country>
+      </BillingAddress>
+      <Telephone>924443046</Telephone>
+      <Email/>
+      <SelfBillingIndicator>0</SelfBillingIndicator>
+    </Customer>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300466</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>corte Maquina </ProductDescription>
+      <ProductNumberCode>000000000300466</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300633</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corte Tesoura Masculino</ProductDescription>
+      <ProductNumberCode>000000000300633</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300634</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corte Feminino </ProductDescription>
+      <ProductNumberCode>000000000300634</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300639</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corte Transformação </ProductDescription>
+      <ProductNumberCode>000000000300639</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300640</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corte Franja </ProductDescription>
+      <ProductNumberCode>000000000300640</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300642</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corte Maquina Pintura </ProductDescription>
+      <ProductNumberCode>000000000300642</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300643</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corte Twist</ProductDescription>
+      <ProductNumberCode>000000000300643</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300654</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corte Bordado</ProductDescription>
+      <ProductNumberCode>000000000300654</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300655</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corte Transformação </ProductDescription>
+      <ProductNumberCode>000000000300655</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300659</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Twist Simples </ProductDescription>
+      <ProductNumberCode>000000000300659</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300666</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Twist Longo</ProductDescription>
+      <ProductNumberCode>000000000300666</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300674</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Barba Maquina/Navalha </ProductDescription>
+      <ProductNumberCode>000000000300674</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300675</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Barba Depilador </ProductDescription>
+      <ProductNumberCode>000000000300675</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300679</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Barba Com Coloraçao</ProductDescription>
+      <ProductNumberCode>000000000300679</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300683</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>After Shave </ProductDescription>
+      <ProductNumberCode>000000000300683</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300689</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Coloração Curto </ProductDescription>
+      <ProductNumberCode>000000000300689</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300740</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Coloração Medio</ProductDescription>
+      <ProductNumberCode>000000000300740</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300746</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Coloração Longo</ProductDescription>
+      <ProductNumberCode>000000000300746</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300750</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Platinado Curto</ProductDescription>
+      <ProductNumberCode>000000000300750</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300751</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Platinado Medio</ProductDescription>
+      <ProductNumberCode>000000000300751</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300753</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Platinado Longo</ProductDescription>
+      <ProductNumberCode>000000000300753</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>300756</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Laminagem </ProductDescription>
+      <ProductNumberCode>000000000300756</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>301816</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Avaliação de Fisioterapia</ProductDescription>
+      <ProductNumberCode>000000000301816</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>301817</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Sessão de Fisioterapia </ProductDescription>
+      <ProductNumberCode>000000000301817</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302221</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Depilação Meia Perna  </ProductDescription>
+      <ProductNumberCode>000000000302221</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302222</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Depilação Perna  completa </ProductDescription>
+      <ProductNumberCode>000000000302222</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302223</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Depilação Virilha completa </ProductDescription>
+      <ProductNumberCode>000000000302223</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302224</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Depilação Buço</ProductDescription>
+      <ProductNumberCode>000000000302224</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302226</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Depilação Peito </ProductDescription>
+      <ProductNumberCode>000000000302226</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302227</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Depilação  costas </ProductDescription>
+      <ProductNumberCode>000000000302227</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302228</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Depilação Barba</ProductDescription>
+      <ProductNumberCode>000000000302228</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302284</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Clareamento Axila  </ProductDescription>
+      <ProductNumberCode>000000000302284</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302287</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Clareamento Virilha</ProductDescription>
+      <ProductNumberCode>000000000302287</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302288</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Massagem Relaxante </ProductDescription>
+      <ProductNumberCode>000000000302288</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302290</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Massagem com Pedras </ProductDescription>
+      <ProductNumberCode>000000000302290</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302327</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Drenagem Linfática </ProductDescription>
+      <ProductNumberCode>000000000302327</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302336</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Massagem Modeladora</ProductDescription>
+      <ProductNumberCode>000000000302336</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302345</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Massagem Dreno Modeladora </ProductDescription>
+      <ProductNumberCode>000000000302345</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302348</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Massagem Nas Mãos </ProductDescription>
+      <ProductNumberCode>000000000302348</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302356</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Massagem nos Pés </ProductDescription>
+      <ProductNumberCode>000000000302356</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302373</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Limpeza de Rosto</ProductDescription>
+      <ProductNumberCode>000000000302373</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302431</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Manicure </ProductDescription>
+      <ProductNumberCode>000000000302431</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302432</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Manicure Francesinha </ProductDescription>
+      <ProductNumberCode>000000000302432</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302433</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Manicure Com Gelinho</ProductDescription>
+      <ProductNumberCode>000000000302433</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302436</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pintura e Gelinho Mãos</ProductDescription>
+      <ProductNumberCode>000000000302436</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302445</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Esfoliação de Mãos  </ProductDescription>
+      <ProductNumberCode>000000000302445</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302451</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pedicure</ProductDescription>
+      <ProductNumberCode>000000000302451</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302455</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pedicure Francesinha </ProductDescription>
+      <ProductNumberCode>000000000302455</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302471</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pedicure Unha Encravada </ProductDescription>
+      <ProductNumberCode>000000000302471</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302475</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pedicure Gelinho</ProductDescription>
+      <ProductNumberCode>000000000302475</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302476</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Limar e Pe</ProductDescription>
+      <ProductNumberCode>000000000302476</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302477</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Esfoliação de Pés </ProductDescription>
+      <ProductNumberCode>000000000302477</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302478</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>UNHAS UNIDADE </ProductDescription>
+      <ProductNumberCode>000000000302478</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302479</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Gel Unhas (Pintura)</ProductDescription>
+      <ProductNumberCode>000000000302479</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302480</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação de Unhas de Gel </ProductDescription>
+      <ProductNumberCode>000000000302480</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302481</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Manutenção de Unhas de Gel </ProductDescription>
+      <ProductNumberCode>000000000302481</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302482</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>b</ProductDescription>
+      <ProductNumberCode>000000000302482</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302483</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Remoção Unhas </ProductDescription>
+      <ProductNumberCode>000000000302483</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302484</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Remoção Gelinho </ProductDescription>
+      <ProductNumberCode>000000000302484</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302488</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Remoção de Gelinho </ProductDescription>
+      <ProductNumberCode>000000000302488</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302489</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Remoção de Unhas Postiças </ProductDescription>
+      <ProductNumberCode>000000000302489</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>302508</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pintura de Pés Gelinho</ProductDescription>
+      <ProductNumberCode>000000000302508</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>303595</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corte Tesoura Pintura </ProductDescription>
+      <ProductNumberCode>000000000303595</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>303610</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Barba Terapia </ProductDescription>
+      <ProductNumberCode>000000000303610</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>303633</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Corte Barba Terapia </ProductDescription>
+      <ProductNumberCode>000000000303633</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>303665</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Madeixa Curta</ProductDescription>
+      <ProductNumberCode>000000000303665</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>303667</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Madeixa Media </ProductDescription>
+      <ProductNumberCode>000000000303667</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>303669</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Madeixa Longa </ProductDescription>
+      <ProductNumberCode>000000000303669</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304326</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Hambúrguer simples </ProductDescription>
+      <ProductNumberCode>000000000304326</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304336</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Hambúrguer Balazo </ProductDescription>
+      <ProductNumberCode>000000000304336</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304337</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Sandes Mista</ProductDescription>
+      <ProductNumberCode>000000000304337</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304344</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tosta Mista </ProductDescription>
+      <ProductNumberCode>000000000304344</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304522</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Omelete</ProductDescription>
+      <ProductNumberCode>000000000304522</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304558</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação de Costura</ProductDescription>
+      <ProductNumberCode>000000000304558</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304566</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Omelete Completo </ProductDescription>
+      <ProductNumberCode>000000000304566</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304578</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pizza Media</ProductDescription>
+      <ProductNumberCode>000000000304578</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304579</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pizza Grande </ProductDescription>
+      <ProductNumberCode>000000000304579</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304588</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Frango a Passarinho</ProductDescription>
+      <ProductNumberCode>000000000304588</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304589</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Picanha Fatiada </ProductDescription>
+      <ProductNumberCode>000000000304589</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304590</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Frango Inteiro </ProductDescription>
+      <ProductNumberCode>000000000304590</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304592</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Meio Frango</ProductDescription>
+      <ProductNumberCode>000000000304592</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304598</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Batata (porção)</ProductDescription>
+      <ProductNumberCode>000000000304598</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304607</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Arroz Doce </ProductDescription>
+      <ProductNumberCode>000000000304607</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304608</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Bolo no Pote </ProductDescription>
+      <ProductNumberCode>000000000304608</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304609</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pudim </ProductDescription>
+      <ProductNumberCode>000000000304609</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304612</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mousse </ProductDescription>
+      <ProductNumberCode>000000000304612</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304617</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Merenda </ProductDescription>
+      <ProductNumberCode>000000000304617</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304620</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pão de chouriço</ProductDescription>
+      <ProductNumberCode>000000000304620</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304638</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Rissóis Camarão</ProductDescription>
+      <ProductNumberCode>000000000304638</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>304639</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Croissant</ProductDescription>
+      <ProductNumberCode>000000000304639</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307329</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Gasosa </ProductDescription>
+      <ProductNumberCode>000000000307329</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307334</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Lambreta </ProductDescription>
+      <ProductNumberCode>000000000307334</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307337</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Agua</ProductDescription>
+      <ProductNumberCode>000000000307337</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307346</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Copo Grande</ProductDescription>
+      <ProductNumberCode>000000000307346</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307358</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cerveja Nacional</ProductDescription>
+      <ProductNumberCode>000000000307358</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307911</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Lavagem Normal</ProductDescription>
+      <ProductNumberCode>000000000307911</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307924</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Lavagem Simples Cabelo Curto </ProductDescription>
+      <ProductNumberCode>000000000307924</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307926</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Lavagem completo</ProductDescription>
+      <ProductNumberCode>000000000307926</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307933</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Lavagem e Mise Comprido </ProductDescription>
+      <ProductNumberCode>000000000307933</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307939</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Lavagem Brasil Curto</ProductDescription>
+      <ProductNumberCode>000000000307939</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307952</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Lavagem Brasileiro Medio </ProductDescription>
+      <ProductNumberCode>000000000307952</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307963</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Lavagem Brasileiro Longo</ProductDescription>
+      <ProductNumberCode>000000000307963</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307968</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mise Seca Normal</ProductDescription>
+      <ProductNumberCode>000000000307968</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307978</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Bob Americano</ProductDescription>
+      <ProductNumberCode>000000000307978</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>307981</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Bob Americano Fino</ProductDescription>
+      <ProductNumberCode>000000000307981</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>308023</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>cachorro</ProductDescription>
+      <ProductNumberCode>000000000308023</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>310763</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Desfriso</ProductDescription>
+      <ProductNumberCode>000000000310763</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>310863</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Compal </ProductDescription>
+      <ProductNumberCode>000000000310863</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>310865</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Sumol </ProductDescription>
+      <ProductNumberCode>000000000310865</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>310916</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Sminorff ice </ProductDescription>
+      <ProductNumberCode>000000000310916</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>310917</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Booster</ProductDescription>
+      <ProductNumberCode>000000000310917</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>310947</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Booster</ProductDescription>
+      <ProductNumberCode>000000000310947</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>310994</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Penteado Noiva </ProductDescription>
+      <ProductNumberCode>000000000310994</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>310995</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação Fio Fio</ProductDescription>
+      <ProductNumberCode>000000000310995</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>310996</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação costura Lavagem </ProductDescription>
+      <ProductNumberCode>000000000310996</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>311073</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação Peruca  </ProductDescription>
+      <ProductNumberCode>000000000311073</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>311074</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Rasta Aplicação </ProductDescription>
+      <ProductNumberCode>000000000311074</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>311133</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação costura com front</ProductDescription>
+      <ProductNumberCode>000000000311133</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>311135</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação Afro</ProductDescription>
+      <ProductNumberCode>000000000311135</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>314429</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Peruca Ondulada</ProductDescription>
+      <ProductNumberCode>000000000314429</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>315081</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Sumo Gardenia</ProductDescription>
+      <ProductNumberCode>000000000315081</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>317036</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>customização de Peruca</ProductDescription>
+      <ProductNumberCode>000000000317036</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>317115</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mega Beleza </ProductDescription>
+      <ProductNumberCode>000000000317115</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>317751</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Esfoliação + Massagem Relaxante </ProductDescription>
+      <ProductNumberCode>000000000317751</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>317754</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Redução de Braço + Abdómem, Bambu </ProductDescription>
+      <ProductNumberCode>000000000317754</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>317772</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Depilação Linha de Biquini </ProductDescription>
+      <ProductNumberCode>000000000317772</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>317779</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Depilação Rosto </ProductDescription>
+      <ProductNumberCode>000000000317779</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>317883</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Peruca Lisa Media </ProductDescription>
+      <ProductNumberCode>000000000317883</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>317916</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Trança Para Perucas </ProductDescription>
+      <ProductNumberCode>000000000317916</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>322056</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Galão</ProductDescription>
+      <ProductNumberCode>000000000322056</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>331551</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Trança de mão</ProductDescription>
+      <ProductNumberCode>000000000331551</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>332032</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação Orgânica </ProductDescription>
+      <ProductNumberCode>000000000332032</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>332033</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação Orgânica </ProductDescription>
+      <ProductNumberCode>000000000332033</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>332047</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mise na peruca comprida</ProductDescription>
+      <ProductNumberCode>000000000332047</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>332054</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Mise na peruca comprida</ProductDescription>
+      <ProductNumberCode>000000000332054</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>351807</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Fahita</ProductDescription>
+      <ProductNumberCode>000000000351807</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>357430</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pintura com material da cliente</ProductDescription>
+      <ProductNumberCode>000000000357430</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>357431</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Peruca de Corte </ProductDescription>
+      <ProductNumberCode>000000000357431</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>389880</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Lavagem simples cabelo natural</ProductDescription>
+      <ProductNumberCode>000000000389880</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436266</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Dreed Longo </ProductDescription>
+      <ProductNumberCode>000000000436266</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436292</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Dreed Médio </ProductDescription>
+      <ProductNumberCode>000000000436292</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436293</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Dreed Curto </ProductDescription>
+      <ProductNumberCode>000000000436293</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436294</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Twist Curto </ProductDescription>
+      <ProductNumberCode>000000000436294</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436295</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Twist Longo </ProductDescription>
+      <ProductNumberCode>000000000436295</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436296</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cordolete</ProductDescription>
+      <ProductNumberCode>000000000436296</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436298</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Escamas Grossa </ProductDescription>
+      <ProductNumberCode>000000000436298</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436299</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Escamas Finas </ProductDescription>
+      <ProductNumberCode>000000000436299</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436300</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Virada Americana Finas </ProductDescription>
+      <ProductNumberCode>000000000436300</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436303</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Xoxos Curto </ProductDescription>
+      <ProductNumberCode>000000000436303</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436304</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Xoxos Longos</ProductDescription>
+      <ProductNumberCode>000000000436304</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436307</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tranças Pipocas Curto </ProductDescription>
+      <ProductNumberCode>000000000436307</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436308</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tranças Pipocas Médio  </ProductDescription>
+      <ProductNumberCode>000000000436308</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436311</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tranças Pipocas Longo </ProductDescription>
+      <ProductNumberCode>000000000436311</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436312</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Chanel</ProductDescription>
+      <ProductNumberCode>000000000436312</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436313</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Tranças Cacheadas </ProductDescription>
+      <ProductNumberCode>000000000436313</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436314</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Bob Americano Com Cacho </ProductDescription>
+      <ProductNumberCode>000000000436314</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436315</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação De Costura  </ProductDescription>
+      <ProductNumberCode>000000000436315</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436316</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação De Costura Com Fronte De 1 Risco          </ProductDescription>
+      <ProductNumberCode>000000000436316</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436317</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação De Costura Com Fronte De 2 Riscos </ProductDescription>
+      <ProductNumberCode>000000000436317</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436318</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação De Costura Com Fronte De 3 Riscos </ProductDescription>
+      <ProductNumberCode>000000000436318</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436319</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação De Costura Com Fronte De Orelha  Orelha  </ProductDescription>
+      <ProductNumberCode>000000000436319</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436320</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação a Chocolate Liso  Curto </ProductDescription>
+      <ProductNumberCode>000000000436320</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436321</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação a Chocolate Liso Longo</ProductDescription>
+      <ProductNumberCode>000000000436321</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436322</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação a Chocolate Ondulado </ProductDescription>
+      <ProductNumberCode>000000000436322</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436323</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação a Chocolate Cacheado Curto</ProductDescription>
+      <ProductNumberCode>000000000436323</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436324</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Aplicação a Chocolate Cacheado Longo</ProductDescription>
+      <ProductNumberCode>000000000436324</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436325</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Personalizar Peruca </ProductDescription>
+      <ProductNumberCode>000000000436325</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436326</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Colar Peruca </ProductDescription>
+      <ProductNumberCode>000000000436326</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436327</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Madeixa Curta</ProductDescription>
+      <ProductNumberCode>000000000436327</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436328</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Madeixa Media</ProductDescription>
+      <ProductNumberCode>000000000436328</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436329</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Madeixa Longa</ProductDescription>
+      <ProductNumberCode>000000000436329</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436330</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Hidratação Curta</ProductDescription>
+      <ProductNumberCode>000000000436330</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436331</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Hidratação Media</ProductDescription>
+      <ProductNumberCode>000000000436331</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436332</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Hidratação Longa </ProductDescription>
+      <ProductNumberCode>000000000436332</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436333</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Pintura Com Nosso Material </ProductDescription>
+      <ProductNumberCode>000000000436333</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436334</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabelo Brasileiro Curto </ProductDescription>
+      <ProductNumberCode>000000000436334</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436335</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabelo Brasileiro Medio </ProductDescription>
+      <ProductNumberCode>000000000436335</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436336</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Cabelo Brasileiro Longo</ProductDescription>
+      <ProductNumberCode>000000000436336</ProductNumberCode>
+    </Product>
+    <Product>
+      <ProductType>P</ProductType>
+      <ProductCode>436337</ProductCode>
+      <ProductGroup>SERVIÇOS</ProductGroup>
+      <ProductDescription>Desfrisa De Caxa  </ProductDescription>
+      <ProductNumberCode>000000000436337</ProductNumberCode>
+    </Product>
+    <TaxTable>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>NOR</TaxCode>
+        <Description>Normal</Description>
+        <TaxPercentage>14.0000</TaxPercentage>
+      </TaxTableEntry>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>OUT</TaxCode>
+        <Description>IVA - Regime de Exclusão</Description>
+        <TaxPercentage>0.0000</TaxPercentage>
+      </TaxTableEntry>
+      <TaxTableEntry>
+        <TaxType>IVA</TaxType>
+        <TaxCode>ISE</TaxCode>
+        <Description>Transmissão de bens e serviços não sujeita</Description>
+        <TaxPercentage>0</TaxPercentage>
+      </TaxTableEntry>
+    </TaxTable>
+  </MasterFiles>
+  <SourceDocuments>
+    <SalesInvoices>
+      <NumberOfEntries>19</NumberOfEntries>
+      <TotalDebit>21000.00</TotalDebit>
+      <TotalCredit>117400.00</TotalCredit>
+      <Invoice>
+        <InvoiceNo>FT 2024/92</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-10T15:34:31</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>b62PBoyKINavbYeSt0fVIikBPJTdfI1R6elfbnftWdRTtgRGbJVPVzQ3vnlevzd+jdv/AuXV8Ymd3cjfOJp49AaXUijxCvPTJNFN5HpIJ1T4uoZo+tTr7MhcN6AKUPcNGWNUceXbuAhz/8294+WVLZkD/b5zAWbkWVkP4G/8H4Q=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-10</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-10T15:34:31</SystemEntryDate>
+        <CustomerID>402725</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>300466</ProductCode>
+          <ProductDescription>corte Maquina </ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>2000.0</UnitPrice>
+          <TaxPointDate>2024-04-10</TaxPointDate>
+          <Description>corte Maquina </Description>
+          <CreditAmount>4000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>300466</ProductCode>
+          <ProductDescription>corte Maquina </ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>1000.0</UnitPrice>
+          <TaxPointDate>2024-04-10</TaxPointDate>
+          <Description>corte Maquina </Description>
+          <CreditAmount>2000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>6000.00</NetTotal>
+          <GrossTotal>6000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/93</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-10T15:51:45</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>jdAocoKiFW0x9atIlwZ9hvpYWMRjs6TooPJqjOome4b7VDGUpn8Mu2xmhgYMMq2TCQhv+24MjiglI2S6FpIoaqbJhYlEOZPsou+fkPh0TVGdtCu2yuFKG9ub7EbLJVFhZxiRLDhhnIt4H56gW7Hb+U0ki8cKeSfG0Im0ocj3awk=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-10</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-10T15:51:45</SystemEntryDate>
+        <CustomerID>305829</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>304326</ProductCode>
+          <ProductDescription>Hambúrguer simples </ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>2000.0</UnitPrice>
+          <TaxPointDate>2024-04-10</TaxPointDate>
+          <Description>Hambúrguer simples </Description>
+          <CreditAmount>2000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>2000.00</NetTotal>
+          <GrossTotal>2000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/94</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-10T15:52:39</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>H72xqvpCTJ2t5bioBEXJI2Lmr0eF9RIFSCH5952O8hPMnwHCE9bRSOQ9H0jj+SNiyD7lkE13cBhutF3UvDt9lepyRAIDN+L3m1anY081eyvNG4QNqkbnEf8lzoGuxNhnLkfD2QqoDWDFodZS62T+iXleEEKsNVWGBx3awsPtaSA=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-10</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-10T15:52:39</SystemEntryDate>
+        <CustomerID>314211</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>304326</ProductCode>
+          <ProductDescription>Hambúrguer simples </ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>2000.0</UnitPrice>
+          <TaxPointDate>2024-04-10</TaxPointDate>
+          <Description>Hambúrguer simples </Description>
+          <CreditAmount>2000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>308023</ProductCode>
+          <ProductDescription>cachorro</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>1000.0</UnitPrice>
+          <TaxPointDate>2024-04-10</TaxPointDate>
+          <Description>cachorro</Description>
+          <CreditAmount>1000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>3000.00</NetTotal>
+          <GrossTotal>3000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/95</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-10T15:53:48</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>j7JSwC3TmQTIgvQJV0OUcRwDas08tvYvYjx9VCjeSLma5dojBnneSgGA91gciwz0Cqc5zShSTomBUnloxADrIbn48THpQrRSaXGAl36xK7f4smZIPXY+XT9gvxmecQ88d8xPzViudF8GUD4k2T7PEYwy4VzLjYfz8rJULu/G/OI=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-10</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-10T15:53:48</SystemEntryDate>
+        <CustomerID>314211</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>308023</ProductCode>
+          <ProductDescription>cachorro</ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>1000.0</UnitPrice>
+          <TaxPointDate>2024-04-10</TaxPointDate>
+          <Description>cachorro</Description>
+          <CreditAmount>2000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>304326</ProductCode>
+          <ProductDescription>Hambúrguer simples </ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>2000.0</UnitPrice>
+          <TaxPointDate>2024-04-10</TaxPointDate>
+          <Description>Hambúrguer simples </Description>
+          <CreditAmount>2000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>4000.00</NetTotal>
+          <GrossTotal>4000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/96</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-15T14:05:10</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>YNra+Wn3AkQeZ/snQ/t5tOkrPFycgZ9DMvfpTFJl55F7649zARwtg5ar3VKiSBZzlfyihSpw8sGxfxVJKcBW0fymJoPp2Ep33QufqF+e5WAgUVLSXLtO430MxgC4dVbGghtGBhfR16ZOLQGchbTNQmiJlhgIn9p+W0suO+zD/bc=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-15</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-15T14:05:10</SystemEntryDate>
+        <CustomerID>407774</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>307978</ProductCode>
+          <ProductDescription>Bob Americano</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>15000.0</UnitPrice>
+          <TaxPointDate>2024-04-15</TaxPointDate>
+          <Description>Bob Americano</Description>
+          <CreditAmount>15000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>15000.00</NetTotal>
+          <GrossTotal>15000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/97</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-17T14:41:28</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>KsP4c01y0R0SvPLBVu0ctr1o45/LcHicRAfT8Hx6b2TQDJD4wkUOukWmzX1NKcCtnHkvU6aazZ6U1E3jVVQWzHnIapc0BB25CyVkw4tME8kdfnaSfDyq1ujW4++cRysJNAOnuxGu8DoZkGBDUasz/x3FKZdkOv5QyuTRbIx5sSc=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-17</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-17T14:41:28</SystemEntryDate>
+        <CustomerID>314211</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>300466</ProductCode>
+          <ProductDescription>corte Maquina </ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>1000.0</UnitPrice>
+          <TaxPointDate>2024-04-17</TaxPointDate>
+          <Description>corte Maquina </Description>
+          <CreditAmount>1000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>1000.00</NetTotal>
+          <GrossTotal>1000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/98</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-24T13:49:22</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>WRAs+CVerKSCA0dnaHqSMVA8Qr1+y6bHGRberBGve+xRtjtXjplDo8GUA+RBjVF+cfEbWXTOMCISzGvgaMOBJB9g1pLN0NgfCJrMRKYqwW/+bQdiKhqILVJYgyYGoplRairWeCUeFPT2O/P26UDYpr4VEtabFNF2ZkUjOVn/9Fo=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-24</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-24T13:49:22</SystemEntryDate>
+        <CustomerID>305829</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>308023</ProductCode>
+          <ProductDescription>cachorro</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>1000.0</UnitPrice>
+          <TaxPointDate>2024-04-24</TaxPointDate>
+          <Description>cachorro</Description>
+          <CreditAmount>1000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>1000.00</NetTotal>
+          <GrossTotal>1000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/99</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-24T16:45:48</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>Fs7p1zLj3hDpjf5bjNKGAbgsls/qNC6ZPxIF+MV1HbeUMm3LER/g+TseNdv+1PEbEAUiPnB7KzgV1ke8Os/BbA9ebQOzs1Cx7o0I9Df9RO8p4GuL4EjhZODfGKkeu4qGWAcNbCyYfm7WLEWjvInrwpdhvdcWZ2+bl2GI/0ZVsCo=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-24</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-24T16:45:48</SystemEntryDate>
+        <CustomerID>330152</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>304326</ProductCode>
+          <ProductDescription>Hambúrguer simples </ProductDescription>
+          <Quantity>2</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>2000.0</UnitPrice>
+          <TaxPointDate>2024-04-24</TaxPointDate>
+          <Description>Hambúrguer simples </Description>
+          <CreditAmount>4000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>4000.00</NetTotal>
+          <GrossTotal>4000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/100</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-27T09:52:01</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>WXPnv+sAHqJ2u7Dbcs56JaEkob1LHkZW8wFyyqRD3ac/ozbR37zka2AeiMiweMLVLdrgM2wKCuTrMfqoxC0NL5pIHC42kLqQpgT6sQpWOWFGWW735IzhQJj2h0LIX/E8//x1CKuPNzbWO9uKm5MTYgso+VZ9P8Ir65Rwgp7og+c=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-27</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-27T09:52:01</SystemEntryDate>
+        <CustomerID>427055</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>308023</ProductCode>
+          <ProductDescription>cachorro</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>1000.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <Description>cachorro</Description>
+          <CreditAmount>1000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <Line>
+          <LineNumber>2</LineNumber>
+          <ProductCode>307329</ProductCode>
+          <ProductDescription>Gasosa </ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>400.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <Description>Gasosa </Description>
+          <CreditAmount>400.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>1400.00</NetTotal>
+          <GrossTotal>1400.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/101</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-27T11:27:52</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>caucDIv8TMkBWUpErvqLr1ja+gVh0z5+wowccZieZgDclDBxFwWCBLzUHENAtSvwsFWClYmT9+AeclXXSVqYuo8Mb9Hqlm4jO8iJE5rpudLXtcJ4gkvZcoIsPIxKZZ3SZcOD/Ws6Jp8xPqNlVwWORQajmWZYix+aDMRLQtIm9t4=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-27</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-27T11:27:52</SystemEntryDate>
+        <CustomerID>427157</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>304558</ProductCode>
+          <ProductDescription>Aplicação de Costura</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>12000.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <Description>Aplicação de Costura</Description>
+          <CreditAmount>12000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>12000.00</NetTotal>
+          <GrossTotal>12000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/102</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>A</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-27T11:27:52</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>FY2myM1tPxeRdGzu+PodbdpYdiGWM3KFOwc07IfHkSXIEWiOCgPyhOzZoQIVDTCgbwigZr/K4e6b79H2n1vWLIzk0s/lyNlDngaxUw7fKacabtmgL3DxnuK4+P43rL5MekVRO4Lsiw9a6fU6qC8M3sWXRiTlyKnUNeAMecRKQNg=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-27</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-27T11:27:52</SystemEntryDate>
+        <CustomerID>427157</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>304558</ProductCode>
+          <ProductDescription>Aplicação de Costura</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>12000.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <Description>Aplicação de Costura</Description>
+          <CreditAmount>12000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>12000.00</NetTotal>
+          <GrossTotal>12000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/103</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-27T13:15:32</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>KPdoycb0kQ9gKR94N/P+F1jkbHgS06c5kc5Wh7TUbHFBWgCiFzHeJjEObXxEJYWC/QgcccT/oHl90t40ahiwdx6dRJ7KoIk8zVZMk7qtuQ7RQSGXndqXI/RJc9u2MMWoMEVl1UOCo+2CacBfv4Q1ZuVOdT+gFwPNObrJ5Xka0Z8=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-27</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-27T13:15:32</SystemEntryDate>
+        <CustomerID>357427</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>357431</ProductCode>
+          <ProductDescription>Peruca de Corte </ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>40000.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <Description>Peruca de Corte </Description>
+          <CreditAmount>40000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>40000.00</NetTotal>
+          <GrossTotal>40000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>NC 2024/1</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-27T13:25:51</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>VcTRlPFU8VKLcXfFxTSJttWA5x7YFVmWcLd43GX5qxlEhsw26gXR/33F9A7fFa1t7Z2P3STMkiqh35OEVJOB75etjOf4sYQyBmYj9K8DAkzCmWDVEu6IoKhTXoI8j+eT8fnBAFWKOfv7F4va5T/lzk/gTn2ugTQ257NwHUHxSOA=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-27</InvoiceDate>
+        <InvoiceType>NC</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-27T13:25:51</SystemEntryDate>
+        <CustomerID>427157</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>304558</ProductCode>
+          <ProductDescription>Aplicação de Costura</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>12000.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <References>
+            <Reference>FT 2024/102</Reference>
+          </References>
+          <Description>Aplicação de Costura</Description>
+          <DebitAmount>12000.0</DebitAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>12000.00</NetTotal>
+          <GrossTotal>12000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/104</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-27T13:39:25</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>hblV3t8/2yqdx8P9Erf7+0Ak/DMcy09kvvFjLaw7jjIDVr5lKihQOselgcsxmyombeGtt0eR5ifYRcoNNpD+BofIMkin/rF+IbpNPXVdHwPwi9LrbbHx4/+Ef8Sh9l8bNHh7S1JjgZ+0TTEqIY8IHmSjdXnT7g4SSNXbKaGVoo4=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-27</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-27T13:39:25</SystemEntryDate>
+        <CustomerID>314211</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>302431</ProductCode>
+          <ProductDescription>Manicure </ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>3000.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <Description>Manicure </Description>
+          <CreditAmount>3000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>3000.00</NetTotal>
+          <GrossTotal>3000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/105</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-27T13:41:19</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>AqCFmj8wGIk+AQ50vzS90/7VCNdF4HWb2f6dFLuq3RUhAQ53IAn5BZVXViMm2biVNyYairteckX7KMUMLZiBZE0dt/bnynPfOqAbchocWwva6yWisq0Z32zVrhK0cpxWYTcXwJrhlH217XAPpLH3LJbXnB0wYV1xToNRCC6na+w=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-27</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-27T13:41:19</SystemEntryDate>
+        <CustomerID>357427</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>307911</ProductCode>
+          <ProductDescription>Lavagem Normal</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>4000.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <Description>Lavagem Normal</Description>
+          <CreditAmount>4000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>4000.00</NetTotal>
+          <GrossTotal>4000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/106</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-27T15:04:51</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>AQUPTl5IdAsTySNft1V/r6pqtmEoXuruLnQeHDmhzKQ1A3CodsfM0AKRmwBofmww8XDOqsvaBGD7cNezCfB2lNwniMRLRoCogMXnsXZJ2EcA2YmKlPas+edZG+B63zrkPZAFJ+1DTzHXbrZXmiADEBEYaAR0U1G3AgdKV/KpQkE=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-27</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-27T15:04:51</SystemEntryDate>
+        <CustomerID>427364</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>307911</ProductCode>
+          <ProductDescription>Lavagem Normal</ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>3000.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <Description>Lavagem Normal</Description>
+          <CreditAmount>3000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>3000.00</NetTotal>
+          <GrossTotal>3000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/107</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>A</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-27T16:53:35</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>WnRf9ZAV1w0xSEN1QtLPJ0OKhj+QRS2gUoW/ntBPBDJfo1n5WC/d5JtuUjCA6o6Z3Vf2ivSijFBiPBHZRUF8GUcTVnKlhg4XoHpyfLDyYpkAWnY4+3AWV/13g3HJknj7HH2ZBbK4fJUtlxyjqM1NlvDsqIsIKAbwrrGOcTniojo=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-27</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-27T16:53:35</SystemEntryDate>
+        <CustomerID>427450</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>302288</ProductCode>
+          <ProductDescription>Massagem Relaxante </ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>9000.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <Description>Massagem Relaxante </Description>
+          <CreditAmount>9000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>9000.00</NetTotal>
+          <GrossTotal>9000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>NC 2024/2</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-27T16:54:14</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>AivLYvmb8PgDTw6ekv5ldRYnefArApasJ8E4/p2HHADgHzZ70vzu00qkKB9z9tTPE9LXiDJ887x/KF03TMWRvElgDavcjIeJWHA6UTT6/RCd98d4gIRXOkcY9wp1rV3MCxbq/KItFLR2XLc1SDDzTqvEa78ooIv0RzkSQ6kxG44=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-27</InvoiceDate>
+        <InvoiceType>NC</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-27T16:54:14</SystemEntryDate>
+        <CustomerID>427450</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>302288</ProductCode>
+          <ProductDescription>Massagem Relaxante </ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>9000.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <References>
+            <Reference>FT 2024/107</Reference>
+          </References>
+          <Description>Massagem Relaxante </Description>
+          <DebitAmount>9000.0</DebitAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>9000.00</NetTotal>
+          <GrossTotal>9000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+      <Invoice>
+        <InvoiceNo>FT 2024/108</InvoiceNo>
+        <DocumentStatus>
+          <InvoiceStatus>N</InvoiceStatus>
+          <InvoiceStatusDate>2024-04-27T16:57:21</InvoiceStatusDate>
+          <SourceID>null</SourceID>
+          <SourceBilling>P</SourceBilling>
+        </DocumentStatus>
+        <Hash>H2KrpLmqY0jmG4V6Ah0+NrMVny1QJBpLQrAg5RZ5nsCO0vkOBlhOqHGsuUHwD0rtJT5FFYod6Eii/VmwrAvFXQvp6g4rcLc6wfYPqGvefYLzgsE25vVCqBhx7oZap/bLgx5fkz1XeJXJQl5EHQY+Z8Yzp4YXYbEKWfU8kzepn+A=</Hash>
+        <HashControl>1</HashControl>
+        <Period>4</Period>
+        <InvoiceDate>2024-04-27</InvoiceDate>
+        <InvoiceType>FT</InvoiceType>
+        <SpecialRegimes>
+          <SelfBillingIndicator>0</SelfBillingIndicator>
+          <CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+          <ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+        </SpecialRegimes>
+        <SourceID>null</SourceID>
+        <SystemEntryDate>2024-04-27T16:57:21</SystemEntryDate>
+        <CustomerID>427450</CustomerID>
+        <Line>
+          <LineNumber>1</LineNumber>
+          <ProductCode>302288</ProductCode>
+          <ProductDescription>Massagem Relaxante </ProductDescription>
+          <Quantity>1</Quantity>
+          <UnitOfMeasure>UN</UnitOfMeasure>
+          <UnitPrice>18000.0</UnitPrice>
+          <TaxPointDate>2024-04-27</TaxPointDate>
+          <Description>Massagem Relaxante </Description>
+          <CreditAmount>18000.0</CreditAmount>
+          <Tax>
+            <TaxType>IVA</TaxType>
+            <TaxCountryRegion>AO</TaxCountryRegion>
+            <TaxCode>ISE</TaxCode>
+            <TaxPercentage>0.0000</TaxPercentage>
+          </Tax>
+          <TaxExemptionReason>Regime Simplificado</TaxExemptionReason>
+          <TaxExemptionCode>M00</TaxExemptionCode>
+          <SettlementAmount>0.0000</SettlementAmount>
+        </Line>
+        <DocumentTotals>
+          <TaxPayable>0.00</TaxPayable>
+          <NetTotal>18000.00</NetTotal>
+          <GrossTotal>18000.00</GrossTotal>
+        </DocumentTotals>
+      </Invoice>
+    </SalesInvoices>
+    <WorkingDocuments>
+      <NumberOfEntries>0</NumberOfEntries>
+      <TotalDebit>0.00</TotalDebit>
+      <TotalCredit>0.00</TotalCredit>
+    </WorkingDocuments>
+    <Payments>
+      <NumberOfEntries>0</NumberOfEntries>
+      <TotalDebit>0.00</TotalDebit>
+      <TotalCredit>0.00</TotalCredit>
+    </Payments>
+  </SourceDocuments>
+</AuditFile>
